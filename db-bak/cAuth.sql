@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: 2018-03-06 01:09:04
+-- Generation Time: 2018-03-14 09:19:50
 -- 服务器版本： 5.7.18
 -- PHP Version: 5.6.30
 
@@ -106,17 +106,406 @@ CREATE TABLE `cSessionInfo` (
 INSERT INTO `cSessionInfo` (`open_id`, `uuid`, `skey`, `create_time`, `last_visit_time`, `session_key`, `user_info`) VALUES
 ('ojVEl0bfkCyTSJmoRrNBJOyy0JJg', 'fd400b67-1f32-4f27-9478-2a41a8011807', 'e9de3f12f175d65659daeb1b2310800d1b97ddb6', '2018-02-10 14:31:50', '2018-02-10 14:31:50', 'peGoEz4sbpQrSBkrkNxODw==', '{\"openId\":\"ojVEl0bfkCyTSJmoRrNBJOyy0JJg\",\"nickName\":\"嘉察协噶·王宝林\",\"gender\":1,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/grAYKRkNiaG0Fv7yPKlIdPShiaibNxdQNkpUe7bupiaHRxjyZV3Qau65DuqvtepjQG62YiaTdCJxboXBAYmsM7pQuqA/0\",\"watermark\":{\"timestamp\":1518273109,\"appid\":\"wxef60ee565b6fa65f\"}}'),
 ('ojVEl0d9fVPIq7eUJCNJ0bHsvzPw', 'f42e87a4-c457-44d4-8ff5-54eb6f5383bf', '9b44ebdc8e39e375926cf53af8af632ef5a8158e', '2018-02-27 00:18:05', '2018-02-27 00:18:05', 'FTqn+An+FrDSEeIK8qPLYw==', '{\"openId\":\"ojVEl0d9fVPIq7eUJCNJ0bHsvzPw\",\"nickName\":\"静\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/FyTISiaDoWCn2jKbCHXBPiaAuV63C8mEMlHgvhOSP8uZVsiaK3aYcPU8DTUdIMkn703cgZ3u9nbvJpuGuwicibjjzdA/0\",\"watermark\":{\"timestamp\":1519690683,\"appid\":\"wxef60ee565b6fa65f\"}}'),
-('ojVEl0dDlpiS7dS58LzoE--9nsRw', '5824860e-222f-4ccc-966d-1ef804398b8c', '8203a14bfafafae88bc1cbbaffa6f7c9226edb0f', '2018-03-05 03:36:08', '2018-03-05 03:36:08', 'H78a62wvkt5U+6rEnG2Cuw==', '{\"openId\":\"ojVEl0dDlpiS7dS58LzoE--9nsRw\",\"nickName\":\"Jenny Liu\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"\",\"province\":\"\",\"country\":\"\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/yWmQSjN8SbA6LpRqlPKQicX8ib2LPhWHm2ia6ibh65g7ttZX5d8rHVricgicGNNTHW7EZFjiayqhH5qtFr2TPbdYx5eNw/0\",\"watermark\":{\"timestamp\":1520220967,\"appid\":\"wxef60ee565b6fa65f\"}}'),
-('ojVEl0defF0TvYrD88uiKh-Z9dY8', '0f1c22c7-b259-4545-9c8d-47f05058453c', '1fa07767f8cc09e7a1830d816104ff84fed0636c', '2018-02-05 09:53:23', '2018-02-05 09:53:23', 'P6yvhEqhPCLinqLaipCH+A==', '{\"openId\":\"ojVEl0defF0TvYrD88uiKh-Z9dY8\",\"nickName\":\"亚齐\",\"gender\":1,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/YsskM9MLqQw8dwzWUyUXOSKKQq2sRJDA9otfZAQHo2pvkqNoyM7DeBjNyzxJEqzJKxs3W787Bs9ShCFQkCrY4w/0\",\"watermark\":{\"timestamp\":1517824401,\"appid\":\"wxef60ee565b6fa65f\"}}'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', '46f0415d-1122-4cad-8565-dccdc53a04ae', 'b113f49f47062da4ab20eaa4ab57d94e4eb31da4', '2018-03-11 09:40:42', '2018-03-11 09:40:42', 'z7yDi3BC8C/MHHM2uiYxqw==', '{\"openId\":\"ojVEl0dDlpiS7dS58LzoE--9nsRw\",\"nickName\":\"Jenny Liu\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"\",\"province\":\"\",\"country\":\"\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/yWmQSjN8SbA6LpRqlPKQicX8ib2LPhWHm2ia6ibh65g7ttZX5d8rHVricgicGNNTHW7EZFjiayqhH5qtFr2TPbdYx5eNw/0\",\"watermark\":{\"timestamp\":1520761240,\"appid\":\"wxef60ee565b6fa65f\"}}'),
+('ojVEl0defF0TvYrD88uiKh-Z9dY8', '04b790f0-3927-432a-bf01-6fe804296d20', '0b32860148aaa3ec810a572328c4d0847531c406', '2018-03-13 06:47:43', '2018-03-13 06:47:43', 'wLS0IXvDrpYMxF4ivpuaqQ==', '{\"openId\":\"ojVEl0defF0TvYrD88uiKh-Z9dY8\",\"nickName\":\"亚齐\",\"gender\":1,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/YsskM9MLqQw8dwzWUyUXOSKKQq2sRJDA9otfZAQHo2pvkqNoyM7DeBjNyzxJEqzJKxs3W787Bs9ShCFQkCrY4w/0\",\"watermark\":{\"timestamp\":1520923662,\"appid\":\"wxef60ee565b6fa65f\"}}'),
 ('ojVEl0QULKjlm2388VyYBzse1GUI', '30447058-a21e-4c30-9ad6-b4c9e17c0727', 'a5740f5274538d48f6ebf466f00750e494d64d47', '2018-01-29 03:00:10', '2018-01-29 03:00:10', 'DK1QYxKAjUQazXwKN4C2DQ==', '{\"openId\":\"ojVEl0QULKjlm2388VyYBzse1GUI\",\"nickName\":\"🌙笑笑\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Chaoyang\",\"province\":\"Beijing\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/4NOsUrdClqPwIFibico28BhgFpZRKwKPiaSIITqpKNzebVhlT2UvaUua6xCkH5oqcUGRRhjQc3YCJ3A4pREu3zf6A/0\",\"watermark\":{\"timestamp\":1517194807,\"appid\":\"wxef60ee565b6fa65f\"}}'),
 ('ojVEl0RIXu-HAyC8ZvYvzx5DmBE0', 'df245f7b-5936-4dcf-9e97-3c5b46e80ff0', 'b1f42d9143c752f67e44ab13cea845e6c4b2eccf', '2018-02-13 09:04:11', '2018-02-13 09:04:11', 'YEiGIZnfJM+l6Aabsy181A==', '{\"openId\":\"ojVEl0RIXu-HAyC8ZvYvzx5DmBE0\",\"nickName\":\"阎小菁(中国太平)\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/gUiaHhHdWMGotvxucs5aV2qOgJrZZT6Jq8gHLZkazqz5APEibOHAOrqiaIIgdV1wcsHAmUVibkoXXxS0iam9hbegwtw/0\",\"watermark\":{\"timestamp\":1518512649,\"appid\":\"wxef60ee565b6fa65f\"}}'),
 ('ojVEl0Sn5rtJeGut5LQRGiEou_Vs', '7f7c3fe6-52bc-495a-b5e7-92d3855651a3', 'bec8f69c78dd575e13bff79284ae69bc9399e766', '2018-02-10 06:58:23', '2018-02-10 06:58:23', 'OH4w3o3Z/PnradquK3Gasg==', '{\"openId\":\"ojVEl0Sn5rtJeGut5LQRGiEou_Vs\",\"nickName\":\"honeyrui\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Harbin\",\"province\":\"Heilongjiang\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/ve8CgVv7RMogdrLVAnv7rIIdc5d6IxfGMndI3wHKw8eib6hyfOzTv96iazjwk3Q0iaYUicm7O9sXVliaiawaEeLibzXrg/0\",\"watermark\":{\"timestamp\":1518245902,\"appid\":\"wxef60ee565b6fa65f\"}}'),
-('ojVEl0VwRNF4fFqcXMX4XRHh8CKo', '5ed1aab3-680d-4780-ad30-353a6fa82c48', '3e4b3ac8f2bd7bd267ac42828f77996ecbbf28e8', '2018-02-10 06:40:37', '2018-02-10 06:40:37', 'ubxcVB4Ee/qe8a3xuv9WfQ==', '{\"openId\":\"ojVEl0VwRNF4fFqcXMX4XRHh8CKo\",\"nickName\":\"Lindy\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/cfX0YKK0ps8W8NWFndwbAsm7oUna6shEyrvkib1PR1xJyfqpuYfI4jRXL07JrlCKLWyRVQJicvRJDnvWVic0Erguw/0\",\"watermark\":{\"timestamp\":1518244835,\"appid\":\"wxef60ee565b6fa65f\"}}'),
+('ojVEl0VwRNF4fFqcXMX4XRHh8CKo', 'ca7bef72-c842-4efc-9073-d741dea0e18d', '69df2b263b7ae6972fb9087155f074a87deb27db', '2018-03-08 13:42:44', '2018-03-08 13:42:44', 'hNGFkP8URbDBXDaeVBVKow==', '{\"openId\":\"ojVEl0VwRNF4fFqcXMX4XRHh8CKo\",\"nickName\":\"Lindy\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/cfX0YKK0ps8W8NWFndwbAsm7oUna6shEyrvkib1PR1xJyfqpuYfI4jRXL07JrlCKLWyRVQJicvRJDnvWVic0Erguw/0\",\"watermark\":{\"timestamp\":1520516562,\"appid\":\"wxef60ee565b6fa65f\"}}'),
 ('ojVEl0W20SioIXdyo2n5Gqdtf-s4', '2ee93a15-43ee-4349-a78f-b5f72f194a12', '68159c2cd2849007bb81904f950014f5bd43fe12', '2018-03-02 11:39:44', '2018-03-02 11:39:44', 'CsS+tDEvw4ouLjfPf99Bdw==', '{\"openId\":\"ojVEl0W20SioIXdyo2n5Gqdtf-s4\",\"nickName\":\"Charles🏊姜羡美\",\"gender\":1,\"language\":\"en\",\"city\":\"Jiamusi\",\"province\":\"Heilongjiang\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/luGOSzjhPgmIudYTXRJz7Gvf9LbJxThUaSFGcUreNGpMZp9DibZdicRDRxUmdktn2loDNJF4JaarhPaVphSENFxQ/0\",\"watermark\":{\"timestamp\":1519990783,\"appid\":\"wxef60ee565b6fa65f\"}}'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', '23aea9cc-ffd4-483e-966a-6d555e57d9ac', '3991e56fdab8bc56096dd0e8b5d0d98fc82f9e67', '2018-03-05 14:16:06', '2018-03-05 14:16:06', 'fZCYi+i8Pm7IeKJoFAu+NA==', '{\"openId\":\"ojVEl0XuK00Wthcppktt5rVu-9DA\",\"nickName\":\"田晗\",\"gender\":1,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/td7fs4gViaTbiapawxWiaxZKyJISqvcvNfjtphNtYhRXcZDqT9U6l0fatjq8waEL74CSIsyVOWwXpIx3utaj9N28Q/0\",\"watermark\":{\"timestamp\":1520259364,\"appid\":\"wxef60ee565b6fa65f\"}}'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '17a74c92-4fdc-43ba-b4d8-9dc87509955f', '3c3b3dd6f0869c71a833e9835c7e378d380c783a', '2018-03-14 09:15:38', '2018-03-14 09:15:38', 'iZBo8WjglyJViFIenmCdhg==', '{\"openId\":\"ojVEl0XuK00Wthcppktt5rVu-9DA\",\"nickName\":\"田晗\",\"gender\":1,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/td7fs4gViaTbiapawxWiaxZKyJISqvcvNfjtphNtYhRXcZDqT9U6l0fatjq8waEL74CSIsyVOWwXpIx3utaj9N28Q/0\",\"watermark\":{\"timestamp\":1521018937,\"appid\":\"wxef60ee565b6fa65f\"}}'),
 ('ojVEl0YfpfbCaQcAYAwf5RA3viAc', '7532130e-f487-4f20-8937-6d42f32a6b84', '9e97e73cd264470a821ecbff1634e7ec5505649d', '2018-02-26 15:52:06', '2018-02-26 15:52:06', 'FQ39tWPbnjXN96t4MfuO/w==', '{\"openId\":\"ojVEl0YfpfbCaQcAYAwf5RA3viAc\",\"nickName\":\"秀虹\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83eqLWPo99KSAhua9vQXicdHWDkVoT2gJEYqccVaaSBwsfNeRZicogLsFm7miar4E26IzibUIkGQKzfalJw/0\",\"watermark\":{\"timestamp\":1519660321,\"appid\":\"wxef60ee565b6fa65f\"}}'),
-('ojVEl0YRMHmDFi07bbijq_2ds2kQ', 'a0e6a2b2-2834-4841-91e4-a4a91b4d25bc', 'a58229a244156b813938da6b6805f0d7e7c7310a', '2018-03-05 06:09:51', '2018-03-05 06:09:51', 'LTNib326dum65b1FiRaL9g==', '{\"openId\":\"ojVEl0YRMHmDFi07bbijq_2ds2kQ\",\"nickName\":\"佩真\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/6cXKmTpGb0jvpBDWDNSicfqht26ju3Emial90lqjKjHflnqicSnwsjWIe1LSEztRiaG0iafxLG8h6qeO9ClD7I1SC7A/0\",\"watermark\":{\"timestamp\":1520230189,\"appid\":\"wxef60ee565b6fa65f\"}}'),
-('ojVEl0Zqvgk3xJcJy-ui8-wMkQ90', 'd438a549-fde2-4561-a4c3-d378b0baebf5', 'a3a7d8413c485685720662467f5b14dc390db2ec', '2018-02-12 05:32:39', '2018-02-12 05:32:39', '2kApvmNeECawwxMVapTj9w==', '{\"openId\":\"ojVEl0Zqvgk3xJcJy-ui8-wMkQ90\",\"nickName\":\"馨月\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKAvnBlxtIfFqEnHIicicuwCy0yULt4JFaPuLRDqWLpc1VO7pmibp62Lq19C1vXDkkQClKvmib0ohDaAQ/0\",\"watermark\":{\"timestamp\":1518413557,\"appid\":\"wxef60ee565b6fa65f\"}}');
+('ojVEl0YRMHmDFi07bbijq_2ds2kQ', '062f0513-29d7-4ce8-8d41-186e71462b18', 'aa03ba0c63b5c3cec14d59b704155cd77b16195c', '2018-03-13 02:14:06', '2018-03-13 02:14:06', '5ABCkYRFGJBjTx/5X4Agtg==', '{\"openId\":\"ojVEl0YRMHmDFi07bbijq_2ds2kQ\",\"nickName\":\"佩真\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/6cXKmTpGb0jvpBDWDNSicfqht26ju3Emial90lqjKjHflnqicSnwsjWIe1LSEztRiaG0iafxLG8h6qeO9ClD7I1SC7A/0\",\"watermark\":{\"timestamp\":1520907244,\"appid\":\"wxef60ee565b6fa65f\"}}'),
+('ojVEl0Zqvgk3xJcJy-ui8-wMkQ90', '9a3f57c8-208f-4e3a-ab0e-8a41566e8a71', '2cc8c834c5bc5253857696561e6e3944e7b1f9e3', '2018-03-08 13:36:18', '2018-03-08 13:36:18', 'xrzsLUMGUcWzyAtRQIv2YQ==', '{\"openId\":\"ojVEl0Zqvgk3xJcJy-ui8-wMkQ90\",\"nickName\":\"馨月\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKAvnBlxtIfFqEnHIicicuwCy0yULt4JFaPuLRDqWLpc1VO7pmibp62Lq19C1vXDkkQClKvmib0ohDaAQ/0\",\"watermark\":{\"timestamp\":1520516176,\"appid\":\"wxef60ee565b6fa65f\"}}');
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `impromptu_audio`
+--
+
+CREATE TABLE `impromptu_audio` (
+  `audio_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '录音ID',
+  `audio_name` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '演讲标题',
+  `user_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '用户ID',
+  `room_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '房间ID',
+  `create_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='演讲录音表';
+
+--
+-- 转存表中的数据 `impromptu_audio`
+--
+
+INSERT INTO `impromptu_audio` (`audio_id`, `audio_name`, `user_id`, `room_id`, `create_date`) VALUES
+('6ac8da80-2738-11e8-841f-dda5ab3761d3', '2018-3-14 11:33:9', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'f06b6250-2726-11e8-a79e-d9b8b1258e52', '2018-03-14 06:28:05'),
+('b05c4910-2738-11e8-841f-dda5ab3761d3', '2018-3-14 11:35:6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'f06b6250-2726-11e8-a79e-d9b8b1258e52', '2018-03-14 06:28:05'),
+('d1ab0ca0-2738-11e8-841f-dda5ab3761d3', '2018-3-14 11:36:2', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'f06b6250-2726-11e8-a79e-d9b8b1258e52', '2018-03-14 06:28:05'),
+('0a63ec60-2739-11e8-841f-dda5ab3761d3', '2018-3-14 11:37:37', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'f06b6250-2726-11e8-a79e-d9b8b1258e52', '2018-03-14 06:28:05'),
+('e47be640-2767-11e8-9860-95cf7d03d1b1', '随意', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'f06b6250-2726-11e8-a79e-d9b8b1258e52', '2018-03-14 09:13:00');
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `impromptu_dialog`
+--
+
+CREATE TABLE `impromptu_dialog` (
+  `dialog_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '对话ID',
+  `room_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '房间号',
+  `user_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '用户ID',
+  `comment` varchar(1000) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '发言内容',
+  `create_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- 转存表中的数据 `impromptu_dialog`
+--
+
+INSERT INTO `impromptu_dialog` (`dialog_id`, `room_id`, `user_id`, `comment`, `create_date`) VALUES
+('003498d0-2346-11e8-995d-2d250251ea5f', '03060620-2337-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '那😊😊😊😊多大啊想试试看', '2018-03-09 03:00:19'),
+('004052c0-2200-11e8-90d2-9bdd4f81b660', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '代扣代缴', '2018-03-07 12:06:43'),
+('0090aca0-2374-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '但是还是有声音', '2018-03-09 08:29:36'),
+('01076020-22ac-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '可么么么么', '2018-03-08 08:37:58'),
+('019de4f0-2216-11e8-90d2-9bdd4f81b660', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '发光时代', '2018-03-07 14:44:14'),
+('04a1d2b0-22b1-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '发发发', '2018-03-08 09:13:51'),
+('04f5c950-21a4-11e8-8ea7-6f1e4870f777', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2222222222', '2018-03-07 01:08:17'),
+('05f8c550-21ef-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '对方的', '2018-03-07 10:05:11'),
+('0684ced0-2346-11e8-995d-2d250251ea5f', '03060620-2337-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '大哭大哭倒买倒卖', '2018-03-09 03:00:29'),
+('06afe790-2374-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '你们办公室背景的声音', '2018-03-09 08:29:47'),
+('08221fd0-22b1-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '沟沟坳坳', '2018-03-08 09:13:57'),
+('08541400-22ab-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '肯嗯嗯', '2018-03-08 08:31:00'),
+('0b046710-2123-11e8-a96c-6defe2e13235', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '上次测速点，fcvb\n地方缝缝补补不好\n地方 v 过不好', '2018-03-06 09:45:02'),
+('0b52aa90-2346-11e8-995d-2d250251ea5f', '03060620-2337-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '上课是多么的', '2018-03-09 03:00:37'),
+('0b57a880-22d6-11e8-995d-2d250251ea5f', '01f143c0-22d4-11e8-995d-2d250251ea5f', 'ojVEl0W20SioIXdyo2n5Gqdtf-s4', '但是我从头至尾都没见到你头像，也没听到声音', '2018-03-08 13:38:54'),
+('0ca96ea0-219e-11e8-a96c-6defe2e13235', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '是你上课上课上课\n倒买倒卖看到的纪念\n嗯嗯么么哒\n都闷闷的\n倒买倒卖看到么么哒\n都闷闷的女人', '2018-03-07 00:25:33'),
+('0dae1b70-22b1-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '纷纷回归\n风风火火\n反复发烧', '2018-03-08 09:14:06'),
+('0e3fd570-23b4-11e8-bfc1-bd35a6a0ef3a', 'd7707630-23b3-11e8-bfc1-bd35a6a0ef3a', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '哈哈', '2018-03-09 16:08:07'),
+('0e462100-2346-11e8-995d-2d250251ea5f', '03060620-2337-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '莪们新年打开电脑', '2018-03-09 03:00:42'),
+('10b83270-2346-11e8-995d-2d250251ea5f', '03060620-2337-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '到家么额', '2018-03-09 03:00:46'),
+('12f052c0-2283-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', ' 好的', '2018-03-08 03:44:58'),
+('14fcf9b0-2125-11e8-a96c-6defe2e13235', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '😉😊😋😊😊😒\n上次发发发发 v 别别扭扭工程方法\n地方 v 不该奋斗到底', '2018-03-06 09:59:38'),
+('162f8550-22dd-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0Zqvgk3xJcJy-ui8-wMkQ90', '', '2018-03-08 14:29:19'),
+('16bf0360-2346-11e8-995d-2d250251ea5f', '03060620-2337-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '嗯么么哒你', '2018-03-09 03:00:57'),
+('1777f6b0-2123-11e8-a96c-6defe2e13235', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '😉😍😉😉😉😔😉😕说你是\n上课上课考试考试', '2018-03-06 09:45:23'),
+('190d6030-2346-11e8-995d-2d250251ea5f', '03060620-2337-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '觉得看到的你', '2018-03-09 03:01:00'),
+('1b2485d0-2295-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '反倒是', '2018-03-08 05:54:03'),
+('1cb2c4e0-236f-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '看到了', '2018-03-09 07:54:36'),
+('1ce8d170-229d-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '就大哭大哭', '2018-03-08 06:51:22'),
+('1d71ac50-22a4-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '少男少女发了快递', '2018-03-08 07:41:29'),
+('1d7c0630-229c-11e8-ba95-b3701ba81d59', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '代扣代缴大家', '2018-03-08 06:44:13'),
+('1da68170-2374-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '我查一下，你别出去', '2018-03-09 08:30:25'),
+('1e742330-22db-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '也是哈', '2018-03-08 14:15:13'),
+('1f55f880-22ab-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '开店大吉', '2018-03-08 08:31:39'),
+('1fa17f20-21a8-11e8-8ea7-6f1e4870f777', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '  55555', '2018-03-07 01:37:40'),
+('1fb3deb0-22a5-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '少男少女\n大家上课上课结束\n的模式可能是\n当你失眠失眠失眠', '2018-03-08 07:48:43'),
+('20e8bec0-22b1-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '大家都能拿到\n打开电脑电脑呢', '2018-03-08 09:14:39'),
+('2343ad60-236f-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '', '2018-03-09 07:54:47'),
+('23fffbd0-21eb-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '423423', '2018-03-07 09:37:23'),
+('24580e30-22ac-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '看时时刻刻', '2018-03-08 08:38:57'),
+('245b6dc0-22a5-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '客人能等到看看', '2018-03-08 07:48:50'),
+('2552fce0-2294-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '近段时间', '2018-03-08 05:47:11'),
+('255fafa0-22ab-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '顾客认可', '2018-03-08 08:31:49'),
+('25eb9150-236e-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '刚进来的时候有一下，后面就没有了，要查一下', '2018-03-09 07:47:42'),
+('25f7f2a0-2298-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '当年少男少女', '2018-03-08 06:15:50'),
+('26297940-21f0-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '海飞丝', '2018-03-07 10:13:15'),
+('265f3980-2354-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '我来啦\n', '2018-03-09 04:41:36'),
+('2681e460-21ee-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '的 vv 是谁', '2018-03-07 09:58:56'),
+('2822cfe0-21fe-11e8-90d2-9bdd4f81b660', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '是世界上即可', '2018-03-07 11:53:31'),
+('28626840-236f-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '发绿色的光', '2018-03-09 07:54:56'),
+('286bdac0-2346-11e8-995d-2d250251ea5f', '03060620-2337-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '发大哭大哭快点', '2018-03-09 03:01:26'),
+('28eb1c30-21ee-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '的 vv 是谁', '2018-03-07 09:59:00'),
+('2a601140-22a4-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'xlszms', '2018-03-08 07:41:51'),
+('2c8d8b80-2297-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '代扣代缴', '2018-03-08 06:08:51'),
+('2cbe7940-2218-11e8-90d2-9bdd4f81b660', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '太过分', '2018-03-07 14:59:46'),
+('2e553040-2354-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '没看到你', '2018-03-09 04:41:49'),
+('2e5545a0-22b7-11e8-995d-2d250251ea5f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '到大三', '2018-03-08 09:57:58'),
+('2ef72690-2299-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '开店大吉', '2018-03-08 06:23:14'),
+('3007f510-236f-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '刚刚', '2018-03-09 07:55:08'),
+('313c8810-22ac-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '饿贾吉尔卡', '2018-03-08 08:39:19'),
+('330d0be0-22b8-11e8-995d-2d250251ea5f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '你说说看娃娃了', '2018-03-08 10:05:16'),
+('3366c3b0-21ff-11e8-90d2-9bdd4f81b660', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '事实上', '2018-03-07 12:00:59'),
+('339c8650-2126-11e8-a96c-6defe2e13235', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'fdsfsd', '2018-03-06 10:07:39'),
+('342d6550-21ce-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '999999', '2018-03-07 06:10:15'),
+('35c2e140-22b1-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '课本内容\n大家能否男人呢\n觉得你的男人呢\n你都能懂你的烦恼', '2018-03-08 09:15:14'),
+('36c43ad0-21e4-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '现在已经', '2018-03-07 08:47:48'),
+('36f90de0-211d-11e8-8412-b969da800c5b', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '睡吧睡吧睡吧', '2018-03-06 09:03:19'),
+('3803e250-228a-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '41', '2018-03-08 04:36:07'),
+('38f153c0-2283-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '设计奖', '2018-03-08 03:46:02'),
+('3998e5f0-22a5-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '打开电脑等你的吗', '2018-03-08 07:49:26'),
+('3b3bc170-235e-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 'hello\n', '2018-03-09 05:53:46'),
+('3b49a630-2284-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '简单的宝宝', '2018-03-08 03:53:16'),
+('3c372180-2126-11e8-a96c-6defe2e13235', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'fsdfsd', '2018-03-06 10:07:53'),
+('3cfaca20-21eb-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '恶搞版 v', '2018-03-07 09:38:05'),
+('3f98c2a0-21a0-11e8-a96c-6defe2e13235', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '432', '2018-03-07 00:41:18'),
+('40384e50-235e-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '老大我来了\n', '2018-03-09 05:53:54'),
+('41095d60-22c3-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '说你什么都不懂\n嗯嗯等你等你', '2018-03-08 11:24:23'),
+('41308580-22a4-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '本人', '2018-03-08 07:42:29'),
+('4144d500-229d-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '刚发的', '2018-03-08 06:52:23'),
+('437cf540-229e-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '小口大口大口', '2018-03-08 06:59:36'),
+('44cface0-2202-11e8-90d2-9bdd4f81b660', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '是世界顶级', '2018-03-07 12:22:57'),
+('45128a70-21cf-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'bbbbbbbbb', '2018-03-07 06:17:53'),
+('47e5bab0-22ab-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '看到短裤嗯', '2018-03-08 08:32:47'),
+('48b4a360-236f-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '嗯，进来的时候闪了一下，要做成有说话就闪', '2018-03-09 07:55:50'),
+('49bcf5f0-219e-11e8-a96c-6defe2e13235', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '非 v 白费功夫\nddddfdxdd\ndfcd\nddfffdfcc\n\ndff', '2018-03-07 00:27:16'),
+('4dcfa930-2379-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', ' hello', '2018-03-09 09:07:33'),
+('4f88ab50-21ee-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '是结结实实还是', '2018-03-07 10:00:05'),
+('4fa7b1c0-21fe-11e8-90d2-9bdd4f81b660', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', ' 中上课少男少女', '2018-03-07 11:54:37'),
+('50591460-2122-11e8-a96c-6defe2e13235', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'fadsfafa\nfadsfasdfsdafsdafasdfsadfasdfasdfasd\nfa\ndsfa\n\n', '2018-03-06 09:39:49'),
+('51249e60-20f9-11e8-8e3b-89e2f3758986', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '一般来说：height:auto;是可以的，但在ff下，如何有背景的话有时不会撑开，还有个属性那就是：display:table;他俩者之间没有什么差别。我认为。一般来说最外面用：display:table;还是挺好的', '2018-03-06 04:46:21'),
+('515c9820-2116-11e8-ae88-dd4d082c5294', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'fsdfsdf\nf\nsd\nf\nsd\nfs', '2018-03-06 08:13:57'),
+('52c104d0-22b0-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '粉色的', '2018-03-08 09:08:53'),
+('55865b80-21a1-11e8-8ea7-6f1e4870f777', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'fsdfsd', '2018-03-07 00:49:04'),
+('55d2d8b0-22b0-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '打开电脑电脑电脑的', '2018-03-08 09:08:58'),
+('56a7e9a0-2379-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '我现在把你静音了', '2018-03-09 09:07:48'),
+('56afd4a0-21d3-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'gggggg', '2018-03-07 06:47:01'),
+('57e04a10-21ee-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '代扣代缴等你', '2018-03-07 10:00:19'),
+('58feb680-22ab-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '的大哭大哭大哭', '2018-03-08 08:33:16'),
+('5a3963a0-219e-11e8-a96c-6defe2e13235', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', '2018-03-07 00:27:43'),
+('5a566180-219e-11e8-a96c-6defe2e13235', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', '2018-03-07 00:27:43'),
+('5a5c0b40-2369-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '弄了声音了\n', '2018-03-09 07:13:22'),
+('5b1a2700-22ac-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '觉得弟弟', '2018-03-08 08:40:29'),
+('5b239240-236f-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '现在还有问题', '2018-03-09 07:56:21'),
+('5c3c49b0-2379-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '还有声音不', '2018-03-09 09:07:58'),
+('5c5d3d00-236a-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '退出了再从体验版进来', '2018-03-09 07:20:35'),
+('5c62c900-236f-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '我敲桌子会闪吗？', '2018-03-09 07:56:23'),
+('5c959130-21a0-11e8-a96c-6defe2e13235', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'fsdfsd', '2018-03-07 00:42:06'),
+('5ce1bb20-21fd-11e8-90d2-9bdd4f81b660', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'fdsfsd ', '2018-03-07 11:47:50'),
+('5d61aa20-2369-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '听到了吗？', '2018-03-09 07:13:28'),
+('5f744100-236a-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '👌', '2018-03-09 07:20:40'),
+('606c5ed0-2379-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '还能听到你那边的声音', '2018-03-09 09:08:05'),
+('60c38d20-2295-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '反倒是因为', '2018-03-08 05:56:00'),
+('62b262c0-236f-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '不会', '2018-03-09 07:56:33'),
+('639b6a60-2347-11e8-995d-2d250251ea5f', '03060620-2337-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', '2018-03-09 03:10:15'),
+('63ed4600-20f9-11e8-8e3b-89e2f3758986', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '本文从代码角度和宏观角度简单阐述了微信小程序在前端领域的一些内容和影响,希望能够帮助那些不了解微信小程序的开发者很快入门并认识这一新的技术', '2018-03-06 04:46:53'),
+('645334d0-229b-11e8-ba95-b3701ba81d59', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '好端端的', '2018-03-08 06:39:03'),
+('67a47b50-229e-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '少男少女', '2018-03-08 07:00:37'),
+('6b27d4d0-2121-11e8-a96c-6defe2e13235', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'dfsfdsfsd\nfsdfsd', '2018-03-06 09:33:25'),
+('6bb268c0-20f9-11e8-8e3b-89e2f3758986', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '仅以一个前端开发人员的角度看微信小程序 看了几天的小程序(当然也包括了上手...模块化:个人认为微信的模块化只是针对js语言,至于把写好的模块封', '2018-03-06 04:47:06'),
+('6c9cc290-2116-11e8-ae88-dd4d082c5294', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'sdf\n53453', '2018-03-06 08:14:43'),
+('6d0b6910-236a-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '进来了', '2018-03-09 07:21:03'),
+('6d59e1e0-21e3-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '432423', '2018-03-07 08:42:11'),
+('6dc4e670-21e8-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '收拾', '2018-03-07 09:17:59'),
+('6e103650-22a3-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '看到肯定没能等到你', '2018-03-08 07:36:35'),
+('6e215e50-21e8-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', '2018-03-07 09:17:59'),
+('6e455ba0-2299-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '觉得弟弟', '2018-03-08 06:25:01'),
+('6e478710-22b0-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'vffjkgs', '2018-03-08 09:09:39'),
+('700e1740-22a5-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '432423', '2018-03-08 07:50:57'),
+('706dc360-2369-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '田小包子', '2018-03-09 07:13:59'),
+('7176ad20-2293-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '4322', '2018-03-08 05:42:09'),
+('725fa860-22a5-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '5432535', '2018-03-08 07:51:01'),
+('7320e1f0-21a7-11e8-8ea7-6f1e4870f777', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '3333', '2018-03-07 01:32:50'),
+('7386eda0-2121-11e8-a96c-6defe2e13235', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'fsdfsdfsd\nfsdfs\nf\ndsf\ns', '2018-03-06 09:33:39'),
+('74369be0-21a0-11e8-a96c-6defe2e13235', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'fsdfvsd', '2018-03-07 00:42:46'),
+('74eb3530-2369-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '好像木有反应我看看，等下叫你', '2018-03-09 07:14:07'),
+('74f293d0-229b-11e8-ba95-b3701ba81d59', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '方所书店', '2018-03-08 06:39:31'),
+('75a328a0-236b-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '宝宝，你先留在房间，我要试一下', '2018-03-09 07:28:27'),
+('75b27ce0-22a5-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '543534', '2018-03-08 07:51:07'),
+('763cc840-22b5-11e8-995d-2d250251ea5f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '罚款等麻烦', '2018-03-08 09:45:40'),
+('76af1d90-236f-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '拍掌会闪吗', '2018-03-09 07:57:07'),
+('77732430-229b-11e8-ba95-b3701ba81d59', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '方所书店', '2018-03-08 06:39:35'),
+('7833e4c0-21ee-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '看到短裤热裤', '2018-03-07 10:01:13'),
+('790e7910-2369-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '你听到我弄的声音了吗？', '2018-03-09 07:14:14'),
+('79413c30-2295-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '冈底斯山', '2018-03-08 05:56:41'),
+('79857280-22d4-11e8-995d-2d250251ea5f', '01f143c0-22d4-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '刚才进来有听到你讲话', '2018-03-08 13:27:40'),
+('79a38b00-2296-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '广东小吃', '2018-03-08 06:03:51'),
+('79f7efb0-235e-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '不要讲话，但发出一点点声音来', '2018-03-09 05:55:31'),
+('7a7b3330-211e-11e8-a96c-6defe2e13235', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'fasdf\n发送颠覆', '2018-03-06 09:12:22'),
+('7a8302a0-22a3-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '打开你的电脑', '2018-03-08 07:36:56'),
+('7b1eba70-2374-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '退出去了重新进，看静音的功能是否OK', '2018-03-09 08:33:02'),
+('7b3ed470-21e6-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '现在就是', '2018-03-07 09:04:02'),
+('7dc2d960-2369-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '听到了', '2018-03-09 07:14:22'),
+('7ee60730-236a-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '看到闪烁效果了吧', '2018-03-09 07:21:33'),
+('7f32f0e0-2379-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '我调试一下', '2018-03-09 09:08:56'),
+('7f684c00-2369-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '我敲桌子的声音', '2018-03-09 07:14:25'),
+('8088f8e0-2356-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '好', '2018-03-09 04:58:26'),
+('80f23250-22a3-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '简单的纪念的', '2018-03-08 07:37:07'),
+('811593d0-22da-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0d9fVPIq7eUJCNJ0bHsvzPw', '', '2018-03-08 14:10:49'),
+('83bd4a20-22ac-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '当初广告费', '2018-03-08 08:41:37'),
+('84698f60-219e-11e8-a96c-6defe2e13235', '7efdc5f0-219e-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '发广告', '2018-03-07 00:28:54'),
+('8582cc10-22a5-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '7979', '2018-03-08 07:51:33'),
+('863489c0-21fe-11e8-90d2-9bdd4f81b660', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '是不是难受', '2018-03-07 11:56:09'),
+('864e5230-2120-11e8-a96c-6defe2e13235', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '睡吧睡吧睡吧你', '2018-03-06 09:27:01'),
+('873962a0-22da-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0d9fVPIq7eUJCNJ0bHsvzPw', '', '2018-03-08 14:11:00'),
+('87a9ed50-219e-11e8-a96c-6defe2e13235', '7efdc5f0-219e-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '凡夫俗子的', '2018-03-07 00:28:59'),
+('88345770-2369-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '你那边有电话响了', '2018-03-09 07:14:39'),
+('883531d0-21a8-11e8-8ea7-6f1e4870f777', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '777777', '2018-03-07 01:40:35'),
+('88b20330-237a-11e8-9cd7-2789555cef61', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '我去健身了', '2018-03-09 09:16:22'),
+('8a93a430-2369-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '😄', '2018-03-09 07:14:43'),
+('8b0e4e00-219e-11e8-a96c-6defe2e13235', '7efdc5f0-219e-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '烦恼和恐惧', '2018-03-07 00:29:05'),
+('8bba56b0-22b5-11e8-995d-2d250251ea5f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'vfsff', '2018-03-08 09:46:16'),
+('8c2bc910-22a8-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'Kdmsdndn ', '2018-03-08 08:13:13'),
+('8c76dae0-21ef-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '大喊大叫', '2018-03-07 10:08:57'),
+('8d5e8d50-21a3-11e8-8ea7-6f1e4870f777', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '111111111', '2018-03-07 01:04:56'),
+('8da456b0-2355-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 'hello\n', '2018-03-09 04:51:39'),
+('8df13070-20df-11e8-9ad8-1135e2792e48', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '42342', '2018-03-06 01:41:56'),
+('8f353510-2343-11e8-995d-2d250251ea5f', '03060620-2337-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', '2018-03-09 02:42:50'),
+('9058d940-235e-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '我要做一个讲话的提示', '2018-03-09 05:56:09'),
+('90ae1530-219d-11e8-a96c-6defe2e13235', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '4231324123', '2018-03-07 00:22:05'),
+('919dfe00-219e-11e8-a96c-6defe2e13235', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '大家就结婚', '2018-03-07 00:29:16'),
+('91c37be0-2355-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '你在吗\n', '2018-03-09 04:51:45'),
+('92fa0010-2355-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '', '2018-03-09 04:51:47'),
+('93804dc0-21fa-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '是的吗？', '2018-03-07 11:27:53'),
+('9455f210-219e-11e8-a96c-6defe2e13235', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '觉得', '2018-03-07 00:29:21'),
+('9478aed0-236b-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '👌', '2018-03-09 07:29:19'),
+('947d1ab0-22b2-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '看到的你都能懂', '2018-03-08 09:25:02'),
+('94b6b420-2369-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '你那边好多声音', '2018-03-09 07:15:00'),
+('94d5ed50-21e7-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '是世界上就是', '2018-03-07 09:11:55'),
+('950095d0-22a2-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '上课上课上课', '2018-03-08 07:30:31'),
+('956f0ae0-22a9-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '简单的介绍计算机', '2018-03-08 08:20:38'),
+('96db04e0-22d3-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0W20SioIXdyo2n5Gqdtf-s4', '我可以听到你', '2018-03-08 13:21:19'),
+('973619d0-22aa-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '删掉', '2018-03-08 08:27:51'),
+('97385180-219e-11e8-a96c-6defe2e13235', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'ufcss', '2018-03-07 00:29:26'),
+('98aeea20-21d9-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'tttttttt', '2018-03-07 07:31:48'),
+('999bf600-2349-11e8-875b-55baa56f5e4c', '03060620-2337-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '莪方法', '2018-03-09 03:26:05'),
+('9a49bc20-21de-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '3333333', '2018-03-07 08:07:38'),
+('9bb0b010-21e7-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '司法改革', '2018-03-07 09:12:06'),
+('9c732450-2369-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '在讨论表格', '2018-03-09 07:15:13'),
+('9c8cf840-2345-11e8-995d-2d250251ea5f', '03060620-2337-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', '2018-03-09 02:57:32'),
+('9db22b60-21a5-11e8-8ea7-6f1e4870f777', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '12', '2018-03-07 01:19:43'),
+('9e92e750-237a-11e8-9cd7-2789555cef61', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '现在OK不', '2018-03-09 09:16:58'),
+('9f81ce40-2345-11e8-995d-2d250251ea5f', '03060620-2337-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '否定的', '2018-03-09 02:57:37'),
+('a023e170-22d3-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0W20SioIXdyo2n5Gqdtf-s4', '没有', '2018-03-08 13:21:35'),
+('a0be79b0-2355-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '老大我是不是要一直待这里', '2018-03-09 04:52:11'),
+('a2ab9330-22d2-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0W20SioIXdyo2n5Gqdtf-s4', '在', '2018-03-08 13:14:30'),
+('a38667d0-229b-11e8-ba95-b3701ba81d59', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '点击打开', '2018-03-08 06:40:49'),
+('a45e9d50-2375-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '已经重进了吧，现在静音OK了不', '2018-03-09 08:41:21'),
+('a6af4f70-2346-11e8-995d-2d250251ea5f', '03060620-2337-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '多大啊', '2018-03-09 03:04:58'),
+('a72eb180-22aa-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '教大家上课', '2018-03-08 08:28:17'),
+('a7f47bd0-2355-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '在里面就可以了', '2018-03-09 04:52:23'),
+('a80414a0-2283-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '非 v 收到', '2018-03-08 03:49:08'),
+('a8325810-2369-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '我的头像是不没有闪烁', '2018-03-09 07:15:33'),
+('a84a0cb0-2122-11e8-a96c-6defe2e13235', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'fasdfasdfsadfsdafsdafsdafdsafasdfsdafasdfasd\nf\nsadf\nsdf\nasd\nf', '2018-03-06 09:42:17'),
+('a98491b0-2355-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '😈😈😈', '2018-03-09 04:52:25'),
+('a9a2c2f0-22a3-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '第三十八\n点击点击打开', '2018-03-08 07:38:15'),
+('aa06ec10-22dc-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0Zqvgk3xJcJy-ui8-wMkQ90', '可以听到', '2018-03-08 14:26:17'),
+('aac1fc50-22a8-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'Dkdnddn', '2018-03-08 08:14:04'),
+('abe30310-22b0-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '代代相传的\n点点滴滴分\n懂的点点滴滴\n懂的点点滴滴想得到的\n的失眠失眠失眠失眠', '2018-03-08 09:11:22'),
+('ac04d540-21e7-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '个个都是从 v', '2018-03-07 09:12:34'),
+('ae869e20-21e7-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', '2018-03-07 09:12:38'),
+('af3d8770-22aa-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '大家简单的快乐', '2018-03-08 08:28:31'),
+('b021d590-21fd-11e8-90d2-9bdd4f81b660', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '是不是就是你', '2018-03-07 11:50:10'),
+('b0345570-22a8-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'Hdsndkd ', '2018-03-08 08:14:14'),
+('b0f37900-22a3-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '第四十九', '2018-03-08 07:38:27'),
+('b0fc4b10-2281-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '少男少女', '2018-03-08 03:35:05'),
+('b1da0eb0-21c2-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '888888', '2018-03-07 04:47:52'),
+('b25023d0-2298-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '上课上课上班', '2018-03-08 06:19:45'),
+('b2983c70-22b0-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '上课是女生\n是你是慢慢说啥呢', '2018-03-08 09:11:34'),
+('b2af6240-21d1-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'ttttttttt', '2018-03-07 06:35:16'),
+('b2df2d00-219e-11e8-a96c-6defe2e13235', '7efdc5f0-219e-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '323', '2018-03-07 00:30:12'),
+('b2fb9a80-22a2-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '上课是女生', '2018-03-08 07:31:21'),
+('b32fa0b0-21cf-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'ccccccccc', '2018-03-07 06:20:58'),
+('b397f630-22d1-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '我们', '2018-03-08 13:07:49'),
+('b519f790-22ab-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '点击点击点击', '2018-03-08 08:35:50'),
+('b5f22de0-2355-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '🙆🙆🙆', '2018-03-09 04:52:46'),
+('b6546390-2380-11e8-9cd7-2789555cef61', '8e395c30-2380-11e8-9cd7-2789555cef61', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '发发发地方', '2018-03-09 10:00:35'),
+('b6cd1b40-22aa-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '开店大吉等你', '2018-03-08 08:28:44'),
+('b7811fb0-21ff-11e8-90d2-9bdd4f81b660', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '圣诞节', '2018-03-07 12:04:41'),
+('b9d94690-20f9-11e8-8e3b-89e2f3758986', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '3131', '2018-03-06 04:49:17'),
+('ba014790-22d3-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0W20SioIXdyo2n5Gqdtf-s4', '还是不行', '2018-03-08 13:22:18'),
+('ba07ec30-22b0-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '死神\n打开看都觉得大家\n看到肯定的吗\n大哭快点快点', '2018-03-08 09:11:46'),
+('baab4a70-21e7-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '第九十九上课上课', '2018-03-07 09:12:58'),
+('baaf50b0-2369-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', ' 怎么闪烁？\n', '2018-03-09 07:16:04'),
+('baed2a00-22da-11e8-995d-2d250251ea5f', '01f143c0-22d4-11e8-995d-2d250251ea5f', 'ojVEl0d9fVPIq7eUJCNJ0bHsvzPw', '从哪里发出声音?', '2018-03-08 14:12:26'),
+('bafe53c0-22a8-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '手机上课考试考试\n快点快点快点快点\n就大哭大哭的打开', '2018-03-08 08:14:32'),
+('bb109aa0-2355-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '发表情也很顺畅', '2018-03-09 04:52:55'),
+('bb638360-2296-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '是你是谁呢', '2018-03-08 06:05:41'),
+('bbbbc420-21a7-11e8-8ea7-6f1e4870f777', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '444444444', '2018-03-07 01:34:52'),
+('bc369970-21a7-11e8-8ea7-6f1e4870f777', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', '2018-03-07 01:34:53'),
+('bc563b40-22ab-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '大家上课了', '2018-03-08 08:36:02'),
+('beb08790-21fe-11e8-90d2-9bdd4f81b660', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '大家都能懂你', '2018-03-07 11:57:43'),
+('bfebc140-22af-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '科恩的吗', '2018-03-08 09:04:46'),
+('c05419b0-21e3-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'oooooooo', '2018-03-07 08:44:30'),
+('c09cf450-2369-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '没感觉\n', '2018-03-09 07:16:14'),
+('c0a44fe0-2380-11e8-9cd7-2789555cef61', '8e395c30-2380-11e8-9cd7-2789555cef61', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'dkdkdm\n都目瞪口呆看\n多么的刻苦\n多么坑爹的刻苦\n都目瞪口呆看\n大哭大哭大哭\n大哭大哭快点\n佛法发了\n此刻疯狂的\n大哭大哭的', '2018-03-09 10:00:52'),
+('c16e6560-237a-11e8-9cd7-2789555cef61', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', ' 【得到】您的验证码为244863，请勿向他人泄露。', '2018-03-09 09:17:57'),
+('c34354f0-21e4-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '霍斯金斯', '2018-03-07 08:51:44'),
+('c35ea0e0-22af-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '大口大了都闷闷的么', '2018-03-08 09:04:52'),
+('c379a720-22a8-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '射门打开', '2018-03-08 08:14:46'),
+('c3956b90-21ef-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '我们', '2018-03-07 10:10:29'),
+('c3fdb2f0-22a2-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '江苏省计算机', '2018-03-08 07:31:50'),
+('c4583140-21ed-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '得到', '2018-03-07 09:56:11'),
+('c5a9f060-2373-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '我来了', '2018-03-09 08:27:57'),
+('c5bb8730-22b0-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '教大家都能懂呢\n看到的那么多吗', '2018-03-08 09:12:06'),
+('c7a22d00-236a-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '再弄出点声音看看', '2018-03-09 07:23:35'),
+('c7bfe7e0-229e-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '嘻嘻', '2018-03-08 07:03:18'),
+('c8ab8490-2297-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '痘痘的吧', '2018-03-08 06:13:13'),
+('c938d920-2126-11e8-a96c-6defe2e13235', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'fadsfas', '2018-03-06 10:11:50'),
+('c97beb80-2369-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '', '2018-03-09 07:16:29'),
+('c9d67ff0-22ab-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '日日嗯 ', '2018-03-08 08:36:25'),
+('cae966c0-2380-11e8-9cd7-2789555cef61', '8e395c30-2380-11e8-9cd7-2789555cef61', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '的苛刻\n大哭的大哭\n大哭了的大哭\n代理都大哭\n发扣扣发的吗\n大哭的大哭\n大哭的苛刻', '2018-03-09 10:01:10'),
+('cb3fe510-22d9-11e8-995d-2d250251ea5f', '01f143c0-22d4-11e8-995d-2d250251ea5f', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '？', '2018-03-08 14:05:44'),
+('cb4fb6c0-211c-11e8-8412-b969da800c5b', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'fsdfsd\nfsdfs\nfsd', '2018-03-06 09:00:18'),
+('cb726af0-22d2-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0W20SioIXdyo2n5Gqdtf-s4', '发送', '2018-03-08 13:15:38'),
+('cb9b4820-22b0-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '可可快点快点嘛', '2018-03-08 09:12:16'),
+('cbd299d0-2105-11e8-8e3b-89e2f3758986', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'fsdfsdfsd', '2018-03-06 06:15:41'),
+('cd11dfb0-2149-11e8-a96c-6defe2e13235', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 'Haha', '2018-03-06 14:22:29'),
+('cd3ee970-2215-11e8-90d2-9bdd4f81b660', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 'V', '2018-03-07 14:42:46'),
+('cd45a030-2215-11e8-90d2-9bdd4f81b660', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 'V', '2018-03-07 14:42:46'),
+('cd702c30-22d1-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '没有听到声音\n', '2018-03-08 13:08:32'),
+('cd7fb1e0-21e7-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '事实上就是你', '2018-03-07 09:13:30'),
+('cd8cbb50-2215-11e8-90d2-9bdd4f81b660', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '', '2018-03-07 14:42:47'),
+('cd905b20-2120-11e8-a96c-6defe2e13235', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'fsdfsdf\nfsdfs', '2018-03-06 09:29:00'),
+('d052ffd0-22dc-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0Zqvgk3xJcJy-ui8-wMkQ90', '😂😂😂', '2018-03-08 14:27:21'),
+('d12e16f0-2373-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '弄一点声音', '2018-03-09 08:28:17'),
+('d1de9f20-22ab-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '可可了辣么', '2018-03-08 08:36:39'),
+('d21e61e0-2298-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '简简单单就', '2018-03-08 06:20:39'),
+('d2297c40-22d6-11e8-995d-2d250251ea5f', '01f143c0-22d4-11e8-995d-2d250251ea5f', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '', '2018-03-08 13:44:27'),
+('d2399f10-2369-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '啥时候可以退出告诉我哈', '2018-03-09 07:16:44'),
+('d44ff700-22dc-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0d9fVPIq7eUJCNJ0bHsvzPw', '😂 ', '2018-03-08 14:27:28'),
+('d4b7fd90-219d-11e8-a96c-6defe2e13235', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'fdasfas', '2018-03-07 00:23:59'),
+('d4f93470-211d-11e8-8412-b969da800c5b', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '现在顶焦度计\n恩赫赛汗', '2018-03-06 09:07:44'),
+('d59627a0-2355-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '测好了记得叫我出来', '2018-03-09 04:53:39'),
+('d62ff0a0-2126-11e8-a96c-6defe2e13235', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'fasfas', '2018-03-06 10:12:12'),
+('d69af950-21e8-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '下了班回家后', '2018-03-07 09:20:55'),
+('d7f00fe0-22d6-11e8-995d-2d250251ea5f', '01f143c0-22d4-11e8-995d-2d250251ea5f', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '好\n\n', '2018-03-08 13:44:37'),
+('d90f5e00-2293-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '是你上辈子吧', '2018-03-08 05:45:03'),
+('daabbbb0-219d-11e8-a96c-6defe2e13235', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '421\nfadsfad', '2018-03-07 00:24:09'),
+('db3a9fa0-22d9-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '听不到', '2018-03-08 14:06:11'),
+('dbfd0d60-236a-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '好像木有闪烁，我看看', '2018-03-09 07:24:09'),
+('dcf09ed0-21ee-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '大家都看到你呢', '2018-03-07 10:04:02'),
+('dd043c10-22d9-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '', '2018-03-08 14:06:14'),
+('e158c9e0-236d-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '没看到闪烁', '2018-03-09 07:45:47'),
+('e15b4fd0-234a-11e8-875b-55baa56f5e4c', '03060620-2337-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '二二哥', '2018-03-09 03:35:15'),
+('e171ce00-229a-11e8-ba95-b3701ba81d59', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '都开始难受', '2018-03-08 06:35:23'),
+('e17c73d0-2283-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '丰富的', '2018-03-08 03:50:45'),
+('e34ab570-22d6-11e8-995d-2d250251ea5f', '01f143c0-22d4-11e8-995d-2d250251ea5f', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '没声音', '2018-03-08 13:44:56'),
+('e4948220-21e7-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '付费电视', '2018-03-07 09:14:09'),
+('e5d0e8f0-2538-11e8-909e-0902c67500fb', '7b32e3f0-250f-11e8-909e-0902c67500fb', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '无有声音\n', '2018-03-11 14:31:33'),
+('e6f15d80-219d-11e8-a96c-6defe2e13235', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '412312', '2018-03-07 00:24:30'),
+('e71b7e30-2373-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '我做了个静音功能，点别人的图标就可以静音', '2018-03-09 08:28:54'),
+('e7525230-235e-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '再弄一点声音', '2018-03-09 05:58:34'),
+('e937c000-22da-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0d9fVPIq7eUJCNJ0bHsvzPw', '', '2018-03-08 14:13:44'),
+('eb5cc180-229b-11e8-ba95-b3701ba81d59', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '你说说看', '2018-03-08 06:42:49'),
+('ebe70020-229b-11e8-ba95-b3701ba81d59', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '你说说看', '2018-03-08 06:42:50'),
+('f0061470-21ce-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'aaaaaaaaaa', '2018-03-07 06:15:30'),
+('f0297a10-22c2-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '纷纷上市', '2018-03-08 11:22:08'),
+('f0d77d40-22d6-11e8-995d-2d250251ea5f', '01f143c0-22d4-11e8-995d-2d250251ea5f', 'ojVEl0W20SioIXdyo2n5Gqdtf-s4', '我可以听到你', '2018-03-08 13:45:19'),
+('f1d1f480-2373-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '我点了你的', '2018-03-09 08:29:12'),
+('f2705870-22a4-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '是慢慢说', '2018-03-08 07:47:27'),
+('f31191f0-22da-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0d9fVPIq7eUJCNJ0bHsvzPw', '不知道咋玩  。', '2018-03-08 14:14:01'),
+('f3a361d0-2202-11e8-90d2-9bdd4f81b660', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '大喊大叫打开', '2018-03-07 12:27:50'),
+('f3e540f0-236f-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '都不会，就进来的时候闪了一下', '2018-03-09 08:00:37'),
+('f41f9c00-22d9-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '？？？', '2018-03-08 14:06:53'),
+('f454d780-2202-11e8-90d2-9bdd4f81b660', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '大喊大叫打开', '2018-03-07 12:27:51'),
+('f56b5990-219f-11e8-a96c-6defe2e13235', 'f0df8fe0-219f-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'gsdgsdf', '2018-03-07 00:39:13'),
+('f6142ef0-22ab-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '饿了么额', '2018-03-08 08:37:39'),
+('f73c4620-22a9-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '第九十九是你', '2018-03-08 08:23:22'),
+('f82b5870-20e5-11e8-8e3b-89e2f3758986', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '42332rr发送颠覆速度发送颠覆速度非法所得发送端发送颠覆42342342342342342332rr发送颠覆速度发送颠覆速度非法所得发送端发送颠覆423423423423423', '2018-03-06 02:27:51'),
+('f98d28c0-219d-11e8-a96c-6defe2e13235', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '是的方法', '2018-03-07 00:25:01'),
+('f9991320-22af-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '粉色的', '2018-03-08 09:06:23'),
+('faa2ec80-2374-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '你说我退出重新进吗？', '2018-03-09 08:36:36'),
+('fab8c070-235e-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '可以了，能看到提示', '2018-03-09 05:59:07'),
+('facc62f0-2373-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '你的头像变灰了', '2018-03-09 08:29:27'),
+('fbd2d160-21fd-11e8-90d2-9bdd4f81b660', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '渣男的', '2018-03-07 11:52:17'),
+('fccf5ee0-2373-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '点了还能听到不', '2018-03-09 08:29:30'),
+('fcf62ed0-2215-11e8-90d2-9bdd4f81b660', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '让丰富的', '2018-03-07 14:44:06'),
+('fd12c190-2354-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '在里面吗？', '2018-03-09 04:47:36');
+INSERT INTO `impromptu_dialog` (`dialog_id`, `room_id`, `user_id`, `comment`, `create_date`) VALUES
+('fd74f100-21ef-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '是寿比南山不在', '2018-03-07 10:12:06'),
+('fe4bb3a0-228c-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '是不是看', '2018-03-08 04:55:59'),
+('fe650b90-22da-11e8-995d-2d250251ea5f', '01f143c0-22d4-11e8-995d-2d250251ea5f', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '同问', '2018-03-08 14:14:20'),
+('ff2f2d60-235e-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '不过不明显', '2018-03-09 05:59:14'),
+('fff164d0-22c2-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '出发', '2018-03-08 11:22:34');
 
 -- --------------------------------------------------------
 
@@ -183,23 +572,15 @@ CREATE TABLE `meeting_apply` (
 --
 
 INSERT INTO `meeting_apply` (`user_id`, `room_id`, `role_type`, `create_date`) VALUES
-('ojVEl0bfkCyTSJmoRrNBJOyy0JJg', '26a5f2b0-0e5c-11e8-9b12-d1ebfa125281', 1, '2018-02-10 12:19:32'),
-('ojVEl0bfkCyTSJmoRrNBJOyy0JJg', '98256840-0e24-11e8-9ea3-e12737f16a16', 1, '2018-02-10 12:18:53'),
-('ojVEl0dDlpiS7dS58LzoE--9nsRw', '26a5f2b0-0e5c-11e8-9b12-d1ebfa125281', 1, '2018-02-10 12:28:25'),
-('ojVEl0dDlpiS7dS58LzoE--9nsRw', '76260f00-1cee-11e8-a04c-abe2e6eddf95', 1, '2018-03-01 06:23:04'),
-('ojVEl0dDlpiS7dS58LzoE--9nsRw', '98256840-0e24-11e8-9ea3-e12737f16a16', 1, '2018-02-10 12:28:18'),
-('ojVEl0RIXu-HAyC8ZvYvzx5DmBE0', '26a5f2b0-0e5c-11e8-9b12-d1ebfa125281', 1, '2018-02-13 09:03:56'),
-('ojVEl0W20SioIXdyo2n5Gqdtf-s4', '26a5f2b0-0e5c-11e8-9b12-d1ebfa125281', 1, '2018-02-10 14:49:33'),
-('ojVEl0W20SioIXdyo2n5Gqdtf-s4', '98256840-0e24-11e8-9ea3-e12737f16a16', 1, '2018-02-10 14:49:48'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', '01046200-1b9d-11e8-88ed-63e31e1e8108', 1, '2018-02-27 09:03:59'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', '26a5f2b0-0e5c-11e8-9b12-d1ebfa125281', 2, '2018-02-14 02:02:06'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', '34bd59c0-0ec9-11e8-a0be-73752e5d639a', 1, '2018-02-11 01:16:45'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', '42f7ac90-2015-11e8-a871-274d8db8cc94', 1, '2018-03-05 05:51:35'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', '76260f00-1cee-11e8-a04c-abe2e6eddf95', 1, '2018-03-01 02:56:01'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', '7fde2e10-0eca-11e8-9e35-c54a70971e92', 1, '2018-02-11 01:26:12'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', '9344a3b0-0ec7-11e8-8be6-13b3b3fe6ec5', 1, '2018-02-11 01:10:47'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', 'db27a030-0eca-11e8-920e-71f2a013d74d', 2, '2018-02-11 01:28:30'),
-('ojVEl0Zqvgk3xJcJy-ui8-wMkQ90', '9c63ea20-0ec5-11e8-8be6-13b3b3fe6ec5', 1, '2018-02-11 14:09:56');
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', '7b32e3f0-250f-11e8-909e-0902c67500fb', 1, '2018-03-11 09:40:55'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', 'f59ec3c0-250f-11e8-909e-0902c67500fb', 1, '2018-03-11 09:41:10'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '213d4930-24e7-11e8-9e7a-df2cc2adb166', 1, '2018-03-11 05:06:04'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '696b9350-265a-11e8-af7b-b3706fea5199', 1, '2018-03-13 01:04:02'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '7b32e3f0-250f-11e8-909e-0902c67500fb', 1, '2018-03-11 09:35:17'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'eeabaa00-243e-11e8-9549-696441b2335b', 1, '2018-03-10 08:55:20'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'f06b6250-2726-11e8-a79e-d9b8b1258e52', 1, '2018-03-14 01:28:07'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'f6cd2c50-2438-11e8-a04b-491551e87cea', 1, '2018-03-10 08:18:18'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'fabfa8d0-25d0-11e8-b933-05afa943d577', 1, '2018-03-12 08:40:21');
 
 -- --------------------------------------------------------
 
@@ -245,6 +626,7 @@ CREATE TABLE `room_impromptu` (
   `end_time` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '结束时间',
   `notice` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '公告',
   `survey_status` int(2) NOT NULL DEFAULT '1' COMMENT '投票状态(1未发起,2已发起,3已完成)',
+  `people_amount` int(10) NOT NULL DEFAULT '0' COMMENT '报名人数',
   `create_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
   `modify_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '修改时间'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -253,21 +635,11 @@ CREATE TABLE `room_impromptu` (
 -- 转存表中的数据 `room_impromptu`
 --
 
-INSERT INTO `room_impromptu` (`room_id`, `user_id`, `language`, `mode`, `start_date`, `start_time`, `end_time`, `notice`, `survey_status`, `create_date`, `modify_date`) VALUES
-('01046200-1b9d-11e8-88ed-63e31e1e8108', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-02-27', '21:00', '22:00', '', 1, '2018-02-27 09:02:57', '2018-02-27 09:02:57'),
-('26a5f2b0-0e5c-11e8-9b12-d1ebfa125281', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 3, '2018-02-14', '21:00', '22:00', 'YY:1393770158', 1, '2018-02-10 12:15:58', '2018-02-10 12:15:58'),
-('29c79330-19cf-11e8-b790-6f78326360aa', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-02-25', '21:00', '22:00', '', 1, '2018-02-25 01:56:58', '2018-02-25 01:56:58'),
-('35f69bb0-1d30-11e8-b094-e9ee244f656f', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 1, 1, '2018-03-01', '21:00', '22:00', '', 1, '2018-03-01 09:09:13', '2018-03-01 09:09:13'),
-('42f7ac90-2015-11e8-a871-274d8db8cc94', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-05', '21:00', '22:00', '', 1, '2018-03-05 01:33:52', '2018-03-05 01:33:52'),
-('71cb5510-1d6a-11e8-a413-b51c2db125ba', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-02', '21:00', '22:00', '', 1, '2018-03-01 16:06:04', '2018-03-01 16:06:04'),
-('76260f00-1cee-11e8-a04c-abe2e6eddf95', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-01', '21:00', '22:00', '', 1, '2018-03-01 01:18:34', '2018-03-01 01:18:34'),
-('77eb2dc0-1c21-11e8-88ed-63e31e1e8108', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-02-28', '21:00', '22:00', '', 1, '2018-02-28 00:51:10', '2018-02-28 00:51:10'),
-('94cb0850-1859-11e8-b790-6f78326360aa', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-02-23', '21:00', '22:00', '', 1, '2018-02-23 05:22:46', '2018-02-23 05:22:46'),
-('98256840-0e24-11e8-9ea3-e12737f16a16', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 1, 2, '2018-02-10', '21:00', '21:30', '1349924637', 1, '2018-02-10 05:38:16', '2018-02-10 05:38:16'),
-('9c63ea20-0ec5-11e8-8be6-13b3b3fe6ec5', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 1, 1, '2018-02-11', '21:00', '22:00', '1349924637', 1, '2018-02-11 00:50:52', '2018-02-11 00:50:52'),
-('c533df10-1d6a-11e8-a413-b51c2db125ba', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 1, 1, '2018-03-02', '21:00', '22:00', '', 1, '2018-03-01 16:08:24', '2018-03-01 16:08:24'),
-('c6f02a80-1af8-11e8-8d9f-c36c5270eff6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-02-26', '21:00', '22:00', '', 1, '2018-02-26 13:27:22', '2018-02-26 13:27:22'),
-('efdcf000-1e49-11e8-a871-274d8db8cc94', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-03', '21:00', '22:00', '', 1, '2018-03-02 18:45:54', '2018-03-02 18:45:54');
+INSERT INTO `room_impromptu` (`room_id`, `user_id`, `language`, `mode`, `start_date`, `start_time`, `end_time`, `notice`, `survey_status`, `people_amount`, `create_date`, `modify_date`) VALUES
+('696b9350-265a-11e8-af7b-b3706fea5199', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-13', '21:00', '22:00', '', 1, 1, '2018-03-13 01:03:59', '2018-03-13 01:03:59'),
+('7b32e3f0-250f-11e8-909e-0902c67500fb', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-11', '16:00', '19:00', '', 1, 2, '2018-03-11 09:35:05', '2018-03-11 09:35:05'),
+('f06b6250-2726-11e8-a79e-d9b8b1258e52', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-14', '21:00', '22:00', '', 1, 1, '2018-03-14 01:28:03', '2018-03-14 01:28:03'),
+('fabfa8d0-25d0-11e8-b933-05afa943d577', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-12', '21:00', '22:00', '', 1, 1, '2018-03-12 08:40:12', '2018-03-12 08:40:12');
 
 -- --------------------------------------------------------
 
@@ -597,7 +969,9 @@ INSERT INTO `user_report_comment` (`comment_id`, `report_id`, `user_id`, `commen
 ('b09a6740-0f41-11e8-88f0-f1364997bacb', 'a1035180-0f36-11e8-88f0-f1364997bacb', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '看你的复盘，有一种掌控全局，游刃有余的感觉，按这种成长势头，将来不得了👍', '2018-02-11 15:39:04'),
 ('3c0dedc0-1ac7-11e8-be70-af03ca4c86cc', '85695840-1ab0-11e8-a70e-bf3f0c59bfef', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '423432', '2018-02-26 07:32:44'),
 ('c96e4510-1b54-11e8-8d9f-c36c5270eff6', '337995e0-1b50-11e8-8d9f-c36c5270eff6', 'ojVEl0d9fVPIq7eUJCNJ0bHsvzPw', '', '2018-02-27 00:26:00'),
-('495a4760-1b5a-11e8-8d9f-c36c5270eff6', 'ae5bba50-1b54-11e8-8d9f-c36c5270eff6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '演讲开始前定个小目标，这点灰常赞同', '2018-02-27 01:05:22');
+('495a4760-1b5a-11e8-8d9f-c36c5270eff6', 'ae5bba50-1b54-11e8-8d9f-c36c5270eff6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '演讲开始前定个小目标，这点灰常赞同', '2018-02-27 01:05:22'),
+('0186bfb0-20f3-11e8-8e3b-89e2f3758986', '60350cb0-20bc-11e8-99c7-9b1e53c1d482', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '也许偶尔复习❤️能让我们更加珍惜感恩现在所拥有～', '2018-03-06 04:01:10'),
+('85cb81a0-2686-11e8-9447-3933e5968927', '40357370-2664-11e8-af7b-b3706fea5199', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '佩真就是懂你演讲的领头羊！', '2018-03-13 06:19:44');
 
 -- --------------------------------------------------------
 
@@ -656,9 +1030,14 @@ INSERT INTO `user_report_like` (`report_id`, `user_id`, `create_date`) VALUES
 ('c1d354e0-0f46-11e8-88f0-f1364997bacb', 'ojVEl0YfpfbCaQcAYAwf5RA3viAc', '2018-02-12 10:38:59'),
 ('6e5ade20-1a43-11e8-b790-6f78326360aa', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-02-26 12:04:54'),
 ('337995e0-1b50-11e8-8d9f-c36c5270eff6', 'ojVEl0d9fVPIq7eUJCNJ0bHsvzPw', '2018-02-27 00:25:45'),
-('ae5bba50-1b54-11e8-8d9f-c36c5270eff6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-02-27 01:05:25'),
 ('337995e0-1b50-11e8-8d9f-c36c5270eff6', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-03-01 03:24:37'),
-('ae5bba50-1b54-11e8-8d9f-c36c5270eff6', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-03-01 04:25:30');
+('ae5bba50-1b54-11e8-8d9f-c36c5270eff6', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-03-01 04:25:30'),
+('9e7386d0-20b9-11e8-99c7-9b1e53c1d482', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-03-06 04:00:12'),
+('60350cb0-20bc-11e8-99c7-9b1e53c1d482', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-03-06 04:00:14'),
+('ae5bba50-1b54-11e8-8d9f-c36c5270eff6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-03-10 09:43:40'),
+('43cccd80-2510-11e8-909e-0902c67500fb', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-03-11 14:25:49'),
+('76483210-2667-11e8-ac22-edec4423dbdd', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-03-13 06:18:35'),
+('40357370-2664-11e8-af7b-b3706fea5199', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-03-13 06:19:18');
 
 -- --------------------------------------------------------
 
@@ -2122,7 +2501,9 @@ INSERT INTO `user_study_duration` (`user_id`, `study_date`, `study_duration`, `c
 ('ojVEl0Zqvgk3xJcJy-ui8-wMkQ90', '20180211', 60, '2018-02-12 05:32:44'),
 ('ojVEl0dDlpiS7dS58LzoE--9nsRw', '20180212', 60, '2018-02-12 15:04:18'),
 ('ojVEl0dDlpiS7dS58LzoE--9nsRw', '20180224', 60, '2018-02-24 14:47:55'),
-('ojVEl0dDlpiS7dS58LzoE--9nsRw', '20180305', 60, '2018-03-05 14:23:13');
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', '20180305', 60, '2018-03-05 14:23:13'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '20180306', 25, '2018-03-06 03:31:32'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '20180310', 232, '2018-03-10 04:30:47');
 
 -- --------------------------------------------------------
 
@@ -2144,16 +2525,20 @@ CREATE TABLE `user_study_report` (
 --
 
 INSERT INTO `user_study_report` (`report_id`, `room_id`, `user_id`, `report_type`, `study_report`, `create_date`) VALUES
+('01c55470-2687-11e8-9447-3933e5968927', NULL, 'ojVEl0dDlpiS7dS58LzoE--9nsRw', NULL, '3-11【AI时代的终身学习】静妮复盘：\n继续保持方面：\n【习惯】：观点清晰，用自身故事阐述，定制小目标而不是过于挑战的目标，能帮助自己享受学习，自然养成良好习惯，养成良好习惯也是通往【终身学习】的路径之一\n【如何看待人工智能取代岗位】：通过演讲思考人工智能将为自身岗位带来的好处及挑战，更加清晰自己接下来的方向与目标。\n【终身学习的目的】：通往马斯洛需求层次的最高层次【自我实现】，不仅要终身学习，并且教就是最好的学，通过分享实践自己的人生使命，从而达到【自我实现】，现场使用【懂你演讲】的例子让观众更易理解。\n\n提高的机会：\n【习惯】：声音的多样性，加强讲低潮故事时声音的变化\n【如何看待人工智能取代岗位】更快进入链接自己的主题\n【终身学习的目的】：讲的点较多，聚焦观点更好\n\n参会感受：\n【佩真】👍积极乐观的正能量+独特新颖的见解+敢于创新的能力（要在懂你演讲举行5分钟及以上的即兴备稿😀），相信佩真在人工智能时代也能保有自己的竞争力！\n【亚奇】👍向来誉为非常有深度的亚奇同学竟然在周末出现了，让主持人惊喜哈哈！无论演讲与点评都善于抓住重点！同时具备快色总结能力，无论是工作、生活、学习都有自己一套独特的方式！\n【静妮】三个人疯狂练习了1️⃣个小时的会议，可见有多精彩！作为主持人的我深刻体会到一个好的话题的重要性！演讲给我带来最大的改变并不是演说能力的提升，而是自己思维方式的转变！', '2018-03-13 06:23:12'),
 ('05759510-0f37-11e8-88f0-f1364997bacb', NULL, 'ojVEl0Zqvgk3xJcJy-ui8-wMkQ90', NULL, '2018.2.11即兴演讲复盘—馨月\n今日目标：点评中刻意练习激励能力\n今日内容：演讲《小孩子要不要做家务》、《相亲》两个话题；点评《发红包》和《拜年》；认识了新的伙伴。\n今日所思：①《小孩子要不要做家务》演讲，欠缺对细节描述，如果故事中人物有名字会更加真实；②《相亲》演讲，注意演讲中铺垫不要太多，尽快进主题；细节描述清楚会更好。③点评前仔细聆听，找到演讲者好的地方并给与表扬，做到了表扬反馈但是欠缺鼓励\n整体思考：一段时间没有练习演讲会发现自己表达能力下降，学习这件事儿不能偷懒。', '2018-02-11 14:22:42'),
 ('071858b0-0a8e-11e8-9868-e763575df473', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.1.1佩真复盘 新年的第一天 我带着很大的兴致参加了有意义的新年第一讲 主持张静 收获了不一样的成长。\n\n2018.1.2佩真复盘 我继续来了 主持是懂你的发起人田晗 抢了四个演讲 两次点评 这是质的飞跃 我在成长 我需要坚持学习才能成长。我还可以做得更好的方面:1.自己说话太快，语速要慢一点。2.演讲的结构可以从多个方面来谈，将故事再渲染一下，不能太慌，最好将每一个演讲题目的尾给收好，今晚都没有收好尾。3.演讲是要讲给别人想听的，别人很快记住了内容这样的演讲会更有价值。做的好的方面：每天积极报名参与，每场都提前进入，需要保持下去。收获：1演讲需要从故事出发 讲究技巧 构思。2大句子：伟大来自普通。3主持人很善沟通，亲和力强。其他:1.知识严重缺乏。2逻辑结构不清晰，都需待提升。加油！本场获得了演讲与点评的双料冠军。\n\n2018.1.3佩真复盘：我爱上了懂你 继续参加 主持静妮 抢了三次演讲一次评论 我发现我可以点别人说的即兴演讲是跑题的 所以我胆子大了 我真的又在成长了。慢慢向好的方面:1自己说话太快，语速已变慢稳一些了2演讲的结构可以想到用故事了，没有之前慌了。3发现时间快到时自己知道快速收尾了，最基础的学会了对时间的把控。其他:1感谢同学们陪伴成长2感谢静妮。需要提高1.知识严重缺乏。2逻辑结构不清晰，加油！', '2018-02-05 08:02:55'),
+('0b8a87d0-20f3-11e8-8e3b-89e2f3758986', NULL, 'ojVEl0dDlpiS7dS58LzoE--9nsRw', NULL, '特别感谢大家今晚分享：\n【Annie】生病的时候，先生无微不至的关心，有创意的提醒吃药的方式让Annie感受到快乐与幸福；\nAnnie自己爱屋及乌对先生妈妈【婆婆】的爱，感觉到能让先生感受到幸福。\n【艳子】先生把家中钱权交于她，并且经常赞美她让她感受到快乐与幸福。\n【悦玉】男朋友陪伴她，说些甜言蜜语，讲笑话逗她开心。\n【佩真】先生每天1-2个电话，问候关心体贴自己让佩真感受到快乐与幸福；\n佩真认为在先生关注的事情上面为他做一些小事，比如缝一个扣子，先生会感到幸福。\n【宏烨】每天推开家门，能看到伴侣笑容相迎，一团和气，彼此之间相敬如宾，无论遇到什么挫折互相鼓励，为止幸福。\n\n相信快乐幸福，通过我们的重视与修炼可以一直延续......', '2018-03-06 04:01:27'),
 ('145c37e0-1d2a-11e8-83fa-bfce28566052', NULL, 'ojVEl0dDlpiS7dS58LzoE--9nsRw', NULL, '2018-2-2 Jenny 复盘\n演讲继续保持的地方：\nTop1：【看电视】\n1.1现在已不喜欢看电视，但是抢了题目后引申到小时候看电视剧的幸福的家庭时光\n1.2有头有尾中间有些故事细节\nTop2：【英语学习方法分享】\n2.1分享了学习工具【英语流利说】+【UU Speaker】各自优点，两者结合可以帮助我们快速提高英语口语及听力\n演讲继续提高的地方：\nTop1：【看电视】\n1.1时间管理\n1.2语速\n1.3更多的故事细节\nTop2：【英语学习方法分享】\n2.1结构化，分享优点的时候用上Firstly、secondly、Thirdly，让演讲听起来更加清晰，让听众更加记忆犹新。\n\n参会感受：\n1、懂你是一个神奇的地方，在这里🈶简单的快乐，我称之为【学习的快乐】\n能够在寒冬中穿着睡衣，裹着被子，戴着耳机，与来自上海的Megan、来自宁波的Ada、来自厦门的Finoa一起练习英语演讲，我们虽然来自不同的城市，但我们都喜欢学习成长！我们甚至会在这里与自己久违多年的朋友同频.....\n2、喜欢Fiona 演讲的理智与逻辑，喜欢Megan的勇敢与挑战，喜欢Doris的坚持，喜欢Ada的鼓励....\n3、坚持行动！坚持复盘！相信念念不忘，必有回响！', '2018-03-01 08:25:20'),
 ('307e1d60-0da0-11e8-be16-d5b125454480', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.2.9晚佩真复盘：疯狂三人练习结束后我们三人花了八分钟进行了全场复盘，清清从四个题目角度复盘，佩真从个人短板复盘，祁鼎从我和清清的复盘上再复盘提炼。短短的半小时，感谢祁鼎与清清的陪伴，感谢平台。虽然只讲了四个题目，但我需要更多的是认真聆听，多多吸收，接下来重点花时间学习点评结构。听不一定听到，听到不一定做到，做到不一定能重复自己，希望自己的演讲构架和故事可以完整的饱满展现，希望可以有更清晰思路的点评。懂你都能让我一一实现，只要坚持，坚持来，一定成长！', '2018-02-09 05:50:29'),
 ('337995e0-1b50-11e8-8d9f-c36c5270eff6', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018年2月26晚佩真复盘：经过前一晚的参与，这是春节后连续的第二场，仍然是疯狂练习，熟悉的环节熟悉的人，但题目却在不断创新中，谢谢每一位的陪伴，每一场都能见到自己达成的一些小目标，见证成长！今晚的三人疯狂练习大家不建议做投票，相信都是心中最好的自己，加油！总共五个题目，我讲了两个，在点评方面仍然在积极参与点中。做的好的方面，大家都会积极说与点，并相互鼓励与救场。不好的方面，在记时方面需要更加严格执行，今晚普遍都有超时一点的问题。自己需要改善的地方：故事的完成完整及吸引性需要练习，时间控制方面需要提升自己！加油，迎接最好的自己，相信就在不远处了！', '2018-02-26 23:53:10'),
+('40357370-2664-11e8-af7b-b3706fea5199', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.3.11晚佩真复盘：通过本次终身学习及人工智能的专场，更加熟悉了两大块的便利及生活中的重要性，更能体会到学习无处不在，智能无处不在，今晚做的好的是大家全都是超时君，但这说明了我们在不断成长中，这种成长是来懂你坚持的历练，收成良多。做的不好的方面也是超时哈，规则还是很重要，希望我们更多的是做到即飞速成长又守时完成。建议：平台可以带动大家做即兴备稿专场，试着创新，但需要更多时间自由的伙伴牵头引领，希望一直可以学习下去，坚持难能可贵，加油！', '2018-03-13 02:14:25'),
 ('41363c20-0a8d-11e8-9868-e763575df473', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2017.12.29佩真复盘，第一次扫码进入懂你平台，笑笑主持，收获成长并了解了线上懂你，喜欢。\n2017.12.31佩真复盘：第二次来 主持秀虹 抢了一次演讲一次点评 透过不同的主持人 领略了不同的线上演讲风格 自己感觉明显比第一次进步多了 比如胆量。\n2017.12.31佩真复盘：今晚参加了两场 这一场是零点的跨年演讲 主持静妮 主要是平台问题 自己没话筒 只能围观 但我真的做到了认真聆听 发现演讲不光是说重要 聆听更重要。', '2018-02-05 07:57:23'),
 ('45e85de0-0f40-11e8-88f0-f1364997bacb', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.2.11日晚佩真复盘：与静静俩人撑起了一场疯狂练习，第一次尝试两个人的相互坚持，今晚没做投票，前一次也没做投票，大家更注意的是讲的质量、架构、逻辑和故事重点了，当场讲完我们俩人有做详细的复盘，约定下次空时还一起还继续。我们重点对我们的六个演讲一一对故事的内容、演讲过程和收尾都做了详细复盘，今天年会，公司方面已处理了很多事了，但下班回来还能坚持讲，坚持参与，首先自己都很强大了，接下来继续努力，争取拉近与各大咖的距离，活到老学到老，坚持付出，收获成长！', '2018-02-11 15:28:55'),
 ('60350cb0-20bc-11e8-99c7-9b1e53c1d482', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.3.5晚伴侣激励场佩真复盘：第一次瞧到好玩的节目名被吸引，于是报名，参与了平台第一次伴侣激励话题，这比常规的玩法更创新，收获不一样的成长。演讲中，每个人对主持人抛出的同一个题目各自做一次演讲，并有人加以发表感受，所谓伴侣有自己也是另一伴，有代表男人方的也有代表女人方的，所以两个方面从不同的角度去阐述演讲。上半部分题目是如果你伴侣做了一件什么事情让你觉得很幸福，下半部分题目是你做了件什么事情让你伴侣觉得幸福。我分别参与了不同角度的演讲，先是先生每天的电话问候与体贴，再是我帮先生钉衬衫钮扣。这种话题对我现在为人妻我的身份来讲更多的是生活一幕，所以很快可以想到，说起来更多的是故事的复原与回忆，相信更多的是把自己带到当时的那段画面中，很温馨！除了可以锻炼自己还可以提升表达力，收获成长！通过小伙伴们的分享，你也会感受到不同伙伴不同的故事，但更多的是故事的共情与生活点滴的感动，真好！话题的选定会让伙伴们更加检视自己的生活及生活中角色任务的不足，时刻提醒自己换位思考，学会包容学会爱。总之，懂你有太多东西可以学可以挖，愿意留此不断学习成长！', '2018-03-05 21:30:07'),
 ('6e5ade20-1a43-11e8-b790-6f78326360aa', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018年2月25晚佩真复盘：经过春节14天长假后第一次来懂你参与学习，这14天一直在陪伴家人 ，见证孩子们的成长，体会另外一种没人干扰和不被别人打扰的生活模式，收获的是别样的体会与感悟！人生很短，生命很轻，生活很重，365天一旦工作起来，几乎没有更多的时间陪伴家人，而这14天的陪伴是换得了家人整年的陪伴与支持，感恩家人的伟大！今晚疯狂演讲总共九个题目，我讲了四个，每一个题目都尽量从自己的生活细小处开始，贴近生活，感恩生活，更多的收获我愿意分享，一步一步走过来，自己瞧到我是在一步步成长中，这便足已，离不开大家的陪伴！全新的2018我给自己订了几个目标，学习是列首的，接下来我会用空隙时间来完成自己的学习自己的成长，感恩懂你感恩生活感恩一切！希望更多的小伙伴们空时一起交流学习，共同成长！', '2018-02-25 15:49:15'),
 ('704676a0-0a8e-11e8-9868-e763575df473', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.1.7佩真复盘：主持Alva 恭喜佩真是今天晚上最佳演讲&点评双料冠军 我再一次成长了 感谢平台。我抢了两次演讲一次点评，我第一次在医院等待陪伴中参加九点档，两次演讲的时间把控逐好，未超时就是成长，演讲的内容逻辑需要改进。大家的演说与点评很受用。主持人很周到，建议总体时间可以更严谨控制！谢谢！\n\n20180110佩真复盘：今天的讨论让人醒悟，生命中也许就需要缘分到了，有人来点你，我被点了，很赞。突然感觉这个比即兴演讲发人深省，我个人喜欢，平台模拟让自己更加肯定了自己的脚步，人生需要有目标，而且要坚定自己的目标，足矣！今天是2018/1/10场 主持：静妮 我们在做在线场景实战之面试 我体验了面试内部培训师 有说自己的面试发言 真情时刻大总结我说到了自己目前的状态 包括对人生的定义 目标是关键 剩余的就是坚持 加油 职场十年 还是很有激情 小伙伴们都为我的10年如一日点赞！支持我今晚作出的选择！让我静观其变！继续发挥我的优势，享受我的快乐。\n\n2018.1.13佩真复盘：我再次来了哈 今天晚上是最佳演讲&点评双料冠军 谢谢主持人王旭洪 我抢到了一讲两点评 真情大总结我有逻辑发言 这是我最今晚最满意的地方。每天进步一小步，将来一定前进一大步 ！开口，说吧！不管结构思维有没配置好，先开口 必定收获成长。感谢平台感谢主持人感谢伙伴们一起度过的美好时光 今晚自己尝试体会去抢了两次点评，发现原来我也可以说一段长的哈 突然发现点评更注重的是聆听 接下来我需要更多的参与锻炼 努力学习 与平台相伴成长。\n\n20180115佩真复盘：四个标签：收获 感悟 心得 体现，真的很开心，原来懂你还有这么自由放松的会议 真心喜欢 整场75分钟很快过 仅管我还是不怎么会讲 但对于昨天的自己 只有我自己知道我收获了成长 这便足矣 会议中更让我重新悟到了生活在当下 自我察觉的更深层意义，谢谢龚老师 谢谢大家 接下来的会议我时间空出来就一定会来 来了一定会成长 加油 为遇到最好的自己。本场是演讲和点评的双料冠军。\n\n2018/1/17晚8点档佩真复盘：本场积极度不够高哈 主持人龚老师开场自我牺牲很赞 懂你是一个没有老师的学习平台 太好了 来懂你 是我追求自我成长的平台 它会促使我走上坡路 它会促使我们大家完成自我蜕变 加油 坚持下去一定更好。\n\n20180122佩真复盘:八个题目,小费的等你,佩真的遇见,水九齐的经历和链接,主持人的突破,唐莞家的幸福和星空, 楚瑞的互联网家,不同题目不同风格,不同的时空不同的元素,熟悉的气氛,不同的收获,我坚持学中玩,玩中学,快乐点滴成长!个人感觉讲的前提是更好的听,有空常来!伴懂你而成长!本场为lilian小组最佳演讲者，最佳即兴点评者。\n\n2018/1/27晚九点场佩真复盘：12个演讲题目，一个比一个速度快，一个比一个精彩，点评一个比一个拿的快，一个比一个准，可喜，因为大家都成长的很快，除了是胆量更是思维，懂你虽是平台，但来了就一定要讲，平台再好你不说永远在门外，所以我很开心，与这么多优秀的人为伴！第一次尝试主持人，发现临时接命的比提前准备的更能历练自己，感谢静妮，与你的相遇就是感恩！《珍惜》这个演讲让我更加感触，2018希望从身边的人做起，爱每一位爱自己的人！演说也好演讲也好，都是马拉松，都是漫长的学习过程，希望大家能向今晚的题目一样，有坚韧的意志，最美的心态与优良的状态，既然是爱好，是渴望，剩下的就是坚持，珍惜，和活在当下，认真努力在每一天！', '2018-02-05 08:05:52'),
+('76483210-2667-11e8-ac22-edec4423dbdd', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.3.12晚佩真复盘：有幸通过平台第一次接触到教练式教学，教就是最好的学，初衷希望自己通过学习提升自己外，还可以帮助到更多的人学习成长！通过线上五大咖员的分享，更加坚定了自己学习的路。后面想更多的通过教练教学让自己在决策方面更加快准狠，愿收成后可以影响到身边的很多人，在正能量的传递上，我愿意积极的去做阳光型先行者，加油！', '2018-03-13 02:37:24'),
 ('8d21b370-0a8e-11e8-9868-e763575df473', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.1.29晚静妮主持,佩真复盘,一小时间讲了十个题目 连贯紧凑 主持人亲和力强 顾全大局 记时辛苦 还会很亲和力的鼓励在线的每一位小伙伴 让大家很轻松的度过了一个很开心的夜晚 主持人会前对我们每个人来的目的进行了记录与确认 然而我克服了自己的过往 终于第一个来抢了题目 如何让学习变的有趣 用了三个标签解读 爱好坚持和巩固 现在复盘我突然发现我的构思还是及格 还需要故事点来支撑就饱满了 今晚讲3个点4个 对我自己来说 我的胆子比以前大了 以前根本没想过要点 从来主持人说点评时我就关话筒了 所以我想对自己说 我真的比昨天前天进步了 这是懂你给我的 时间的种子洒向懂你 收获必然在这 谁也拿不去 谢谢主持人高夸了我 最后给了我难得的一次真情分享 我多么希望更多的小伙伴能够一起参与进来 共同学习成长.\n\n2018年2月1日晚8.30分场 佩真复盘：懂你第一次办线上备稿演讲 我有幸接主持人静妮邀请参加了第一次线上备稿 今天正如笑笑所说 不同的是2月的第一天 三个一 意义深远。我第一次在这讲自己的新稿 谢谢田大大的鼓励 静妮说我可以去参赛 所以 对的 我决定了 我要去参加哈 重在参与 就和懂你平台一样 平台再好你不融入 永远在门外 所以我要从门外进来 谢谢这里陪我一起成长的小伙伴 接下来期待下周一的备稿 期待笑笑的线下哈 我会坚持前行 为遇到下一个美好的自己 加油！\n\n2018.2.3复盘 虽然房间只有三个人 但祁鼎说 人不在多 而在精 只要能把事情做出来就行了 哈哈 很赞成。短短的一小时讲了7个题目 效率的提升是能力的长进 在深圳的冬季多了份对北方雪的向往 照镜子让我们更加注重仪容仪表 创业需要天时地利人和 人生很长 尽情挥霍 工作是工作不能懈怠 窗外故事的温暖及情感的升华 谢谢 fiona 祁鼎的陪伴 从祁鼎身上学到了很多知识 坚持的结果 见证成长 收获成长！\n\n2018.2.4晚佩真复盘，很难得的一个周末，约好的是九点，但大家都有事情，所以九点在9点半之间采访了学长，我练了一下胆量，其实这是平台给我的，从一个不怎么说话，到我可以去采访一个人，一个大咖，我学到了很多东西，谢谢懂你！对于学长来说，这可能就是聊天，但是我也鼓足了很大的勇气！9点半开始，我们讲了四个题目，三个人很尽兴，从秀勤身上我学到了一种态度，从静妮身上我学到了一种榜样的力量，很优秀！全新的2018，我要和优秀的人为伍，坚持下来，希望可以把自己打磨成一个百花齐放的小蜜蜂哈！', '2018-02-05 08:06:40'),
 ('8e797af0-1d08-11e8-b374-c16baecafdb8', NULL, 'ojVEl0dDlpiS7dS58LzoE--9nsRw', NULL, '2018-2-24 Jenny复盘\n继续保持的地方：\n1.作为主持人坚持呼唤年后半醉半醒的小伙伴以及【懂你】新伙伴\n2.热情欢迎参会小伙伴，并送上新年祝福\n3.演讲使用了对比手法\n提高的机会：\n1.会前先让大家思考英文即兴演讲目标\n2.设定一个适合自己且清晰的英文即兴演讲目标\n3.介绍Table tipic session 时候，清晰介绍是2分钟即兴演讲，与1分钟即兴点评\n\n参会感受：\n👍【Lori】深谙精髓，英文演讲与点评都溜溜哒~黑马一匹，愿你不断超越自己.....\n👍【Charles】一篇【以终为始】的演讲用自身戒烟经历来形象解说：当你清楚了解自己想成为一个什么样的人之后开始行动，你会在路上遇见充实与幸福。\n👍【Eva】今晚胃痛坚持参会的🐻大大，就是我所认识的🐻大大，清晰自己想要，朝着目标，无论任何坎坷，永不言弃。我想这种精神是🐻大大成为两家公司的CEO的原因之一。\n👍【Kyle】I‘m sorry to hear that. but I trust everything will be getting better & better.  忙但是依然坚持学习的Kyle令人钦佩！相信Kyle 2018 在【以终为始】【要事第一】的引领下，心想事成。\n👍【Annie】久不见的英文线上会议老朋友，一个热爱学习，懂得坚持的智慧女性。\n\n今晚听到最开心的一句话是Eva🐻大大说的：“演讲治愈了我的胃痛”！\n始终坚信我们可以：\n通过演讲磨练自己的思维与表达 \n通过思考与表达澄清自己生活的目标 \n通过清晰的目标规范自己的行动 \n通过有目的的行动锤炼生活的意义与价值 \n从而体验富足而无悔的人生\n\n我走在实践的路上.....', '2018-03-01 04:25:22'),
 ('95095310-1004-11e8-a4e8-51ae2a4e9f79', NULL, 'ojVEl0dDlpiS7dS58LzoE--9nsRw', NULL, '1-12【Jenny】复盘：\n继续保持的方面：\n1主持\n1.1会中鼓励风格，永远保持积极信任的心态，2人预报名的会议最后总是满员。\n1.2.会中分享【懂你演讲刻意练习环】：目标—实践—反馈—复盘\n1.3【懂你演讲刻意练习环】做到知行合一\n2演讲\n2.1【原则】与【书本】达成刻意练习目标：只讲一个故事\n2.2细节的描绘\n2.3声音的变化\n3点评\n3.1发现演讲优势+建议/示范反馈+鼓励/表达欣赏\n\n待提升的机会：\n1主持\n1.1结束语应提前准备，加入春节元素，营造春节愉悦喜庆的氛围\n1.2激励行动时声音更加的有力\n\n2.演讲\n【原则】快速抛出观点后再讲故事，最后升华主题\n咬字更清晰\n\n3.点评\n总：总结演讲亮点\n分：展开阐述亮点+而且如果这样做，会把自己的优势发挥得更加极致\n总：再次强调亮点，表达欣赏\n\n参会感受：\n1.👍【Nancy】关于【服务】的分享，让我知道遇到了同道中人，愿以后有更多的机会交流\n2.👍【迪迪】培训师的严密逻辑不仅在于演讲，在点评中也发挥得道！有范！复盘+行动计划，知行合一的践行者！向迪迪学习！\n3.👍【九哥】老友！一段时间不见，依然给我们带来他那个时代独有的温暖及味道！从九哥的演讲中体验他对于生命的热爱及感悟！\n4.👍【Jasson】从Jasson给大家出的演讲题目中，了解到他热爱思考价值、意义\n5.👍【Aaron】最后真情时刻的激励人心让我印象非常深刻\n\n下一步行动目标：\n2018年2月28日完成12次懂你演讲线上主持+演讲+点评+复盘', '2018-02-12 14:54:10'),
@@ -2195,7 +2580,8 @@ CREATE TABLE `user_target` (
 
 INSERT INTO `user_target` (`target_id`, `user_id`, `target_status`, `target_content`, `duration`, `end_date`, `finish_date`, `is_supervised`, `supervise_user`, `create_date`, `modify_date`) VALUES
 ('96432ff0-1af7-11e8-8d9f-c36c5270eff6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 2, '312312', 23, '2018-03-26', '2018-02-27 02:09:11', 1, NULL, '2018-02-27 02:09:10', '2018-02-27 02:09:10'),
-('9c529020-1b6a-11e8-9482-fbdaaa57ffe7', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, '4532frefe', 34, '2018-04-27', NULL, 1, NULL, '2018-02-27 03:02:13', '2018-02-27 03:02:13');
+('9c529020-1b6a-11e8-9482-fbdaaa57ffe7', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 2, '4532frefe', 34, '2018-04-27', '2018-03-10 09:32:12', 1, NULL, '2018-03-10 09:32:12', '2018-03-10 09:32:12'),
+('43cccd80-2510-11e8-909e-0902c67500fb', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 1, 'abc', 5, '2018-04-11', NULL, 1, NULL, '2018-03-11 09:40:42', '2018-03-11 09:40:42');
 
 --
 -- Indexes for dumped tables
@@ -2208,6 +2594,13 @@ ALTER TABLE `cSessionInfo`
   ADD PRIMARY KEY (`open_id`),
   ADD KEY `openid` (`open_id`) USING BTREE,
   ADD KEY `skey` (`skey`) USING BTREE;
+
+--
+-- Indexes for table `impromptu_dialog`
+--
+ALTER TABLE `impromptu_dialog`
+  ADD PRIMARY KEY (`dialog_id`),
+  ADD KEY `room_id` (`room_id`);
 
 --
 -- Indexes for table `impromptu_survey`
