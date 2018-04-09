@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: 2018-03-14 09:19:50
+-- Generation Time: 2018-04-09 09:31:46
 -- 服务器版本： 5.7.18
 -- PHP Version: 5.6.30
 
@@ -106,16 +106,16 @@ CREATE TABLE `cSessionInfo` (
 INSERT INTO `cSessionInfo` (`open_id`, `uuid`, `skey`, `create_time`, `last_visit_time`, `session_key`, `user_info`) VALUES
 ('ojVEl0bfkCyTSJmoRrNBJOyy0JJg', 'fd400b67-1f32-4f27-9478-2a41a8011807', 'e9de3f12f175d65659daeb1b2310800d1b97ddb6', '2018-02-10 14:31:50', '2018-02-10 14:31:50', 'peGoEz4sbpQrSBkrkNxODw==', '{\"openId\":\"ojVEl0bfkCyTSJmoRrNBJOyy0JJg\",\"nickName\":\"嘉察协噶·王宝林\",\"gender\":1,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/grAYKRkNiaG0Fv7yPKlIdPShiaibNxdQNkpUe7bupiaHRxjyZV3Qau65DuqvtepjQG62YiaTdCJxboXBAYmsM7pQuqA/0\",\"watermark\":{\"timestamp\":1518273109,\"appid\":\"wxef60ee565b6fa65f\"}}'),
 ('ojVEl0d9fVPIq7eUJCNJ0bHsvzPw', 'f42e87a4-c457-44d4-8ff5-54eb6f5383bf', '9b44ebdc8e39e375926cf53af8af632ef5a8158e', '2018-02-27 00:18:05', '2018-02-27 00:18:05', 'FTqn+An+FrDSEeIK8qPLYw==', '{\"openId\":\"ojVEl0d9fVPIq7eUJCNJ0bHsvzPw\",\"nickName\":\"静\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/FyTISiaDoWCn2jKbCHXBPiaAuV63C8mEMlHgvhOSP8uZVsiaK3aYcPU8DTUdIMkn703cgZ3u9nbvJpuGuwicibjjzdA/0\",\"watermark\":{\"timestamp\":1519690683,\"appid\":\"wxef60ee565b6fa65f\"}}'),
-('ojVEl0dDlpiS7dS58LzoE--9nsRw', '46f0415d-1122-4cad-8565-dccdc53a04ae', 'b113f49f47062da4ab20eaa4ab57d94e4eb31da4', '2018-03-11 09:40:42', '2018-03-11 09:40:42', 'z7yDi3BC8C/MHHM2uiYxqw==', '{\"openId\":\"ojVEl0dDlpiS7dS58LzoE--9nsRw\",\"nickName\":\"Jenny Liu\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"\",\"province\":\"\",\"country\":\"\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/yWmQSjN8SbA6LpRqlPKQicX8ib2LPhWHm2ia6ibh65g7ttZX5d8rHVricgicGNNTHW7EZFjiayqhH5qtFr2TPbdYx5eNw/0\",\"watermark\":{\"timestamp\":1520761240,\"appid\":\"wxef60ee565b6fa65f\"}}'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', '289c3587-f313-4437-b6bc-6ba6e55c67c1', '4ac6c43f389beb083b35c6ecc8f24541714d5bcc', '2018-04-04 10:59:10', '2018-04-04 10:59:10', '0B9zzXNq+srJYLqfVvuHrA==', '{\"openId\":\"ojVEl0dDlpiS7dS58LzoE--9nsRw\",\"nickName\":\"Jenny Liu\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"\",\"province\":\"\",\"country\":\"\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/yWmQSjN8SbA6LpRqlPKQicX8ib2LPhWHm2ia6ibh65g7ttZX5d8rHVricgicGNNTHW7EZFFx0Syt6l4XicAWpHrfIGPibw/0\",\"watermark\":{\"timestamp\":1522839548,\"appid\":\"wxef60ee565b6fa65f\"}}'),
 ('ojVEl0defF0TvYrD88uiKh-Z9dY8', '04b790f0-3927-432a-bf01-6fe804296d20', '0b32860148aaa3ec810a572328c4d0847531c406', '2018-03-13 06:47:43', '2018-03-13 06:47:43', 'wLS0IXvDrpYMxF4ivpuaqQ==', '{\"openId\":\"ojVEl0defF0TvYrD88uiKh-Z9dY8\",\"nickName\":\"亚齐\",\"gender\":1,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/YsskM9MLqQw8dwzWUyUXOSKKQq2sRJDA9otfZAQHo2pvkqNoyM7DeBjNyzxJEqzJKxs3W787Bs9ShCFQkCrY4w/0\",\"watermark\":{\"timestamp\":1520923662,\"appid\":\"wxef60ee565b6fa65f\"}}'),
 ('ojVEl0QULKjlm2388VyYBzse1GUI', '30447058-a21e-4c30-9ad6-b4c9e17c0727', 'a5740f5274538d48f6ebf466f00750e494d64d47', '2018-01-29 03:00:10', '2018-01-29 03:00:10', 'DK1QYxKAjUQazXwKN4C2DQ==', '{\"openId\":\"ojVEl0QULKjlm2388VyYBzse1GUI\",\"nickName\":\"🌙笑笑\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Chaoyang\",\"province\":\"Beijing\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/4NOsUrdClqPwIFibico28BhgFpZRKwKPiaSIITqpKNzebVhlT2UvaUua6xCkH5oqcUGRRhjQc3YCJ3A4pREu3zf6A/0\",\"watermark\":{\"timestamp\":1517194807,\"appid\":\"wxef60ee565b6fa65f\"}}'),
 ('ojVEl0RIXu-HAyC8ZvYvzx5DmBE0', 'df245f7b-5936-4dcf-9e97-3c5b46e80ff0', 'b1f42d9143c752f67e44ab13cea845e6c4b2eccf', '2018-02-13 09:04:11', '2018-02-13 09:04:11', 'YEiGIZnfJM+l6Aabsy181A==', '{\"openId\":\"ojVEl0RIXu-HAyC8ZvYvzx5DmBE0\",\"nickName\":\"阎小菁(中国太平)\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/gUiaHhHdWMGotvxucs5aV2qOgJrZZT6Jq8gHLZkazqz5APEibOHAOrqiaIIgdV1wcsHAmUVibkoXXxS0iam9hbegwtw/0\",\"watermark\":{\"timestamp\":1518512649,\"appid\":\"wxef60ee565b6fa65f\"}}'),
 ('ojVEl0Sn5rtJeGut5LQRGiEou_Vs', '7f7c3fe6-52bc-495a-b5e7-92d3855651a3', 'bec8f69c78dd575e13bff79284ae69bc9399e766', '2018-02-10 06:58:23', '2018-02-10 06:58:23', 'OH4w3o3Z/PnradquK3Gasg==', '{\"openId\":\"ojVEl0Sn5rtJeGut5LQRGiEou_Vs\",\"nickName\":\"honeyrui\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Harbin\",\"province\":\"Heilongjiang\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/ve8CgVv7RMogdrLVAnv7rIIdc5d6IxfGMndI3wHKw8eib6hyfOzTv96iazjwk3Q0iaYUicm7O9sXVliaiawaEeLibzXrg/0\",\"watermark\":{\"timestamp\":1518245902,\"appid\":\"wxef60ee565b6fa65f\"}}'),
 ('ojVEl0VwRNF4fFqcXMX4XRHh8CKo', 'ca7bef72-c842-4efc-9073-d741dea0e18d', '69df2b263b7ae6972fb9087155f074a87deb27db', '2018-03-08 13:42:44', '2018-03-08 13:42:44', 'hNGFkP8URbDBXDaeVBVKow==', '{\"openId\":\"ojVEl0VwRNF4fFqcXMX4XRHh8CKo\",\"nickName\":\"Lindy\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/cfX0YKK0ps8W8NWFndwbAsm7oUna6shEyrvkib1PR1xJyfqpuYfI4jRXL07JrlCKLWyRVQJicvRJDnvWVic0Erguw/0\",\"watermark\":{\"timestamp\":1520516562,\"appid\":\"wxef60ee565b6fa65f\"}}'),
 ('ojVEl0W20SioIXdyo2n5Gqdtf-s4', '2ee93a15-43ee-4349-a78f-b5f72f194a12', '68159c2cd2849007bb81904f950014f5bd43fe12', '2018-03-02 11:39:44', '2018-03-02 11:39:44', 'CsS+tDEvw4ouLjfPf99Bdw==', '{\"openId\":\"ojVEl0W20SioIXdyo2n5Gqdtf-s4\",\"nickName\":\"Charles🏊姜羡美\",\"gender\":1,\"language\":\"en\",\"city\":\"Jiamusi\",\"province\":\"Heilongjiang\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/luGOSzjhPgmIudYTXRJz7Gvf9LbJxThUaSFGcUreNGpMZp9DibZdicRDRxUmdktn2loDNJF4JaarhPaVphSENFxQ/0\",\"watermark\":{\"timestamp\":1519990783,\"appid\":\"wxef60ee565b6fa65f\"}}'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', '17a74c92-4fdc-43ba-b4d8-9dc87509955f', '3c3b3dd6f0869c71a833e9835c7e378d380c783a', '2018-03-14 09:15:38', '2018-03-14 09:15:38', 'iZBo8WjglyJViFIenmCdhg==', '{\"openId\":\"ojVEl0XuK00Wthcppktt5rVu-9DA\",\"nickName\":\"田晗\",\"gender\":1,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/td7fs4gViaTbiapawxWiaxZKyJISqvcvNfjtphNtYhRXcZDqT9U6l0fatjq8waEL74CSIsyVOWwXpIx3utaj9N28Q/0\",\"watermark\":{\"timestamp\":1521018937,\"appid\":\"wxef60ee565b6fa65f\"}}'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'ae3f2512-8eba-4811-97b7-0d183f55dbf6', 'dfbf72535b1b57b1d2aacfae6a99ae77fa91d32a', '2018-04-09 08:57:00', '2018-04-09 08:57:00', 'u4Px7W0wGIEt+v241FVr6g==', '{\"openId\":\"ojVEl0XuK00Wthcppktt5rVu-9DA\",\"nickName\":\"田晗\",\"gender\":1,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/td7fs4gViaTbiapawxWiaxZKyJISqvcvNfjtphNtYhRXcZDqT9U6l0fatjq8waEL74CSIsyVOWwXpIx3utaj9N28Q/0\",\"watermark\":{\"timestamp\":1523264219,\"appid\":\"wxef60ee565b6fa65f\"}}'),
 ('ojVEl0YfpfbCaQcAYAwf5RA3viAc', '7532130e-f487-4f20-8937-6d42f32a6b84', '9e97e73cd264470a821ecbff1634e7ec5505649d', '2018-02-26 15:52:06', '2018-02-26 15:52:06', 'FQ39tWPbnjXN96t4MfuO/w==', '{\"openId\":\"ojVEl0YfpfbCaQcAYAwf5RA3viAc\",\"nickName\":\"秀虹\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83eqLWPo99KSAhua9vQXicdHWDkVoT2gJEYqccVaaSBwsfNeRZicogLsFm7miar4E26IzibUIkGQKzfalJw/0\",\"watermark\":{\"timestamp\":1519660321,\"appid\":\"wxef60ee565b6fa65f\"}}'),
-('ojVEl0YRMHmDFi07bbijq_2ds2kQ', '062f0513-29d7-4ce8-8d41-186e71462b18', 'aa03ba0c63b5c3cec14d59b704155cd77b16195c', '2018-03-13 02:14:06', '2018-03-13 02:14:06', '5ABCkYRFGJBjTx/5X4Agtg==', '{\"openId\":\"ojVEl0YRMHmDFi07bbijq_2ds2kQ\",\"nickName\":\"佩真\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/6cXKmTpGb0jvpBDWDNSicfqht26ju3Emial90lqjKjHflnqicSnwsjWIe1LSEztRiaG0iafxLG8h6qeO9ClD7I1SC7A/0\",\"watermark\":{\"timestamp\":1520907244,\"appid\":\"wxef60ee565b6fa65f\"}}'),
+('ojVEl0YRMHmDFi07bbijq_2ds2kQ', 'adf66f88-f547-4c0a-9c47-4c4132431269', '12dc9a546e9fa13928fa822740a06e27c75ef6d8', '2018-04-02 08:59:50', '2018-04-02 08:59:50', '1ETHxlqXpRRUy+WsllhXWw==', '{\"openId\":\"ojVEl0YRMHmDFi07bbijq_2ds2kQ\",\"nickName\":\"佩真\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/6cXKmTpGb0jvpBDWDNSicfqht26ju3Emial90lqjKjHflnqicSnwsjWIe1LSEztRiaG0iafxLG8h6qeO9ClD7I1SC7A/0\",\"watermark\":{\"timestamp\":1522659587,\"appid\":\"wxef60ee565b6fa65f\"}}'),
 ('ojVEl0Zqvgk3xJcJy-ui8-wMkQ90', '9a3f57c8-208f-4e3a-ab0e-8a41566e8a71', '2cc8c834c5bc5253857696561e6e3944e7b1f9e3', '2018-03-08 13:36:18', '2018-03-08 13:36:18', 'xrzsLUMGUcWzyAtRQIv2YQ==', '{\"openId\":\"ojVEl0Zqvgk3xJcJy-ui8-wMkQ90\",\"nickName\":\"馨月\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKAvnBlxtIfFqEnHIicicuwCy0yULt4JFaPuLRDqWLpc1VO7pmibp62Lq19C1vXDkkQClKvmib0ohDaAQ/0\",\"watermark\":{\"timestamp\":1520516176,\"appid\":\"wxef60ee565b6fa65f\"}}');
 
 -- --------------------------------------------------------
@@ -126,9 +126,17 @@ INSERT INTO `cSessionInfo` (`open_id`, `uuid`, `skey`, `create_time`, `last_visi
 
 CREATE TABLE `impromptu_audio` (
   `audio_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '录音ID',
-  `audio_name` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '演讲标题',
+  `audio_type` int(5) NOT NULL DEFAULT '1' COMMENT '音频类型(1,演讲 2,点评)',
+  `audio_status` int(5) NOT NULL DEFAULT '1' COMMENT '音频状态(1,未完成;2,完成)',
+  `audio_name` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT '演讲标题',
   `user_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '用户ID',
-  `room_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '房间ID',
+  `room_id` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT '房间ID',
+  `audio_text` varchar(8000) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT '演讲稿',
+  `time_duration` int(10) DEFAULT NULL COMMENT '音频时长(单位:秒)',
+  `like_amount` int(10) DEFAULT '0' COMMENT '点赞次数',
+  `view_amount` int(10) NOT NULL DEFAULT '0' COMMENT '播放次数',
+  `comment_amount` int(5) NOT NULL DEFAULT '0' COMMENT '点评次数',
+  `relate_audio` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT '关联音频',
   `create_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='演讲录音表';
 
@@ -136,12 +144,64 @@ CREATE TABLE `impromptu_audio` (
 -- 转存表中的数据 `impromptu_audio`
 --
 
-INSERT INTO `impromptu_audio` (`audio_id`, `audio_name`, `user_id`, `room_id`, `create_date`) VALUES
-('6ac8da80-2738-11e8-841f-dda5ab3761d3', '2018-3-14 11:33:9', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'f06b6250-2726-11e8-a79e-d9b8b1258e52', '2018-03-14 06:28:05'),
-('b05c4910-2738-11e8-841f-dda5ab3761d3', '2018-3-14 11:35:6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'f06b6250-2726-11e8-a79e-d9b8b1258e52', '2018-03-14 06:28:05'),
-('d1ab0ca0-2738-11e8-841f-dda5ab3761d3', '2018-3-14 11:36:2', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'f06b6250-2726-11e8-a79e-d9b8b1258e52', '2018-03-14 06:28:05'),
-('0a63ec60-2739-11e8-841f-dda5ab3761d3', '2018-3-14 11:37:37', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'f06b6250-2726-11e8-a79e-d9b8b1258e52', '2018-03-14 06:28:05'),
-('e47be640-2767-11e8-9860-95cf7d03d1b1', '随意', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'f06b6250-2726-11e8-a79e-d9b8b1258e52', '2018-03-14 09:13:00');
+INSERT INTO `impromptu_audio` (`audio_id`, `audio_type`, `audio_status`, `audio_name`, `user_id`, `room_id`, `audio_text`, `time_duration`, `like_amount`, `view_amount`, `comment_amount`, `relate_audio`, `create_date`) VALUES
+('071d6790-3afb-11e8-8ae7-e3b72cb99681', 1, 2, '2018-04-08 15:04', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '513ec8b0-3ab9-11e8-afec-25ae2f1c7332', NULL, 8, 0, 0, 0, NULL, '2018-04-08 07:04:09'),
+('0c4106a0-3b0a-11e8-be6e-d9567b27b692', 1, 2, '', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 2, 0, 0, 0, NULL, '2018-04-08 08:51:39'),
+('138c1c00-3336-11e8-ac77-370f46746fbd', 1, 2, NULL, 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 2, 0, 0, 0, NULL, '2018-03-29 09:46:38'),
+('15010460-3318-11e8-ab0d-97875e4a8def', 1, 2, NULL, 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 3, 0, 0, 0, NULL, '2018-03-29 06:12:56'),
+('244e4e80-3716-11e8-be3f-bbd3cf7087b6', 1, 2, NULL, 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 2, 0, 1, 0, NULL, '2018-04-03 08:08:07'),
+('33d95240-332f-11e8-b64f-87f5333b19cf', 1, 2, NULL, 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 3, 1, 1, 1, NULL, '2018-03-29 08:57:47'),
+('4ff75990-332f-11e8-b64f-87f5333b19cf', 1, 2, NULL, 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 2, 0, 0, 0, NULL, '2018-03-29 08:58:17'),
+('53f25a00-3716-11e8-be3f-bbd3cf7087b6', 1, 2, NULL, 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 2, 0, 0, 0, NULL, '2018-04-03 08:09:27'),
+('58d74110-33b1-11e8-a7a2-e3d7d5e2b6c6', 1, 2, NULL, 'ojVEl0dDlpiS7dS58LzoE--9nsRw', NULL, NULL, 13, 0, 4, 0, NULL, '2018-03-30 00:29:02'),
+('5fd6fbe0-33fc-11e8-90f4-8549a78e8765', 2, 1, '', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 3, 0, 0, 0, '92bbb010-33d3-11e8-aea0-c9980ad57f39', '2018-03-30 09:26:48'),
+('600aef50-335b-11e8-b9ca-af440413b383', 1, 2, NULL, 'ojVEl0dDlpiS7dS58LzoE--9nsRw', NULL, NULL, 3, 0, 0, 0, NULL, '2018-03-29 14:13:40'),
+('7bc92960-3319-11e8-b17c-e1db6997cf18', 1, 2, NULL, 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 3, 0, 0, 0, NULL, '2018-03-29 06:22:19'),
+('83fec8b0-33ff-11e8-90f4-8549a78e8765', 2, 1, '', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 2, 0, 0, 0, '33d95240-332f-11e8-b64f-87f5333b19cf', '2018-03-30 09:48:38'),
+('84cf8610-3316-11e8-ab0d-97875e4a8def', 1, 2, NULL, 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 3, 0, 0, 0, NULL, '2018-03-29 06:02:35'),
+('87f12780-330d-11e8-ba2e-2da542dc63d6', 1, 2, NULL, 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 5, 0, 0, 0, NULL, '2018-03-29 04:56:26'),
+('92bbb010-33d3-11e8-aea0-c9980ad57f39', 1, 2, NULL, 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 4, 9, 11, 1, NULL, '2018-03-30 04:34:03'),
+('a5d884a0-33f3-11e8-bb3f-075a925c6744', 1, 2, '2018-03-30 16:23', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '88cbb080-33f3-11e8-9d8f-579df1b78f4e', NULL, 5, 1, 0, 1, NULL, '2018-03-30 08:23:39'),
+('ba70a6a0-3afa-11e8-8ae7-e3b72cb99681', 1, 1, '2018-04-08 15:01', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '513ec8b0-3ab9-11e8-afec-25ae2f1c7332', NULL, 0, 0, 0, 0, NULL, '2018-04-08 07:03:49'),
+('c316a1f0-33f3-11e8-bb3f-075a925c6744', 2, 2, '2018-03-30 16:24', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '88cbb080-33f3-11e8-9d8f-579df1b78f4e', NULL, 4, 0, 2, 0, 'a5d884a0-33f3-11e8-bb3f-075a925c6744', '2018-03-30 08:24:28'),
+('c681ee70-3359-11e8-b9ca-af440413b383', 1, 2, NULL, 'ojVEl0dDlpiS7dS58LzoE--9nsRw', NULL, NULL, 8, 0, 0, 0, NULL, '2018-03-29 14:02:11'),
+('d5018f00-3ade-11e8-b32b-cb16eef65728', 1, 2, NULL, 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 3, 0, 0, 0, NULL, '2018-04-08 03:42:28'),
+('d8f09f50-3874-11e8-8393-5fd47f3f7061', 1, 2, NULL, 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 3, 0, 0, 0, NULL, '2018-04-05 01:58:34'),
+('ed132740-3b09-11e8-be6e-d9567b27b692', 1, 2, '', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 3, 0, 1, 0, NULL, '2018-04-08 08:50:49'),
+('eeb917e0-332e-11e8-b64f-87f5333b19cf', 1, 2, NULL, 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 4, 0, 6, 0, NULL, '2018-03-29 08:55:36'),
+('f2249ef0-37d8-11e8-bab3-439605889ac1', 1, 2, NULL, 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 3, 0, 0, 0, NULL, '2018-04-04 07:22:35');
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `impromptu_audio_like`
+--
+
+CREATE TABLE `impromptu_audio_like` (
+  `audio_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '音频ID',
+  `user_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '点赞用户ID',
+  `create_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- 转存表中的数据 `impromptu_audio_like`
+--
+
+INSERT INTO `impromptu_audio_like` (`audio_id`, `user_id`, `create_date`) VALUES
+('e28eaf50-2c14-11e8-91de-f7080406c746', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-03-20 08:01:27'),
+('e28eaf50-2c14-11e8-91de-f7080406c746', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-03-20 08:01:57'),
+('e28eaf50-2c14-11e8-91de-f7080406c746', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-03-20 08:02:15'),
+('e28eaf50-2c14-11e8-91de-f7080406c746', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-03-20 08:02:29'),
+('a00c90b0-2c1a-11e8-b60e-c96cb7db74e6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-03-20 08:42:31'),
+('a00c90b0-2c1a-11e8-b60e-c96cb7db74e6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-03-20 08:42:32'),
+('a00c90b0-2c1a-11e8-b60e-c96cb7db74e6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-03-20 08:42:34'),
+('a00c90b0-2c1a-11e8-b60e-c96cb7db74e6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-03-20 08:42:34'),
+('a00c90b0-2c1a-11e8-b60e-c96cb7db74e6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-03-20 08:42:34'),
+('ef2316b0-2cbf-11e8-aaad-b14a08eb0823', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-03-21 04:26:00'),
+('484d0060-2d11-11e8-9210-018f12ba9b51', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-03-21 14:08:15'),
+('33d95240-332f-11e8-b64f-87f5333b19cf', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-03-30 09:48:21'),
+('92bbb010-33d3-11e8-aea0-c9980ad57f39', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-03-30 09:50:30'),
+('92bbb010-33d3-11e8-aea0-c9980ad57f39', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-03-30 12:18:51');
 
 -- --------------------------------------------------------
 
@@ -278,6 +338,7 @@ INSERT INTO `impromptu_dialog` (`dialog_id`, `room_id`, `user_id`, `comment`, `c
 ('639b6a60-2347-11e8-995d-2d250251ea5f', '03060620-2337-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', '2018-03-09 03:10:15'),
 ('63ed4600-20f9-11e8-8e3b-89e2f3758986', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '本文从代码角度和宏观角度简单阐述了微信小程序在前端领域的一些内容和影响,希望能够帮助那些不了解微信小程序的开发者很快入门并认识这一新的技术', '2018-03-06 04:46:53'),
 ('645334d0-229b-11e8-ba95-b3701ba81d59', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '好端端的', '2018-03-08 06:39:03'),
+('6717cb90-2908-11e8-96ab-176e237e8133', 'd2070c00-28bc-11e8-a9ed-e3638553b0b5', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '哈哈', '2018-03-16 10:54:30'),
 ('67a47b50-229e-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '少男少女', '2018-03-08 07:00:37'),
 ('6b27d4d0-2121-11e8-a96c-6defe2e13235', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'dfsfdsfsd\nfsdfsd', '2018-03-06 09:33:25'),
 ('6bb268c0-20f9-11e8-8e3b-89e2f3758986', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '仅以一个前端开发人员的角度看微信小程序 看了几天的小程序(当然也包括了上手...模块化:个人认为微信的模块化只是针对js语言,至于把写好的模块封', '2018-03-06 04:47:06'),
@@ -325,6 +386,7 @@ INSERT INTO `impromptu_dialog` (`dialog_id`, `room_id`, `user_id`, `comment`, `c
 ('8582cc10-22a5-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '7979', '2018-03-08 07:51:33'),
 ('863489c0-21fe-11e8-90d2-9bdd4f81b660', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '是不是难受', '2018-03-07 11:56:09'),
 ('864e5230-2120-11e8-a96c-6defe2e13235', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '睡吧睡吧睡吧你', '2018-03-06 09:27:01'),
+('87254a80-2821-11e8-b792-63e1b68d20ee', '28153440-27f1-11e8-aeea-4d2ec9e6f8d6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '风风光光', '2018-03-15 07:21:50'),
 ('873962a0-22da-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0d9fVPIq7eUJCNJ0bHsvzPw', '', '2018-03-08 14:11:00'),
 ('87a9ed50-219e-11e8-a96c-6defe2e13235', '7efdc5f0-219e-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '凡夫俗子的', '2018-03-07 00:28:59'),
 ('88345770-2369-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '你那边有电话响了', '2018-03-09 07:14:39'),
@@ -340,27 +402,33 @@ INSERT INTO `impromptu_dialog` (`dialog_id`, `room_id`, `user_id`, `comment`, `c
 ('8df13070-20df-11e8-9ad8-1135e2792e48', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '42342', '2018-03-06 01:41:56'),
 ('8f353510-2343-11e8-995d-2d250251ea5f', '03060620-2337-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', '2018-03-09 02:42:50'),
 ('9058d940-235e-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '我要做一个讲话的提示', '2018-03-09 05:56:09'),
+('907be2b0-2821-11e8-b792-63e1b68d20ee', '28153440-27f1-11e8-aeea-4d2ec9e6f8d6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '染发效果', '2018-03-15 07:22:05'),
 ('90ae1530-219d-11e8-a96c-6defe2e13235', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '4231324123', '2018-03-07 00:22:05'),
 ('919dfe00-219e-11e8-a96c-6defe2e13235', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '大家就结婚', '2018-03-07 00:29:16'),
 ('91c37be0-2355-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '你在吗\n', '2018-03-09 04:51:45'),
+('92af8b90-2821-11e8-b792-63e1b68d20ee', '28153440-27f1-11e8-aeea-4d2ec9e6f8d6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '俄吉德津科', '2018-03-15 07:22:09'),
 ('92fa0010-2355-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '', '2018-03-09 04:51:47'),
 ('93804dc0-21fa-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '是的吗？', '2018-03-07 11:27:53'),
 ('9455f210-219e-11e8-a96c-6defe2e13235', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '觉得', '2018-03-07 00:29:21'),
 ('9478aed0-236b-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '👌', '2018-03-09 07:29:19'),
 ('947d1ab0-22b2-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '看到的你都能懂', '2018-03-08 09:25:02'),
 ('94b6b420-2369-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '你那边好多声音', '2018-03-09 07:15:00'),
+('94cf8560-2821-11e8-b792-63e1b68d20ee', '28153440-27f1-11e8-aeea-4d2ec9e6f8d6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '下班几点开始的呢', '2018-03-15 07:22:13'),
 ('94d5ed50-21e7-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '是世界上就是', '2018-03-07 09:11:55'),
 ('950095d0-22a2-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '上课上课上课', '2018-03-08 07:30:31'),
 ('956f0ae0-22a9-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '简单的介绍计算机', '2018-03-08 08:20:38'),
 ('96db04e0-22d3-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0W20SioIXdyo2n5Gqdtf-s4', '我可以听到你', '2018-03-08 13:21:19'),
 ('973619d0-22aa-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '删掉', '2018-03-08 08:27:51'),
 ('97385180-219e-11e8-a96c-6defe2e13235', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'ufcss', '2018-03-07 00:29:26'),
+('97807490-2821-11e8-b792-63e1b68d20ee', '28153440-27f1-11e8-aeea-4d2ec9e6f8d6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '不行就是今生今世', '2018-03-15 07:22:17'),
 ('98aeea20-21d9-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'tttttttt', '2018-03-07 07:31:48'),
 ('999bf600-2349-11e8-875b-55baa56f5e4c', '03060620-2337-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '莪方法', '2018-03-09 03:26:05'),
 ('9a49bc20-21de-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '3333333', '2018-03-07 08:07:38'),
+('9a6bada0-2821-11e8-b792-63e1b68d20ee', '28153440-27f1-11e8-aeea-4d2ec9e6f8d6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '等待你的加拿大', '2018-03-15 07:22:22'),
 ('9bb0b010-21e7-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '司法改革', '2018-03-07 09:12:06'),
 ('9c732450-2369-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '在讨论表格', '2018-03-09 07:15:13'),
 ('9c8cf840-2345-11e8-995d-2d250251ea5f', '03060620-2337-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', '2018-03-09 02:57:32'),
+('9ce64a90-2821-11e8-b792-63e1b68d20ee', '28153440-27f1-11e8-aeea-4d2ec9e6f8d6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '并点击打开电脑上', '2018-03-15 07:22:26'),
 ('9db22b60-21a5-11e8-8ea7-6f1e4870f777', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '12', '2018-03-07 01:19:43'),
 ('9e92e750-237a-11e8-9cd7-2789555cef61', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '现在OK不', '2018-03-09 09:16:58'),
 ('9f81ce40-2345-11e8-995d-2d250251ea5f', '03060620-2337-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '否定的', '2018-03-09 02:57:37'),
@@ -397,6 +465,7 @@ INSERT INTO `impromptu_dialog` (`dialog_id`, `room_id`, `user_id`, `comment`, `c
 ('b397f630-22d1-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '我们', '2018-03-08 13:07:49'),
 ('b519f790-22ab-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '点击点击点击', '2018-03-08 08:35:50'),
 ('b5f22de0-2355-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '🙆🙆🙆', '2018-03-09 04:52:46'),
+('b5f5c660-28f2-11e8-8ffd-ffb6a7f9070d', 'd2070c00-28bc-11e8-a9ed-e3638553b0b5', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '丰富的', '2018-03-16 08:19:13'),
 ('b6546390-2380-11e8-9cd7-2789555cef61', '8e395c30-2380-11e8-9cd7-2789555cef61', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '发发发地方', '2018-03-09 10:00:35'),
 ('b6cd1b40-22aa-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '开店大吉等你', '2018-03-08 08:28:44'),
 ('b7811fb0-21ff-11e8-90d2-9bdd4f81b660', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '圣诞节', '2018-03-07 12:04:41'),
@@ -457,6 +526,7 @@ INSERT INTO `impromptu_dialog` (`dialog_id`, `room_id`, `user_id`, `comment`, `c
 ('d59627a0-2355-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '测好了记得叫我出来', '2018-03-09 04:53:39'),
 ('d62ff0a0-2126-11e8-a96c-6defe2e13235', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'fasfas', '2018-03-06 10:12:12'),
 ('d69af950-21e8-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '下了班回家后', '2018-03-07 09:20:55'),
+('d7e8c5f0-2de4-11e8-9326-49f6f4c4697d', '0aeb32c0-2da5-11e8-b4dd-6dcc09d40db6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '你的', '2018-03-22 15:22:33'),
 ('d7f00fe0-22d6-11e8-995d-2d250251ea5f', '01f143c0-22d4-11e8-995d-2d250251ea5f', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '好\n\n', '2018-03-08 13:44:37'),
 ('d90f5e00-2293-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '是你上辈子吧', '2018-03-08 05:45:03'),
 ('daabbbb0-219d-11e8-a96c-6defe2e13235', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '421\nfadsfad', '2018-03-07 00:24:09'),
@@ -489,7 +559,8 @@ INSERT INTO `impromptu_dialog` (`dialog_id`, `room_id`, `user_id`, `comment`, `c
 ('f454d780-2202-11e8-90d2-9bdd4f81b660', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '大喊大叫打开', '2018-03-07 12:27:51'),
 ('f56b5990-219f-11e8-a96c-6defe2e13235', 'f0df8fe0-219f-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'gsdgsdf', '2018-03-07 00:39:13'),
 ('f6142ef0-22ab-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '饿了么额', '2018-03-08 08:37:39'),
-('f73c4620-22a9-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '第九十九是你', '2018-03-08 08:23:22'),
+('f73c4620-22a9-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '第九十九是你', '2018-03-08 08:23:22');
+INSERT INTO `impromptu_dialog` (`dialog_id`, `room_id`, `user_id`, `comment`, `create_date`) VALUES
 ('f82b5870-20e5-11e8-8e3b-89e2f3758986', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '42332rr发送颠覆速度发送颠覆速度非法所得发送端发送颠覆42342342342342342332rr发送颠覆速度发送颠覆速度非法所得发送端发送颠覆423423423423423', '2018-03-06 02:27:51'),
 ('f98d28c0-219d-11e8-a96c-6defe2e13235', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '是的方法', '2018-03-07 00:25:01'),
 ('f9991320-22af-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '粉色的', '2018-03-08 09:06:23'),
@@ -499,8 +570,7 @@ INSERT INTO `impromptu_dialog` (`dialog_id`, `room_id`, `user_id`, `comment`, `c
 ('fbd2d160-21fd-11e8-90d2-9bdd4f81b660', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '渣男的', '2018-03-07 11:52:17'),
 ('fccf5ee0-2373-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '点了还能听到不', '2018-03-09 08:29:30'),
 ('fcf62ed0-2215-11e8-90d2-9bdd4f81b660', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '让丰富的', '2018-03-07 14:44:06'),
-('fd12c190-2354-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '在里面吗？', '2018-03-09 04:47:36');
-INSERT INTO `impromptu_dialog` (`dialog_id`, `room_id`, `user_id`, `comment`, `create_date`) VALUES
+('fd12c190-2354-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '在里面吗？', '2018-03-09 04:47:36'),
 ('fd74f100-21ef-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '是寿比南山不在', '2018-03-07 10:12:06'),
 ('fe4bb3a0-228c-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '是不是看', '2018-03-08 04:55:59'),
 ('fe650b90-22da-11e8-995d-2d250251ea5f', '01f143c0-22d4-11e8-995d-2d250251ea5f', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '同问', '2018-03-08 14:14:20'),
@@ -572,15 +642,39 @@ CREATE TABLE `meeting_apply` (
 --
 
 INSERT INTO `meeting_apply` (`user_id`, `room_id`, `role_type`, `create_date`) VALUES
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', '0aeb32c0-2da5-11e8-b4dd-6dcc09d40db6', 1, '2018-03-22 15:21:36'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', '35fe5940-38ce-11e8-afec-25ae2f1c7332', 1, '2018-04-05 12:39:39'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', '3d13cf80-3185-11e8-ba42-e1aee2149b29', 1, '2018-03-27 15:25:33'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', '3d762fc0-2b6f-11e8-b0d4-bdbbf31f25bf', 1, '2018-03-19 12:15:56'),
 ('ojVEl0dDlpiS7dS58LzoE--9nsRw', '7b32e3f0-250f-11e8-909e-0902c67500fb', 1, '2018-03-11 09:40:55'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', 'd2070c00-28bc-11e8-a9ed-e3638553b0b5', 1, '2018-03-16 11:05:20'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', 'ea90d410-277f-11e8-bbb7-e74c6329d405', 1, '2018-03-14 12:19:01'),
 ('ojVEl0dDlpiS7dS58LzoE--9nsRw', 'f59ec3c0-250f-11e8-909e-0902c67500fb', 1, '2018-03-11 09:41:10'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '0aeb32c0-2da5-11e8-b4dd-6dcc09d40db6', 1, '2018-03-22 10:30:24'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '1daceb10-3bd3-11e8-8f14-4f7b0466a353', 1, '2018-04-09 09:16:12'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '1f8c1440-2b1d-11e8-b0d4-bdbbf31f25bf', 1, '2018-03-19 09:32:31'),
 ('ojVEl0XuK00Wthcppktt5rVu-9DA', '213d4930-24e7-11e8-9e7a-df2cc2adb166', 1, '2018-03-11 05:06:04'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '28153440-27f1-11e8-aeea-4d2ec9e6f8d6', 1, '2018-03-15 01:35:38'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '3d762fc0-2b6f-11e8-b0d4-bdbbf31f25bf', 1, '2018-03-19 12:59:11'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '3f5877a0-3bb2-11e8-8bbf-b1ccc8ffa314', 1, '2018-04-09 04:58:25'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '48568c10-2989-11e8-bb5e-23090ccecca4', 1, '2018-03-17 02:17:07'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '4cb58cd0-3bc6-11e8-ae1b-af4303ea197d', 1, '2018-04-09 09:06:21'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '513ec8b0-3ab9-11e8-afec-25ae2f1c7332', 1, '2018-04-08 07:04:02'),
 ('ojVEl0XuK00Wthcppktt5rVu-9DA', '696b9350-265a-11e8-af7b-b3706fea5199', 1, '2018-03-13 01:04:02'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '76976500-278f-11e8-998c-e101343d8284', 1, '2018-03-14 13:56:20'),
 ('ojVEl0XuK00Wthcppktt5rVu-9DA', '7b32e3f0-250f-11e8-909e-0902c67500fb', 1, '2018-03-11 09:35:17'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '88cbb080-33f3-11e8-9d8f-579df1b78f4e', 1, '2018-03-30 08:22:53'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '9be9ca20-2cab-11e8-8db7-fdc2fd9a54ad', 1, '2018-03-21 02:00:25'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'b647af20-2be0-11e8-b0d4-bdbbf31f25bf', 1, '2018-03-20 10:22:01'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'ba2eed40-2773-11e8-a3d9-4b637933b54a', 1, '2018-03-14 11:01:33'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'd2070c00-28bc-11e8-a9ed-e3638553b0b5', 1, '2018-03-16 03:33:53'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'ea90d410-277f-11e8-bbb7-e74c6329d405', 1, '2018-03-14 12:05:04'),
 ('ojVEl0XuK00Wthcppktt5rVu-9DA', 'eeabaa00-243e-11e8-9549-696441b2335b', 1, '2018-03-10 08:55:20'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', 'f06b6250-2726-11e8-a79e-d9b8b1258e52', 1, '2018-03-14 01:28:07'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'f06b6250-2726-11e8-a79e-d9b8b1258e52', 1, '2018-03-14 10:34:51'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'f235cea0-2e64-11e8-9326-49f6f4c4697d', 1, '2018-03-23 06:39:36'),
 ('ojVEl0XuK00Wthcppktt5rVu-9DA', 'f6cd2c50-2438-11e8-a04b-491551e87cea', 1, '2018-03-10 08:18:18'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', 'fabfa8d0-25d0-11e8-b933-05afa943d577', 1, '2018-03-12 08:40:21');
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'fabfa8d0-25d0-11e8-b933-05afa943d577', 1, '2018-03-12 08:40:21'),
+('ojVEl0YRMHmDFi07bbijq_2ds2kQ', '3d762fc0-2b6f-11e8-b0d4-bdbbf31f25bf', 1, '2018-03-19 12:54:14');
 
 -- --------------------------------------------------------
 
@@ -619,13 +713,15 @@ CREATE TABLE `meeting_record` (
 CREATE TABLE `room_impromptu` (
   `room_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '房间号',
   `user_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '用户ID',
-  `language` int(11) NOT NULL COMMENT '语言(1中文,2英文)',
-  `mode` int(2) NOT NULL COMMENT '模式(1普通,2疯狂,3娱乐,4对抗)',
+  `language` int(11) NOT NULL DEFAULT '1' COMMENT '语言(1中文,2英文)',
+  `mode` int(2) NOT NULL DEFAULT '1' COMMENT '模式(1普通,2疯狂,3娱乐,4对抗)',
   `start_date` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '开始日期',
   `start_time` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '开始时间',
   `end_time` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '结束时间',
-  `notice` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '公告',
+  `title` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '活动标题',
+  `notice` varchar(2000) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT '公告',
   `survey_status` int(2) NOT NULL DEFAULT '1' COMMENT '投票状态(1未发起,2已发起,3已完成)',
+  `max_amount` int(10) NOT NULL COMMENT '最大报名人数',
   `people_amount` int(10) NOT NULL DEFAULT '0' COMMENT '报名人数',
   `create_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
   `modify_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '修改时间'
@@ -635,11 +731,51 @@ CREATE TABLE `room_impromptu` (
 -- 转存表中的数据 `room_impromptu`
 --
 
-INSERT INTO `room_impromptu` (`room_id`, `user_id`, `language`, `mode`, `start_date`, `start_time`, `end_time`, `notice`, `survey_status`, `people_amount`, `create_date`, `modify_date`) VALUES
-('696b9350-265a-11e8-af7b-b3706fea5199', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-13', '21:00', '22:00', '', 1, 1, '2018-03-13 01:03:59', '2018-03-13 01:03:59'),
-('7b32e3f0-250f-11e8-909e-0902c67500fb', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-11', '16:00', '19:00', '', 1, 2, '2018-03-11 09:35:05', '2018-03-11 09:35:05'),
-('f06b6250-2726-11e8-a79e-d9b8b1258e52', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-14', '21:00', '22:00', '', 1, 1, '2018-03-14 01:28:03', '2018-03-14 01:28:03'),
-('fabfa8d0-25d0-11e8-b933-05afa943d577', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-12', '21:00', '22:00', '', 1, 1, '2018-03-12 08:40:12', '2018-03-12 08:40:12');
+INSERT INTO `room_impromptu` (`room_id`, `user_id`, `language`, `mode`, `start_date`, `start_time`, `end_time`, `title`, `notice`, `survey_status`, `max_amount`, `people_amount`, `create_date`, `modify_date`) VALUES
+('0aeb32c0-2da5-11e8-b4dd-6dcc09d40db6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-22', '21:00', '22:00', '', '', 1, 0, 2, '2018-03-22 07:45:51', '2018-03-22 07:45:51'),
+('0d25e950-36e1-11e8-a73f-b53fd397bb28', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-04-03', '21:00', '22:00', '', '', 1, 0, 0, '2018-04-03 01:48:05', '2018-04-03 01:48:05'),
+('1daceb10-3bd3-11e8-8f14-4f7b0466a353', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-04-09', '21:00', '22:00', '666666', '6666666666', 1, 1, 1, '2018-04-09 08:50:55', '2018-04-09 08:50:55'),
+('28153440-27f1-11e8-aeea-4d2ec9e6f8d6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-15', '21:00', '22:00', '', '', 1, 0, 1, '2018-03-15 01:35:34', '2018-03-15 01:35:34'),
+('35fe5940-38ce-11e8-afec-25ae2f1c7332', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 1, 1, '2018-04-05', '21:00', '22:00', '', '', 1, 0, 1, '2018-04-05 12:38:15', '2018-04-05 12:38:15'),
+('39b046d0-3bc5-11e8-ae1b-af4303ea197d', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-04-10', '21:01', '22:01', '111111111', '2222222222222', 1, 2, 0, '2018-04-09 07:11:29', '2018-04-09 07:11:29'),
+('3d13cf80-3185-11e8-ba42-e1aee2149b29', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-27', '21:00', '22:00', '', '', 1, 0, 1, '2018-03-27 06:08:15', '2018-03-27 06:08:15'),
+('3d762fc0-2b6f-11e8-b0d4-bdbbf31f25bf', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 1, 1, '2018-03-19', '21:00', '22:00', '', '', 1, 0, 3, '2018-03-19 12:15:40', '2018-03-19 12:15:40'),
+('3f5877a0-3bb2-11e8-8bbf-b1ccc8ffa314', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-04-09', '21:01', '22:01', '555555544444', '888888888', 1, 2, 1, '2018-04-09 04:55:38', '2018-04-09 04:55:38'),
+('48568c10-2989-11e8-bb5e-23090ccecca4', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-17', '21:00', '22:00', '', '', 1, 0, 1, '2018-03-17 02:17:03', '2018-03-17 02:17:03'),
+('4cb58cd0-3bc6-11e8-ae1b-af4303ea197d', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-04-09', '21:00', '22:00', 'gdfg', 'fdsfsd', 1, 0, 1, '2018-04-09 07:19:11', '2018-04-09 07:19:11'),
+('513ec8b0-3ab9-11e8-afec-25ae2f1c7332', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-04-08', '21:00', '22:00', '', '', 1, 0, 1, '2018-04-07 23:13:44', '2018-04-07 23:13:44'),
+('696b9350-265a-11e8-af7b-b3706fea5199', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-13', '21:00', '22:00', '', '', 1, 0, 1, '2018-03-13 01:03:59', '2018-03-13 01:03:59'),
+('780f5990-3bc8-11e8-ae1b-af4303ea197d', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-04-09', '21:00', '22:00', 'fsd', 'fsd', 1, 2, 0, '2018-04-09 07:34:42', '2018-04-09 07:34:42'),
+('7b32e3f0-250f-11e8-909e-0902c67500fb', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-11', '16:00', '19:00', '', '', 1, 0, 2, '2018-03-11 09:35:05', '2018-03-11 09:35:05'),
+('88cbb080-33f3-11e8-9d8f-579df1b78f4e', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-30', '21:00', '22:00', '', '', 1, 0, 1, '2018-03-30 08:22:49', '2018-03-30 08:22:49'),
+('9a8b6470-3bc6-11e8-ae1b-af4303ea197d', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-04-09', '21:00', '22:00', 'fsd', 'sdfsd', 1, 4, 0, '2018-04-09 07:21:21', '2018-04-09 07:21:21'),
+('9be9ca20-2cab-11e8-8db7-fdc2fd9a54ad', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-21', '21:00', '22:00', '', '', 1, 0, 1, '2018-03-21 02:00:20', '2018-03-21 02:00:20'),
+('b647af20-2be0-11e8-b0d4-bdbbf31f25bf', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-20', '21:00', '22:00', '', '', 1, 0, 1, '2018-03-20 01:47:56', '2018-03-20 01:47:56'),
+('d2070c00-28bc-11e8-a9ed-e3638553b0b5', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-16', '21:00', '22:00', '', '', 1, 0, 2, '2018-03-16 01:53:27', '2018-03-16 01:53:27'),
+('f235cea0-2e64-11e8-9326-49f6f4c4697d', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-23', '21:00', '22:00', '', '', 1, 0, 1, '2018-03-23 06:39:33', '2018-03-23 06:39:33'),
+('fabfa8d0-25d0-11e8-b933-05afa943d577', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-12', '21:00', '22:00', '', '', 1, 0, 1, '2018-03-12 08:40:12', '2018-03-12 08:40:12');
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `speech_subject`
+--
+
+CREATE TABLE `speech_subject` (
+  `subject_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '演讲主题ID',
+  `subject_name` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '演讲主题',
+  `user_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '创建人',
+  `speech_names` varchar(2000) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '演讲题目（回车分割）',
+  `subject_status` int(5) NOT NULL DEFAULT '1' COMMENT '数据状态（1、提交；2、通过）',
+  `create_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '创建时间'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- 转存表中的数据 `speech_subject`
+--
+
+INSERT INTO `speech_subject` (`subject_id`, `subject_name`, `user_id`, `speech_names`, `subject_status`, `create_date`) VALUES
+('7fc738e0-3ba7-11e8-8bbf-b1ccc8ffa314', '懂你不要脸', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '我是男神\n马云想请我吃饭，我拒绝了，真没空', 1, '2018-04-09 03:38:42');
 
 -- --------------------------------------------------------
 
@@ -931,6 +1067,25 @@ INSERT INTO `user_base_info` (`user_id`, `nick_name`, `recommend_user`, `create_
 -- --------------------------------------------------------
 
 --
+-- 表的结构 `user_introduction`
+--
+
+CREATE TABLE `user_introduction` (
+  `user_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '用户ID',
+  `introduce_audio_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '自我介绍音频ID',
+  `create_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '创建时间'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='用户个人介绍';
+
+--
+-- 转存表中的数据 `user_introduction`
+--
+
+INSERT INTO `user_introduction` (`user_id`, `introduce_audio_id`, `create_date`) VALUES
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '7bc92960-3319-11e8-b17c-e1db6997cf18', '2018-03-29 06:22:19');
+
+-- --------------------------------------------------------
+
+--
 -- 表的结构 `user_report_comment`
 --
 
@@ -971,7 +1126,8 @@ INSERT INTO `user_report_comment` (`comment_id`, `report_id`, `user_id`, `commen
 ('c96e4510-1b54-11e8-8d9f-c36c5270eff6', '337995e0-1b50-11e8-8d9f-c36c5270eff6', 'ojVEl0d9fVPIq7eUJCNJ0bHsvzPw', '', '2018-02-27 00:26:00'),
 ('495a4760-1b5a-11e8-8d9f-c36c5270eff6', 'ae5bba50-1b54-11e8-8d9f-c36c5270eff6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '演讲开始前定个小目标，这点灰常赞同', '2018-02-27 01:05:22'),
 ('0186bfb0-20f3-11e8-8e3b-89e2f3758986', '60350cb0-20bc-11e8-99c7-9b1e53c1d482', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '也许偶尔复习❤️能让我们更加珍惜感恩现在所拥有～', '2018-03-06 04:01:10'),
-('85cb81a0-2686-11e8-9447-3933e5968927', '40357370-2664-11e8-af7b-b3706fea5199', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '佩真就是懂你演讲的领头羊！', '2018-03-13 06:19:44');
+('85cb81a0-2686-11e8-9447-3933e5968927', '40357370-2664-11e8-af7b-b3706fea5199', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '佩真就是懂你演讲的领头羊！', '2018-03-13 06:19:44'),
+('e3dbdad0-3ba1-11e8-9742-efd80353fb39', '46e683a0-3b98-11e8-9c79-b1a31f5f6c19', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '423423', '2018-04-09 02:58:33');
 
 -- --------------------------------------------------------
 
@@ -1035,9 +1191,13 @@ INSERT INTO `user_report_like` (`report_id`, `user_id`, `create_date`) VALUES
 ('9e7386d0-20b9-11e8-99c7-9b1e53c1d482', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-03-06 04:00:12'),
 ('60350cb0-20bc-11e8-99c7-9b1e53c1d482', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-03-06 04:00:14'),
 ('ae5bba50-1b54-11e8-8d9f-c36c5270eff6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-03-10 09:43:40'),
-('43cccd80-2510-11e8-909e-0902c67500fb', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-03-11 14:25:49'),
 ('76483210-2667-11e8-ac22-edec4423dbdd', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-03-13 06:18:35'),
-('40357370-2664-11e8-af7b-b3706fea5199', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-03-13 06:19:18');
+('40357370-2664-11e8-af7b-b3706fea5199', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-03-13 06:19:18'),
+('71896d00-3195-11e8-bca7-b149e9e65718', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-03-27 15:28:40'),
+('a84eea70-3093-11e8-9326-49f6f4c4697d', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-03-27 15:28:46'),
+('cd683550-2fa8-11e8-9326-49f6f4c4697d', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-03-27 15:28:55'),
+('7e8ae910-2d95-11e8-b4dd-6dcc09d40db6', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-03-27 15:29:00'),
+('46e683a0-3b98-11e8-9c79-b1a31f5f6c19', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-09 02:58:28');
 
 -- --------------------------------------------------------
 
@@ -2457,6 +2617,25 @@ CREATE TABLE `user_score_rank` (
 -- --------------------------------------------------------
 
 --
+-- 表的结构 `user_special_task`
+--
+
+CREATE TABLE `user_special_task` (
+  `task_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '任务ID',
+  `user_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '用户ID',
+  `create_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- 转存表中的数据 `user_special_task`
+--
+
+INSERT INTO `user_special_task` (`task_id`, `user_id`, `create_date`) VALUES
+('ed132740-3b09-11e8-be6e-d9567b27b692', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-08 08:50:49');
+
+-- --------------------------------------------------------
+
+--
 -- 表的结构 `user_study_duration`
 --
 
@@ -2503,7 +2682,9 @@ INSERT INTO `user_study_duration` (`user_id`, `study_date`, `study_duration`, `c
 ('ojVEl0dDlpiS7dS58LzoE--9nsRw', '20180224', 60, '2018-02-24 14:47:55'),
 ('ojVEl0dDlpiS7dS58LzoE--9nsRw', '20180305', 60, '2018-03-05 14:23:13'),
 ('ojVEl0XuK00Wthcppktt5rVu-9DA', '20180306', 25, '2018-03-06 03:31:32'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', '20180310', 232, '2018-03-10 04:30:47');
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '20180310', 232, '2018-03-10 04:30:47'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '20180317', 44, '2018-03-17 05:19:42'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '20180402', 52, '2018-04-02 09:20:51');
 
 -- --------------------------------------------------------
 
@@ -2530,15 +2711,21 @@ INSERT INTO `user_study_report` (`report_id`, `room_id`, `user_id`, `report_type
 ('071858b0-0a8e-11e8-9868-e763575df473', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.1.1佩真复盘 新年的第一天 我带着很大的兴致参加了有意义的新年第一讲 主持张静 收获了不一样的成长。\n\n2018.1.2佩真复盘 我继续来了 主持是懂你的发起人田晗 抢了四个演讲 两次点评 这是质的飞跃 我在成长 我需要坚持学习才能成长。我还可以做得更好的方面:1.自己说话太快，语速要慢一点。2.演讲的结构可以从多个方面来谈，将故事再渲染一下，不能太慌，最好将每一个演讲题目的尾给收好，今晚都没有收好尾。3.演讲是要讲给别人想听的，别人很快记住了内容这样的演讲会更有价值。做的好的方面：每天积极报名参与，每场都提前进入，需要保持下去。收获：1演讲需要从故事出发 讲究技巧 构思。2大句子：伟大来自普通。3主持人很善沟通，亲和力强。其他:1.知识严重缺乏。2逻辑结构不清晰，都需待提升。加油！本场获得了演讲与点评的双料冠军。\n\n2018.1.3佩真复盘：我爱上了懂你 继续参加 主持静妮 抢了三次演讲一次评论 我发现我可以点别人说的即兴演讲是跑题的 所以我胆子大了 我真的又在成长了。慢慢向好的方面:1自己说话太快，语速已变慢稳一些了2演讲的结构可以想到用故事了，没有之前慌了。3发现时间快到时自己知道快速收尾了，最基础的学会了对时间的把控。其他:1感谢同学们陪伴成长2感谢静妮。需要提高1.知识严重缺乏。2逻辑结构不清晰，加油！', '2018-02-05 08:02:55'),
 ('0b8a87d0-20f3-11e8-8e3b-89e2f3758986', NULL, 'ojVEl0dDlpiS7dS58LzoE--9nsRw', NULL, '特别感谢大家今晚分享：\n【Annie】生病的时候，先生无微不至的关心，有创意的提醒吃药的方式让Annie感受到快乐与幸福；\nAnnie自己爱屋及乌对先生妈妈【婆婆】的爱，感觉到能让先生感受到幸福。\n【艳子】先生把家中钱权交于她，并且经常赞美她让她感受到快乐与幸福。\n【悦玉】男朋友陪伴她，说些甜言蜜语，讲笑话逗她开心。\n【佩真】先生每天1-2个电话，问候关心体贴自己让佩真感受到快乐与幸福；\n佩真认为在先生关注的事情上面为他做一些小事，比如缝一个扣子，先生会感到幸福。\n【宏烨】每天推开家门，能看到伴侣笑容相迎，一团和气，彼此之间相敬如宾，无论遇到什么挫折互相鼓励，为止幸福。\n\n相信快乐幸福，通过我们的重视与修炼可以一直延续......', '2018-03-06 04:01:27'),
 ('145c37e0-1d2a-11e8-83fa-bfce28566052', NULL, 'ojVEl0dDlpiS7dS58LzoE--9nsRw', NULL, '2018-2-2 Jenny 复盘\n演讲继续保持的地方：\nTop1：【看电视】\n1.1现在已不喜欢看电视，但是抢了题目后引申到小时候看电视剧的幸福的家庭时光\n1.2有头有尾中间有些故事细节\nTop2：【英语学习方法分享】\n2.1分享了学习工具【英语流利说】+【UU Speaker】各自优点，两者结合可以帮助我们快速提高英语口语及听力\n演讲继续提高的地方：\nTop1：【看电视】\n1.1时间管理\n1.2语速\n1.3更多的故事细节\nTop2：【英语学习方法分享】\n2.1结构化，分享优点的时候用上Firstly、secondly、Thirdly，让演讲听起来更加清晰，让听众更加记忆犹新。\n\n参会感受：\n1、懂你是一个神奇的地方，在这里🈶简单的快乐，我称之为【学习的快乐】\n能够在寒冬中穿着睡衣，裹着被子，戴着耳机，与来自上海的Megan、来自宁波的Ada、来自厦门的Finoa一起练习英语演讲，我们虽然来自不同的城市，但我们都喜欢学习成长！我们甚至会在这里与自己久违多年的朋友同频.....\n2、喜欢Fiona 演讲的理智与逻辑，喜欢Megan的勇敢与挑战，喜欢Doris的坚持，喜欢Ada的鼓励....\n3、坚持行动！坚持复盘！相信念念不忘，必有回响！', '2018-03-01 08:25:20'),
+('2606eee0-2ced-11e8-a871-696bd25ba118', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.3.14晚佩真复盘：第一次参加慢跑+演讲活动，收获成长，短短的半小时，讲了两个题目点了两个题目，见证成长，继续加油！', '2018-03-21 09:49:29'),
 ('307e1d60-0da0-11e8-be16-d5b125454480', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.2.9晚佩真复盘：疯狂三人练习结束后我们三人花了八分钟进行了全场复盘，清清从四个题目角度复盘，佩真从个人短板复盘，祁鼎从我和清清的复盘上再复盘提炼。短短的半小时，感谢祁鼎与清清的陪伴，感谢平台。虽然只讲了四个题目，但我需要更多的是认真聆听，多多吸收，接下来重点花时间学习点评结构。听不一定听到，听到不一定做到，做到不一定能重复自己，希望自己的演讲构架和故事可以完整的饱满展现，希望可以有更清晰思路的点评。懂你都能让我一一实现，只要坚持，坚持来，一定成长！', '2018-02-09 05:50:29'),
 ('337995e0-1b50-11e8-8d9f-c36c5270eff6', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018年2月26晚佩真复盘：经过前一晚的参与，这是春节后连续的第二场，仍然是疯狂练习，熟悉的环节熟悉的人，但题目却在不断创新中，谢谢每一位的陪伴，每一场都能见到自己达成的一些小目标，见证成长！今晚的三人疯狂练习大家不建议做投票，相信都是心中最好的自己，加油！总共五个题目，我讲了两个，在点评方面仍然在积极参与点中。做的好的方面，大家都会积极说与点，并相互鼓励与救场。不好的方面，在记时方面需要更加严格执行，今晚普遍都有超时一点的问题。自己需要改善的地方：故事的完成完整及吸引性需要练习，时间控制方面需要提升自己！加油，迎接最好的自己，相信就在不远处了！', '2018-02-26 23:53:10'),
+('3d3f5740-2cee-11e8-a3bb-d1115bb1766e', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.3.17晚佩真复盘：这是慢跑+演讲第二场，收获成长。做的好的通过自己演讲带动孩子参与演讲，激励孩子的快乐成长。做的不好的方面：需要点评上多练习。加油！', '2018-03-21 09:57:17'),
 ('40357370-2664-11e8-af7b-b3706fea5199', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.3.11晚佩真复盘：通过本次终身学习及人工智能的专场，更加熟悉了两大块的便利及生活中的重要性，更能体会到学习无处不在，智能无处不在，今晚做的好的是大家全都是超时君，但这说明了我们在不断成长中，这种成长是来懂你坚持的历练，收成良多。做的不好的方面也是超时哈，规则还是很重要，希望我们更多的是做到即飞速成长又守时完成。建议：平台可以带动大家做即兴备稿专场，试着创新，但需要更多时间自由的伙伴牵头引领，希望一直可以学习下去，坚持难能可贵，加油！', '2018-03-13 02:14:25'),
 ('41363c20-0a8d-11e8-9868-e763575df473', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2017.12.29佩真复盘，第一次扫码进入懂你平台，笑笑主持，收获成长并了解了线上懂你，喜欢。\n2017.12.31佩真复盘：第二次来 主持秀虹 抢了一次演讲一次点评 透过不同的主持人 领略了不同的线上演讲风格 自己感觉明显比第一次进步多了 比如胆量。\n2017.12.31佩真复盘：今晚参加了两场 这一场是零点的跨年演讲 主持静妮 主要是平台问题 自己没话筒 只能围观 但我真的做到了认真聆听 发现演讲不光是说重要 聆听更重要。', '2018-02-05 07:57:23'),
 ('45e85de0-0f40-11e8-88f0-f1364997bacb', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.2.11日晚佩真复盘：与静静俩人撑起了一场疯狂练习，第一次尝试两个人的相互坚持，今晚没做投票，前一次也没做投票，大家更注意的是讲的质量、架构、逻辑和故事重点了，当场讲完我们俩人有做详细的复盘，约定下次空时还一起还继续。我们重点对我们的六个演讲一一对故事的内容、演讲过程和收尾都做了详细复盘，今天年会，公司方面已处理了很多事了，但下班回来还能坚持讲，坚持参与，首先自己都很强大了，接下来继续努力，争取拉近与各大咖的距离，活到老学到老，坚持付出，收获成长！', '2018-02-11 15:28:55'),
+('4745f540-3654-11e8-a73f-b53fd397bb28', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.3.31晚佩真复盘：先进行半小时的教练式进展推进复盘与刘静妮俩人，后半小时参加慢跑演讲，Jasson主持，风格欢快，整晚题目让人脑洞大开，真希望可以这么一直快乐的说下去，开心中收获成长！', '2018-04-02 09:00:23'),
+('494b7750-3656-11e8-a73f-b53fd397bb28', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.4.1晚佩真复盘：今晚主题是信任鼓励和创新，静妮临时有事，我代为主持，今晚的话题涉及政治股票哈，个个全是经济男，从不同的方方面面剖析当下时局，受益收获，晚根在本场超时严重，建议下次改进，本场结束本人在主持方面又成长了一些许，加油！', '2018-04-02 09:14:45'),
 ('60350cb0-20bc-11e8-99c7-9b1e53c1d482', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.3.5晚伴侣激励场佩真复盘：第一次瞧到好玩的节目名被吸引，于是报名，参与了平台第一次伴侣激励话题，这比常规的玩法更创新，收获不一样的成长。演讲中，每个人对主持人抛出的同一个题目各自做一次演讲，并有人加以发表感受，所谓伴侣有自己也是另一伴，有代表男人方的也有代表女人方的，所以两个方面从不同的角度去阐述演讲。上半部分题目是如果你伴侣做了一件什么事情让你觉得很幸福，下半部分题目是你做了件什么事情让你伴侣觉得幸福。我分别参与了不同角度的演讲，先是先生每天的电话问候与体贴，再是我帮先生钉衬衫钮扣。这种话题对我现在为人妻我的身份来讲更多的是生活一幕，所以很快可以想到，说起来更多的是故事的复原与回忆，相信更多的是把自己带到当时的那段画面中，很温馨！除了可以锻炼自己还可以提升表达力，收获成长！通过小伙伴们的分享，你也会感受到不同伙伴不同的故事，但更多的是故事的共情与生活点滴的感动，真好！话题的选定会让伙伴们更加检视自己的生活及生活中角色任务的不足，时刻提醒自己换位思考，学会包容学会爱。总之，懂你有太多东西可以学可以挖，愿意留此不断学习成长！', '2018-03-05 21:30:07'),
 ('6e5ade20-1a43-11e8-b790-6f78326360aa', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018年2月25晚佩真复盘：经过春节14天长假后第一次来懂你参与学习，这14天一直在陪伴家人 ，见证孩子们的成长，体会另外一种没人干扰和不被别人打扰的生活模式，收获的是别样的体会与感悟！人生很短，生命很轻，生活很重，365天一旦工作起来，几乎没有更多的时间陪伴家人，而这14天的陪伴是换得了家人整年的陪伴与支持，感恩家人的伟大！今晚疯狂演讲总共九个题目，我讲了四个，每一个题目都尽量从自己的生活细小处开始，贴近生活，感恩生活，更多的收获我愿意分享，一步一步走过来，自己瞧到我是在一步步成长中，这便足已，离不开大家的陪伴！全新的2018我给自己订了几个目标，学习是列首的，接下来我会用空隙时间来完成自己的学习自己的成长，感恩懂你感恩生活感恩一切！希望更多的小伙伴们空时一起交流学习，共同成长！', '2018-02-25 15:49:15'),
 ('704676a0-0a8e-11e8-9868-e763575df473', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.1.7佩真复盘：主持Alva 恭喜佩真是今天晚上最佳演讲&点评双料冠军 我再一次成长了 感谢平台。我抢了两次演讲一次点评，我第一次在医院等待陪伴中参加九点档，两次演讲的时间把控逐好，未超时就是成长，演讲的内容逻辑需要改进。大家的演说与点评很受用。主持人很周到，建议总体时间可以更严谨控制！谢谢！\n\n20180110佩真复盘：今天的讨论让人醒悟，生命中也许就需要缘分到了，有人来点你，我被点了，很赞。突然感觉这个比即兴演讲发人深省，我个人喜欢，平台模拟让自己更加肯定了自己的脚步，人生需要有目标，而且要坚定自己的目标，足矣！今天是2018/1/10场 主持：静妮 我们在做在线场景实战之面试 我体验了面试内部培训师 有说自己的面试发言 真情时刻大总结我说到了自己目前的状态 包括对人生的定义 目标是关键 剩余的就是坚持 加油 职场十年 还是很有激情 小伙伴们都为我的10年如一日点赞！支持我今晚作出的选择！让我静观其变！继续发挥我的优势，享受我的快乐。\n\n2018.1.13佩真复盘：我再次来了哈 今天晚上是最佳演讲&点评双料冠军 谢谢主持人王旭洪 我抢到了一讲两点评 真情大总结我有逻辑发言 这是我最今晚最满意的地方。每天进步一小步，将来一定前进一大步 ！开口，说吧！不管结构思维有没配置好，先开口 必定收获成长。感谢平台感谢主持人感谢伙伴们一起度过的美好时光 今晚自己尝试体会去抢了两次点评，发现原来我也可以说一段长的哈 突然发现点评更注重的是聆听 接下来我需要更多的参与锻炼 努力学习 与平台相伴成长。\n\n20180115佩真复盘：四个标签：收获 感悟 心得 体现，真的很开心，原来懂你还有这么自由放松的会议 真心喜欢 整场75分钟很快过 仅管我还是不怎么会讲 但对于昨天的自己 只有我自己知道我收获了成长 这便足矣 会议中更让我重新悟到了生活在当下 自我察觉的更深层意义，谢谢龚老师 谢谢大家 接下来的会议我时间空出来就一定会来 来了一定会成长 加油 为遇到最好的自己。本场是演讲和点评的双料冠军。\n\n2018/1/17晚8点档佩真复盘：本场积极度不够高哈 主持人龚老师开场自我牺牲很赞 懂你是一个没有老师的学习平台 太好了 来懂你 是我追求自我成长的平台 它会促使我走上坡路 它会促使我们大家完成自我蜕变 加油 坚持下去一定更好。\n\n20180122佩真复盘:八个题目,小费的等你,佩真的遇见,水九齐的经历和链接,主持人的突破,唐莞家的幸福和星空, 楚瑞的互联网家,不同题目不同风格,不同的时空不同的元素,熟悉的气氛,不同的收获,我坚持学中玩,玩中学,快乐点滴成长!个人感觉讲的前提是更好的听,有空常来!伴懂你而成长!本场为lilian小组最佳演讲者，最佳即兴点评者。\n\n2018/1/27晚九点场佩真复盘：12个演讲题目，一个比一个速度快，一个比一个精彩，点评一个比一个拿的快，一个比一个准，可喜，因为大家都成长的很快，除了是胆量更是思维，懂你虽是平台，但来了就一定要讲，平台再好你不说永远在门外，所以我很开心，与这么多优秀的人为伴！第一次尝试主持人，发现临时接命的比提前准备的更能历练自己，感谢静妮，与你的相遇就是感恩！《珍惜》这个演讲让我更加感触，2018希望从身边的人做起，爱每一位爱自己的人！演说也好演讲也好，都是马拉松，都是漫长的学习过程，希望大家能向今晚的题目一样，有坚韧的意志，最美的心态与优良的状态，既然是爱好，是渴望，剩下的就是坚持，珍惜，和活在当下，认真努力在每一天！', '2018-02-05 08:05:52'),
+('71896d00-3195-11e8-bca7-b149e9e65718', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.3.26晚佩真复盘：静妮临时有事代替主持，本场最感触的是董芬的时间管理，大胖的绿叶，大胖的演讲逻辑架构非常清晰，思维快，从三个对比讲了绿叶不同的作用，特别吸引人，董芬强调的输入是我稀缺的，多多学习，坚持成长！', '2018-03-27 08:04:15'),
 ('76483210-2667-11e8-ac22-edec4423dbdd', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.3.12晚佩真复盘：有幸通过平台第一次接触到教练式教学，教就是最好的学，初衷希望自己通过学习提升自己外，还可以帮助到更多的人学习成长！通过线上五大咖员的分享，更加坚定了自己学习的路。后面想更多的通过教练教学让自己在决策方面更加快准狠，愿收成后可以影响到身边的很多人，在正能量的传递上，我愿意积极的去做阳光型先行者，加油！', '2018-03-13 02:37:24'),
+('7e8ae910-2d95-11e8-b4dd-6dcc09d40db6', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.3.21晚佩真复盘：晚上八点半开始，与张静俩人继续玩起了疯狂练习，相互陪伴的过程我们学会了很多，先是备稿素材，再是对自己更加适合的标签产生，收获不同的成长。接下来九点整参加了慢跑+演讲第5天练习，参与了三个题目点评，说就是长，所以坚持付出得到了成长，复盘学会了用标签来总结，比以往更加创新，加油！', '2018-03-22 05:54:33'),
 ('8d21b370-0a8e-11e8-9868-e763575df473', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.1.29晚静妮主持,佩真复盘,一小时间讲了十个题目 连贯紧凑 主持人亲和力强 顾全大局 记时辛苦 还会很亲和力的鼓励在线的每一位小伙伴 让大家很轻松的度过了一个很开心的夜晚 主持人会前对我们每个人来的目的进行了记录与确认 然而我克服了自己的过往 终于第一个来抢了题目 如何让学习变的有趣 用了三个标签解读 爱好坚持和巩固 现在复盘我突然发现我的构思还是及格 还需要故事点来支撑就饱满了 今晚讲3个点4个 对我自己来说 我的胆子比以前大了 以前根本没想过要点 从来主持人说点评时我就关话筒了 所以我想对自己说 我真的比昨天前天进步了 这是懂你给我的 时间的种子洒向懂你 收获必然在这 谁也拿不去 谢谢主持人高夸了我 最后给了我难得的一次真情分享 我多么希望更多的小伙伴能够一起参与进来 共同学习成长.\n\n2018年2月1日晚8.30分场 佩真复盘：懂你第一次办线上备稿演讲 我有幸接主持人静妮邀请参加了第一次线上备稿 今天正如笑笑所说 不同的是2月的第一天 三个一 意义深远。我第一次在这讲自己的新稿 谢谢田大大的鼓励 静妮说我可以去参赛 所以 对的 我决定了 我要去参加哈 重在参与 就和懂你平台一样 平台再好你不融入 永远在门外 所以我要从门外进来 谢谢这里陪我一起成长的小伙伴 接下来期待下周一的备稿 期待笑笑的线下哈 我会坚持前行 为遇到下一个美好的自己 加油！\n\n2018.2.3复盘 虽然房间只有三个人 但祁鼎说 人不在多 而在精 只要能把事情做出来就行了 哈哈 很赞成。短短的一小时讲了7个题目 效率的提升是能力的长进 在深圳的冬季多了份对北方雪的向往 照镜子让我们更加注重仪容仪表 创业需要天时地利人和 人生很长 尽情挥霍 工作是工作不能懈怠 窗外故事的温暖及情感的升华 谢谢 fiona 祁鼎的陪伴 从祁鼎身上学到了很多知识 坚持的结果 见证成长 收获成长！\n\n2018.2.4晚佩真复盘，很难得的一个周末，约好的是九点，但大家都有事情，所以九点在9点半之间采访了学长，我练了一下胆量，其实这是平台给我的，从一个不怎么说话，到我可以去采访一个人，一个大咖，我学到了很多东西，谢谢懂你！对于学长来说，这可能就是聊天，但是我也鼓足了很大的勇气！9点半开始，我们讲了四个题目，三个人很尽兴，从秀勤身上我学到了一种态度，从静妮身上我学到了一种榜样的力量，很优秀！全新的2018，我要和优秀的人为伍，坚持下来，希望可以把自己打磨成一个百花齐放的小蜜蜂哈！', '2018-02-05 08:06:40'),
 ('8e797af0-1d08-11e8-b374-c16baecafdb8', NULL, 'ojVEl0dDlpiS7dS58LzoE--9nsRw', NULL, '2018-2-24 Jenny复盘\n继续保持的地方：\n1.作为主持人坚持呼唤年后半醉半醒的小伙伴以及【懂你】新伙伴\n2.热情欢迎参会小伙伴，并送上新年祝福\n3.演讲使用了对比手法\n提高的机会：\n1.会前先让大家思考英文即兴演讲目标\n2.设定一个适合自己且清晰的英文即兴演讲目标\n3.介绍Table tipic session 时候，清晰介绍是2分钟即兴演讲，与1分钟即兴点评\n\n参会感受：\n👍【Lori】深谙精髓，英文演讲与点评都溜溜哒~黑马一匹，愿你不断超越自己.....\n👍【Charles】一篇【以终为始】的演讲用自身戒烟经历来形象解说：当你清楚了解自己想成为一个什么样的人之后开始行动，你会在路上遇见充实与幸福。\n👍【Eva】今晚胃痛坚持参会的🐻大大，就是我所认识的🐻大大，清晰自己想要，朝着目标，无论任何坎坷，永不言弃。我想这种精神是🐻大大成为两家公司的CEO的原因之一。\n👍【Kyle】I‘m sorry to hear that. but I trust everything will be getting better & better.  忙但是依然坚持学习的Kyle令人钦佩！相信Kyle 2018 在【以终为始】【要事第一】的引领下，心想事成。\n👍【Annie】久不见的英文线上会议老朋友，一个热爱学习，懂得坚持的智慧女性。\n\n今晚听到最开心的一句话是Eva🐻大大说的：“演讲治愈了我的胃痛”！\n始终坚信我们可以：\n通过演讲磨练自己的思维与表达 \n通过思考与表达澄清自己生活的目标 \n通过清晰的目标规范自己的行动 \n通过有目的的行动锤炼生活的意义与价值 \n从而体验富足而无悔的人生\n\n我走在实践的路上.....', '2018-03-01 04:25:22'),
 ('95095310-1004-11e8-a4e8-51ae2a4e9f79', NULL, 'ojVEl0dDlpiS7dS58LzoE--9nsRw', NULL, '1-12【Jenny】复盘：\n继续保持的方面：\n1主持\n1.1会中鼓励风格，永远保持积极信任的心态，2人预报名的会议最后总是满员。\n1.2.会中分享【懂你演讲刻意练习环】：目标—实践—反馈—复盘\n1.3【懂你演讲刻意练习环】做到知行合一\n2演讲\n2.1【原则】与【书本】达成刻意练习目标：只讲一个故事\n2.2细节的描绘\n2.3声音的变化\n3点评\n3.1发现演讲优势+建议/示范反馈+鼓励/表达欣赏\n\n待提升的机会：\n1主持\n1.1结束语应提前准备，加入春节元素，营造春节愉悦喜庆的氛围\n1.2激励行动时声音更加的有力\n\n2.演讲\n【原则】快速抛出观点后再讲故事，最后升华主题\n咬字更清晰\n\n3.点评\n总：总结演讲亮点\n分：展开阐述亮点+而且如果这样做，会把自己的优势发挥得更加极致\n总：再次强调亮点，表达欣赏\n\n参会感受：\n1.👍【Nancy】关于【服务】的分享，让我知道遇到了同道中人，愿以后有更多的机会交流\n2.👍【迪迪】培训师的严密逻辑不仅在于演讲，在点评中也发挥得道！有范！复盘+行动计划，知行合一的践行者！向迪迪学习！\n3.👍【九哥】老友！一段时间不见，依然给我们带来他那个时代独有的温暖及味道！从九哥的演讲中体验他对于生命的热爱及感悟！\n4.👍【Jasson】从Jasson给大家出的演讲题目中，了解到他热爱思考价值、意义\n5.👍【Aaron】最后真情时刻的激励人心让我印象非常深刻\n\n下一步行动目标：\n2018年2月28日完成12次懂你演讲线上主持+演讲+点评+复盘', '2018-02-12 14:54:10'),
@@ -2546,13 +2733,18 @@ INSERT INTO `user_study_report` (`report_id`, `room_id`, `user_id`, `report_type
 ('9d27dc50-0633-14e8-844e-95ea5ef6ea44', NULL, 'ojVEl0W20SioIXdyo2n5Gqdtf-s4', NULL, '2018-1-28线上会议复盘\n\n今天的会议从唐晓清的《梦想》开始，她告诉我们要如何坚守自己儿时的梦想和实现梦想。而且有梦想相伴，生活才更有意义。邵涛给我讲述了《珍贵》的童年欢乐时光，单纯的友谊和现在来之不易的中国人所拥有的自由发展的环境。特别珍贵的“懂你演讲“平台。林燕讲述的关', '2018-01-30 19:27:06'),
 ('9e7386d0-20b9-11e8-99c7-9b1e53c1d482', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018年3月1日晚翻转会议佩真复盘：第一次围观翻转会议，出于好奇，但被优秀主持人静妮盯上，邀请拉入会议，于是第一次体验玩起了翻转会议。它和常规的会议不同的是以终为始，相比之下更刺激好玩，让你预知未来的点，按着对应点评的评语进行说，很刺激好玩，感觉新鲜。9个题目抢了三个点评三个演讲，做的好的方面自己更加勇敢，不再有强烈紧张感。不好的地方，知识涉入的还不够，还要多积累，否则有些题目出来不能很快的领悟，甚至是很快的构思架构。还可以改进的是演讲的条理及完整性，这也是自己一直想突破的，后续我会坚持学习，努力做到！加油！', '2018-03-05 21:10:23'),
 ('a1035180-0f36-11e8-88f0-f1364997bacb', NULL, 'ojVEl0YfpfbCaQcAYAwf5RA3viAc', NULL, '2018.2.11复盘\n【时间的把控】演讲好的方面：\n1.有开头，有内容，有总结\n2.内容展开较好，讲了两个方面把控时间：第一，做时间的规划，第二，充实自己把握时间。讲第二点的时候用到了正反面的例子（充实自己可以多看书，把握好时间；打游戏沉迷网络，是浪费时间）\n\n待提升的方面：\n讲第二方面的时候，有点想不出要讲哪一点，卡壳了几秒；最后可以稍做升华：把控时间，让生活、让人生变得更有意义，更有价值。\n\n今晚的感悟及收获：\n1.生活中我们有时做的一些微不足道的小事情，当它帮助到别人的时候，2块钱的价值就会让人铭记一心。要做一个懂得感恩的人，做一个温暖的人。——来自水哥的【感激】\n2.对话自己，要不断的反省，问自己问身边的人对自己的评价，才能真正认识自己。——来自泰来的【对话自己】\n3.面包的演讲，还可以从面包的香味、形状展开，用色香味俱全的方式勾起大家对面包的食欲。——来自Aaron对【面包】的点评\n4.在懂你，聆听别人的故事，分享自己的故事。——来自Aaron的分享', '2018-02-11 14:19:53'),
+('a84eea70-3093-11e8-9326-49f6f4c4697d', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018-3-25晚佩真复盘：慢跑演讲第七场，两个标签复盘，1是发散思维，透过红叶的发散思维发现原来观点无处不在，各种散维都值得深挖。2尊重，通过jasson的尊重发现只要有技能的都值得尊重，感恩懂你，收获成长！', '2018-03-26 01:18:57'),
 ('a8611a40-1d08-11e8-b374-c16baecafdb8', NULL, 'ojVEl0dDlpiS7dS58LzoE--9nsRw', NULL, '2-22 Jenny 复盘\n正月初7️⃣ 【叫醒演讲】 Speech of Wake Up\n学习莎士比亚创造新词[害羞]\n【叫醒演讲】再次验证了我们可以通过【演讲】磨炼自己\n👍【Charles】永远的 self-motivation ，一回东莞马上进入学习状态，用行动唤醒假日中的自己。\n👍【Elaine】用自身真情流露的故事，诠释红包与爱，打动人心❤️，让我们看到一个正走在为家人幸福奋斗的勇敢女孩！\n👍【Leah】一个总是关注、关心、鼓励他人的天使😇\n👍【Christine】最后分享的【原来我可以做那一个给别人带来快乐的人】给今晚的会议画上完美的句号。\n愿我们一起继续：\n通过演讲磨练自己的思维与表达 \n通过思考与表达澄清自己生活的目标 \n通过清晰的目标规范自己的行动 \n通过有目的的行动锤炼生活的意义与价值', '2018-03-01 04:26:05'),
+('ad0884f0-2cf0-11e8-a3bb-d1115bb1766e', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.3.19晚佩真复盘：今天是第四场慢跑+演讲，在演讲时没有跑起来，反而在户外跳起了开合跳，静妮的18年，军军的时间管理，个个都是精品演讲，收获满满，本场未做投票，重在参与其中并开心的说。今晚刚好同学18年聚会，在餐馆楼下完成了演讲后回到餐桌，真的正能量满满，希望更多的小伙伴们进来学习成长！', '2018-03-21 10:14:44'),
 ('ae5bba50-1b54-11e8-8d9f-c36c5270eff6', NULL, 'ojVEl0d9fVPIq7eUJCNJ0bHsvzPw', NULL, '2.26\n会议组织需要改善的:\n1.演讲开始前还是需要有个小目标，这样演讲的针对性更强。\n2.如果网络顺畅的情况下，会议还是按照三人模式来比较好(先顺时针再逆时针)。点评也需要计时。今天参会我有些随意，我的点评没有掐时间也不知道怎么去评， 想到什么说什么。另外，如果中途抢题会导致其他小伙伴没机会演讲。\n3.点评。如果能认真聆听并做记录，点评就不至于没话说。\n\n演讲需提升的:\n1.演讲里面如果能穿插一些小故事会更好。\n故事可以让听众更有画面感和打动人心。\n2.条理还需更清晰。语速再慢一些。\n\n其他:\n虽然有些话题当时好像没话可说，但是几分钟后又能想到很多。所以不是真的没话说，是提取不够快，多练习一定会提高提取速度。\n\n\n\n', '2018-02-27 00:25:15'),
 ('b1d3fd20-09b9-11e8-9868-e763575df473', NULL, 'ojVEl0dDlpiS7dS58LzoE--9nsRw', NULL, '2-4号演讲的复盘\n演讲目标：声音的多样性\nTopic：【夜景】\n继续保持：\n声音加入了都市夜景的一些寂寥，刻意练习了声音的应景\n\n提升的机会：\n在讲述不同的心情，比如：轻松🆚甜蜜🆚寂寞的时候，应该感情与声音的变化更佳明显\n\n参会感受：\n佩服佩真对一样的东西的热爱与坚持，能与佩真一路同行非常幸运～还有听到佩真的坚持学习的热情❤️受到总经理的青睐，在企业得到了升职的机会，由衷地为她感到开心，佩真的2018一定会更加闪亮，因为佩真一直🈶️一颗向阳的心！\n\n惊艳于秀勤的自信！这还是我认识的秀勤吗？她的声音向我传达了她的自信、豁朗！并且跟我们分享了她在懂你多次练习后，在工作上主持活动有所突破，受到领导嘉奖的近况。\n\n还是那句：这个冬天，遇见懂你，聆听大家，真好！\n\n', '2018-02-04 06:42:59'),
+('b7134760-2cef-11e8-a3bb-d1115bb1766e', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.3.18佩真复盘：不知不觉来到慢跑+演讲第三场了，这一场收获了红叶的爱我所爱无问西东，静妮的承诺信守，发现每个人都是闪光点，都有我值得学习的地方，努力学习吧，佩真！', '2018-03-21 10:07:51'),
 ('c1d354e0-0f46-11e8-88f0-f1364997bacb', NULL, 'ojVEl0dDlpiS7dS58LzoE--9nsRw', NULL, '2018.2.11【Jenny】复盘\n继续保持的方面：\n1主持\n1.1会中鼓励风格\n1.2.会中强调【懂你演讲刻意练习环】：目标—实践—反馈—复盘\n1.3.与大家共同实践【懂你演讲刻意练习环】\n2演讲\n2.1只讲一个亲身故事\n2.2细节的描绘\n2.3声音与情景的搭配\n3点评\n3.1发现演讲优势+示范性反馈+鼓励总结\n\n待提升的机会：\n1主持\n1.1会前鼓励邀请小伙伴一起学习\n1.2会中规则介绍的流畅度、减少赘言\n2.演讲\n2.1前面拿到题目后快速反应进入观点的30秒，可以采用提问的方式快速进入自己的观点\n2.2最后演讲转折前加一个触动自己的人生导师。\n2.3采用【英雄之旅】的演绎方式做两分钟的演讲\n例如：本来自己就是一个孤僻的龊B，不爱与亲戚来往交流，父母也会时常对自己苦口婆心的教导，但自己依然无动于衷，执迷不悟，左耳进右耳出！直到有一天遇到自己人生的导师【高效能人生的七个习惯】，以终为始，拨开迷雾，找到自己的使命，才开始第一次尝试，遇到一些挫折，也得到一些认可，至今依然走在努力的路上，只要坚持尝试，相信终有一天会在路上遇见【更好的自己】。\n3.点评\n3.1时间管理\n3.2点评总结：简洁扼要有力\n\n参会感受：\n1.👍【晚根】的不断突破超越自我精神\n2.👍【林燕】的春节找回学习的感觉\n3.👍【馨月】的激励人心的点评\n4.👍【Jasson】像🎵般有节奏感的点评\n5.👍【Aaron】的学习、分享、享受\n很开心自己在中文即兴演讲经历了恐惧至享受！\nLess is More ！在分享与服务中体验富有乐趣的人生！', '2018-02-11 16:15:20'),
+('cd683550-2fa8-11e8-9326-49f6f4c4697d', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.3.24晚佩真复盘：本以为今晚还是八点的场，结果没人，与张静俩仍然玩起两人练习，在张静身上有种磁场吸引着我，更多是我学习的榜样，我从她身上学到成长，学到同个问题不同的观点剖析，我们在一起最大的收获是发现备稿的素材，并找到佐料支撑。结束完后及时加入到慢跑第六场的练习中，静妮与敏超都在讲，真情分享时参与分享成长，加油，佩真！走过的每一天都不会骗你！', '2018-03-24 21:17:48'),
 ('d6a4d190-0ce5-11e8-af2c-a728da208421', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.2.8晚佩真复盘：短短的一小时疯狂三人练习，感谢秀勤与清清的陪伴，一个小时内我参与讲了3个题目点了5个点评，突然发现点的数量超过了说，收获了点评方面的成长。做的好的方面不再有之前的紧张害怕了，做的不好的方面是拿到题目时还可以再沉淀一下，尽量让故事饱满展现，收尾总是很匆忙，有待改进。三人疯狂练习个人感觉是强化演讲与点评，且速度较快偱环前进，值得参与！本场收获了最佳点评与演讲，见证成长！', '2018-02-08 07:36:32'),
 ('dba3fd90-0963-11e8-ab8d-4d1e012e24b9', NULL, 'ojVEl0dDlpiS7dS58LzoE--9nsRw', NULL, '2-3号Jenny演讲复盘\nTop1:【辣椒🌶️】\n继续保持的点：\n1.主要集中描述🌶️如何帮助我减轻压力\n2.结尾：表达对🌶️的喜欢与感谢！\n提升的机会：\n1.表达观点的时间切入更快些\n2.加入压力山大的时候的难过🆚吃完🌶️后的豁然开朗类似这种强烈的对比\n3.声音的多样性\n\nTop2【我爸爸很🐂牛B】\n继续保持的点：\n1.不要脸的方式展示爸爸很🐂牛B \n2.结合刘与牛的姓氏，创造了一个幽默点\n3.互动+自问自答\n提升的机会\n1.语速\n2.从独特的视角来阐述牛，比如爸爸一个人可以拉动50只🐂\n\n点评复盘：\n继续保持的点：\n1.欣赏+建议+鼓励\n提升的机会：\n示范性反馈可以更具体\n\n学习他人：\n1.小菁女神的声音的多样性', '2018-02-03 20:28:32'),
-('e34f3460-0a8f-11e8-9868-e763575df473', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018年2月5日晚佩真复盘：谢谢张曦和赵慧的陪伴！三个人的备稿演讲撑起了一个场，从晚上9点15分开始，到10点5分结束。从赵慧的稿子里更能了解到赵慧慧和赵畅合体的一个阳光帅小伙。从张曦的稿子里详细了解到了广州的风土人情，突然很想去广州。去过广州的更想再去一次，如果没去过广州的，听完他的演讲那就更想去广州了。三个人相互备稿，相互点评，其实这个平台除了给我们提供交流和学习，更多的是共同坚持和成长！期待下一次再次同频交流学习！也期待更多的小伙伴都能加入进来，共同成长！', '2018-02-05 08:16:14');
+('e34f3460-0a8f-11e8-9868-e763575df473', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018年2月5日晚佩真复盘：谢谢张曦和赵慧的陪伴！三个人的备稿演讲撑起了一个场，从晚上9点15分开始，到10点5分结束。从赵慧的稿子里更能了解到赵慧慧和赵畅合体的一个阳光帅小伙。从张曦的稿子里详细了解到了广州的风土人情，突然很想去广州。去过广州的更想再去一次，如果没去过广州的，听完他的演讲那就更想去广州了。三个人相互备稿，相互点评，其实这个平台除了给我们提供交流和学习，更多的是共同坚持和成长！期待下一次再次同频交流学习！也期待更多的小伙伴都能加入进来，共同成长！', '2018-02-05 08:16:14'),
+('f0f4ddc0-2cf1-11e8-a3bb-d1115bb1766e', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.3.20晚佩真复盘：今天与张静两人玩起了疯狂练习，从静的无条件的爱及套路演讲中我更加领略到为人师表的尊重，从与静的陪伴练习中我们找到了备稿的素材，也许还可以更好，但现在的每一点一滴都是为后面的更好努力，加油！收获成长！', '2018-03-21 10:23:47');
 
 -- --------------------------------------------------------
 
@@ -2581,7 +2773,42 @@ CREATE TABLE `user_target` (
 INSERT INTO `user_target` (`target_id`, `user_id`, `target_status`, `target_content`, `duration`, `end_date`, `finish_date`, `is_supervised`, `supervise_user`, `create_date`, `modify_date`) VALUES
 ('96432ff0-1af7-11e8-8d9f-c36c5270eff6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 2, '312312', 23, '2018-03-26', '2018-02-27 02:09:11', 1, NULL, '2018-02-27 02:09:10', '2018-02-27 02:09:10'),
 ('9c529020-1b6a-11e8-9482-fbdaaa57ffe7', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 2, '4532frefe', 34, '2018-04-27', '2018-03-10 09:32:12', 1, NULL, '2018-03-10 09:32:12', '2018-03-10 09:32:12'),
-('43cccd80-2510-11e8-909e-0902c67500fb', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 1, 'abc', 5, '2018-04-11', NULL, 1, NULL, '2018-03-11 09:40:42', '2018-03-11 09:40:42');
+('43cccd80-2510-11e8-909e-0902c67500fb', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 2, 'abc', 5, '2018-04-11', '2018-03-19 12:17:23', 1, NULL, '2018-03-19 12:17:22', '2018-03-19 12:17:22'),
+('d44ab470-2b6f-11e8-b0d4-bdbbf31f25bf', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 1, '2018年4月30号23:59完成21次半小时的慢跑演讲', 10, '2018-04-19', NULL, 1, NULL, '2018-03-19 12:19:53', '2018-03-19 12:19:53');
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `user_task`
+--
+
+CREATE TABLE `user_task` (
+  `task_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '任务ID',
+  `user_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '用户ID',
+  `task_type` int(5) NOT NULL COMMENT '任务类型',
+  `task_status` int(5) NOT NULL COMMENT '任务状态',
+  `create_date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建日期'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='用户任务表';
+
+--
+-- 转存表中的数据 `user_task`
+--
+
+INSERT INTO `user_task` (`task_id`, `user_id`, `task_type`, `task_status`, `create_date`) VALUES
+('0c4106a0-3b0a-11e8-be6e-d9567b27b692', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 2, 2, '2018-04-08 16:51:39'),
+('138c1c00-3336-11e8-ac77-370f46746fbd', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 4, 2, '2018-03-29 17:46:38'),
+('244e4e80-3716-11e8-be3f-bbd3cf7087b6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 2, '2018-04-03 16:08:07'),
+('33d95240-332f-11e8-b64f-87f5333b19cf', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 2, 2, '2018-03-29 16:57:47'),
+('4ff75990-332f-11e8-b64f-87f5333b19cf', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 3, 2, '2018-03-29 16:58:17'),
+('53f25a00-3716-11e8-be3f-bbd3cf7087b6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 2, 2, '2018-04-03 16:09:27'),
+('58d74110-33b1-11e8-a7a2-e3d7d5e2b6c6', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 1, 2, '2018-03-30 08:29:02'),
+('600aef50-335b-11e8-b9ca-af440413b383', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 1, 2, '2018-03-29 22:13:40'),
+('92bbb010-33d3-11e8-aea0-c9980ad57f39', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 2, '2018-03-30 12:34:03'),
+('c681ee70-3359-11e8-b9ca-af440413b383', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 2, 2, '2018-03-29 22:02:11'),
+('d5018f00-3ade-11e8-b32b-cb16eef65728', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 2, '2018-04-08 11:42:28'),
+('d8f09f50-3874-11e8-8393-5fd47f3f7061', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 2, '2018-04-05 09:58:34'),
+('eeb917e0-332e-11e8-b64f-87f5333b19cf', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 2, '2018-03-29 16:55:36'),
+('f2249ef0-37d8-11e8-bab3-439605889ac1', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 2, '2018-04-04 15:22:35');
 
 --
 -- Indexes for dumped tables
@@ -2594,6 +2821,13 @@ ALTER TABLE `cSessionInfo`
   ADD PRIMARY KEY (`open_id`),
   ADD KEY `openid` (`open_id`) USING BTREE,
   ADD KEY `skey` (`skey`) USING BTREE;
+
+--
+-- Indexes for table `impromptu_audio`
+--
+ALTER TABLE `impromptu_audio`
+  ADD PRIMARY KEY (`audio_id`),
+  ADD KEY `relate_audio` (`relate_audio`);
 
 --
 -- Indexes for table `impromptu_dialog`
@@ -2635,6 +2869,13 @@ ALTER TABLE `room_impromptu`
   ADD PRIMARY KEY (`room_id`);
 
 --
+-- Indexes for table `speech_subject`
+--
+ALTER TABLE `speech_subject`
+  ADD PRIMARY KEY (`subject_id`),
+  ADD UNIQUE KEY `subject_name` (`subject_name`);
+
+--
 -- Indexes for table `user_absent`
 --
 ALTER TABLE `user_absent`
@@ -2647,10 +2888,22 @@ ALTER TABLE `user_base_info`
   ADD PRIMARY KEY (`user_id`);
 
 --
+-- Indexes for table `user_introduction`
+--
+ALTER TABLE `user_introduction`
+  ADD PRIMARY KEY (`user_id`);
+
+--
 -- Indexes for table `user_score_detail`
 --
 ALTER TABLE `user_score_detail`
   ADD PRIMARY KEY (`room_id`,`user_id`,`score_type`);
+
+--
+-- Indexes for table `user_special_task`
+--
+ALTER TABLE `user_special_task`
+  ADD PRIMARY KEY (`task_id`);
 
 --
 -- Indexes for table `user_study_report`
@@ -2658,6 +2911,15 @@ ALTER TABLE `user_score_detail`
 ALTER TABLE `user_study_report`
   ADD PRIMARY KEY (`report_id`),
   ADD KEY `user_id` (`user_id`);
+
+--
+-- Indexes for table `user_task`
+--
+ALTER TABLE `user_task`
+  ADD PRIMARY KEY (`task_id`),
+  ADD KEY `task_id` (`task_id`),
+  ADD KEY `create_date` (`create_date`),
+  ADD KEY `create_date_2` (`create_date`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
