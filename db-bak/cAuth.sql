@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: 2018-04-09 09:31:46
+-- Generation Time: 2018-04-24 10:11:10
 -- 服务器版本： 5.7.18
 -- PHP Version: 5.6.30
 
@@ -105,18 +105,28 @@ CREATE TABLE `cSessionInfo` (
 
 INSERT INTO `cSessionInfo` (`open_id`, `uuid`, `skey`, `create_time`, `last_visit_time`, `session_key`, `user_info`) VALUES
 ('ojVEl0bfkCyTSJmoRrNBJOyy0JJg', 'fd400b67-1f32-4f27-9478-2a41a8011807', 'e9de3f12f175d65659daeb1b2310800d1b97ddb6', '2018-02-10 14:31:50', '2018-02-10 14:31:50', 'peGoEz4sbpQrSBkrkNxODw==', '{\"openId\":\"ojVEl0bfkCyTSJmoRrNBJOyy0JJg\",\"nickName\":\"嘉察协噶·王宝林\",\"gender\":1,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/grAYKRkNiaG0Fv7yPKlIdPShiaibNxdQNkpUe7bupiaHRxjyZV3Qau65DuqvtepjQG62YiaTdCJxboXBAYmsM7pQuqA/0\",\"watermark\":{\"timestamp\":1518273109,\"appid\":\"wxef60ee565b6fa65f\"}}'),
+('ojVEl0bM2FZ3Ctid05qtxpcmAfKw', 'd1b3324c-eee6-488f-beed-4972f9dc167c', 'dd6f5dc597c8a29d9e1d72529ff46cedb02f198b', '2018-04-19 12:23:26', '2018-04-19 12:23:26', 'O80bqUYH1i8j34SF2qZnLQ==', '{\"openId\":\"ojVEl0bM2FZ3Ctid05qtxpcmAfKw\",\"nickName\":\"海玲Helen🌸\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Guangzhou\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/kibbBU3N4cUyicx19ecicPf8ibyb1EadKTszRWpTlM7rmqtWxibDxjEx2aUtKvn4IXGzmib1Pfu3mS1MeA8TbIbhhXNg/0\",\"watermark\":{\"timestamp\":1524140604,\"appid\":\"wxef60ee565b6fa65f\"}}'),
+('ojVEl0c76fGCCJ0jbkr0rIGLYPHY', '127a5599-b67a-4054-b258-839b2b5e59a1', '07870e10f67bfb3c8cbf7bbda09d866440a44314', '2018-04-22 14:12:42', '2018-04-22 14:12:42', 'XiGhAgzmS/VZytIvBnaWzg==', '{\"openId\":\"ojVEl0c76fGCCJ0jbkr0rIGLYPHY\",\"nickName\":\"安丽亚 Leah\",\"gender\":2,\"language\":\"en\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/EcGGlpicPY9dicsTLzX0H78a7QNXCtUQSQSRguqaiaS8JLlMk3V8OSewHZ1dY8n3m1lpiblDjWib4icGythicsTckiaxpg/0\",\"watermark\":{\"timestamp\":1524406350,\"appid\":\"wxef60ee565b6fa65f\"}}'),
 ('ojVEl0d9fVPIq7eUJCNJ0bHsvzPw', 'f42e87a4-c457-44d4-8ff5-54eb6f5383bf', '9b44ebdc8e39e375926cf53af8af632ef5a8158e', '2018-02-27 00:18:05', '2018-02-27 00:18:05', 'FTqn+An+FrDSEeIK8qPLYw==', '{\"openId\":\"ojVEl0d9fVPIq7eUJCNJ0bHsvzPw\",\"nickName\":\"静\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/FyTISiaDoWCn2jKbCHXBPiaAuV63C8mEMlHgvhOSP8uZVsiaK3aYcPU8DTUdIMkn703cgZ3u9nbvJpuGuwicibjjzdA/0\",\"watermark\":{\"timestamp\":1519690683,\"appid\":\"wxef60ee565b6fa65f\"}}'),
-('ojVEl0dDlpiS7dS58LzoE--9nsRw', '289c3587-f313-4437-b6bc-6ba6e55c67c1', '4ac6c43f389beb083b35c6ecc8f24541714d5bcc', '2018-04-04 10:59:10', '2018-04-04 10:59:10', '0B9zzXNq+srJYLqfVvuHrA==', '{\"openId\":\"ojVEl0dDlpiS7dS58LzoE--9nsRw\",\"nickName\":\"Jenny Liu\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"\",\"province\":\"\",\"country\":\"\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/yWmQSjN8SbA6LpRqlPKQicX8ib2LPhWHm2ia6ibh65g7ttZX5d8rHVricgicGNNTHW7EZFFx0Syt6l4XicAWpHrfIGPibw/0\",\"watermark\":{\"timestamp\":1522839548,\"appid\":\"wxef60ee565b6fa65f\"}}'),
-('ojVEl0defF0TvYrD88uiKh-Z9dY8', '04b790f0-3927-432a-bf01-6fe804296d20', '0b32860148aaa3ec810a572328c4d0847531c406', '2018-03-13 06:47:43', '2018-03-13 06:47:43', 'wLS0IXvDrpYMxF4ivpuaqQ==', '{\"openId\":\"ojVEl0defF0TvYrD88uiKh-Z9dY8\",\"nickName\":\"亚齐\",\"gender\":1,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/YsskM9MLqQw8dwzWUyUXOSKKQq2sRJDA9otfZAQHo2pvkqNoyM7DeBjNyzxJEqzJKxs3W787Bs9ShCFQkCrY4w/0\",\"watermark\":{\"timestamp\":1520923662,\"appid\":\"wxef60ee565b6fa65f\"}}'),
-('ojVEl0QULKjlm2388VyYBzse1GUI', '30447058-a21e-4c30-9ad6-b4c9e17c0727', 'a5740f5274538d48f6ebf466f00750e494d64d47', '2018-01-29 03:00:10', '2018-01-29 03:00:10', 'DK1QYxKAjUQazXwKN4C2DQ==', '{\"openId\":\"ojVEl0QULKjlm2388VyYBzse1GUI\",\"nickName\":\"🌙笑笑\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Chaoyang\",\"province\":\"Beijing\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/4NOsUrdClqPwIFibico28BhgFpZRKwKPiaSIITqpKNzebVhlT2UvaUua6xCkH5oqcUGRRhjQc3YCJ3A4pREu3zf6A/0\",\"watermark\":{\"timestamp\":1517194807,\"appid\":\"wxef60ee565b6fa65f\"}}'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', '7ddfb258-6d20-4a56-bd75-5f8190349bee', '5db31b93d2705153c99b09760c42538e9f46f756', '2018-04-23 12:45:39', '2018-04-23 12:45:39', 'wn4rcTRWegZ02XUGmbwLWw==', '{\"openId\":\"ojVEl0dDlpiS7dS58LzoE--9nsRw\",\"nickName\":\"Jenny Liu\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"\",\"province\":\"\",\"country\":\"\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/yWmQSjN8SbA6LpRqlPKQicX8ib2LPhWHm2ia6ibh65g7ttZX5d8rHVricgicGNNTHW7EZFFx0Syt6l4XicAWpHrfIGPibw/0\",\"watermark\":{\"timestamp\":1524487537,\"appid\":\"wxef60ee565b6fa65f\"}}'),
+('ojVEl0defF0TvYrD88uiKh-Z9dY8', 'c20c6ce7-5d88-4070-a5a2-34a90ddc2c00', 'ccc1a5aa4e8ac4688c3f60ea2904abfcebbfc462', '2018-04-23 12:37:41', '2018-04-23 12:37:41', 'oIt8letF13XYQ6khnVsorQ==', '{\"openId\":\"ojVEl0defF0TvYrD88uiKh-Z9dY8\",\"nickName\":\"亚齐\",\"gender\":1,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/YsskM9MLqQw8dwzWUyUXOSKKQq2sRJDA9otfZAQHo2pvkqNoyM7DeBjNyzxJEqzJ9knTRWN2Vdb10g61rHSP8g/0\",\"watermark\":{\"timestamp\":1524487058,\"appid\":\"wxef60ee565b6fa65f\"}}'),
+('ojVEl0fxylMq_VZJDnAkCMcu0ni8', '1cb87b3b-693d-467c-bfbb-a9b108b40873', '8b8da8046df17755d6d1e70d0cc0e96ede2793ee', '2018-04-23 13:04:33', '2018-04-23 13:04:33', '2Jyou9yg0aBjoBoAE5gIjg==', '{\"openId\":\"ojVEl0fxylMq_VZJDnAkCMcu0ni8\",\"nickName\":\"静\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Xiamen\",\"province\":\"Fujian\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLib1yntNVUwEaYdWFxhkDNhR6yP1FOX41L4e0FqdYtKkt62kZm9g3WlhDxZjtEORxKOdWRX4EuGpQ/0\",\"watermark\":{\"timestamp\":1524488671,\"appid\":\"wxef60ee565b6fa65f\"}}'),
+('ojVEl0Q4EeeC3mXIqd5WQVuTMOvw', '9ae5229b-ba34-4e1d-a05b-95a7614eee2c', '00c48b5d30da0c5c48504dd86fcd3f6d61c66720', '2018-04-23 03:49:45', '2018-04-23 03:49:45', 'oOxfFvB2UN6aQVX2gyCAMw==', '{\"openId\":\"ojVEl0Q4EeeC3mXIqd5WQVuTMOvw\",\"nickName\":\"火火\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/sl6rK1Py9WU33MGF75YuFTLun2pL2iaxb7Sv0rGxgkicLicOjZnHlC8GCIicR5gonrACnjPSKnk7icOVUVEKVyyXKOQ/0\",\"watermark\":{\"timestamp\":1524455382,\"appid\":\"wxef60ee565b6fa65f\"}}'),
+('ojVEl0QULKjlm2388VyYBzse1GUI', '658d00b5-0271-4610-bebe-461318b17085', '00fae2210af3b27ca313d8b8fe6a3eeac838905a', '2018-04-19 15:13:52', '2018-04-19 15:13:52', 'Cke79z1GFUpTcx2QkQ6Vhw==', '{\"openId\":\"ojVEl0QULKjlm2388VyYBzse1GUI\",\"nickName\":\"🌙笑笑\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Chaoyang\",\"province\":\"Beijing\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/4NOsUrdClqPwIFibico28BhgFpZRKwKPiaSIITqpKNzebVhlT2UvaUua6xCkH5oqcUGxibVticdnibLMhM6agMPdS1rg/0\",\"watermark\":{\"timestamp\":1524150830,\"appid\":\"wxef60ee565b6fa65f\"}}'),
 ('ojVEl0RIXu-HAyC8ZvYvzx5DmBE0', 'df245f7b-5936-4dcf-9e97-3c5b46e80ff0', 'b1f42d9143c752f67e44ab13cea845e6c4b2eccf', '2018-02-13 09:04:11', '2018-02-13 09:04:11', 'YEiGIZnfJM+l6Aabsy181A==', '{\"openId\":\"ojVEl0RIXu-HAyC8ZvYvzx5DmBE0\",\"nickName\":\"阎小菁(中国太平)\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/gUiaHhHdWMGotvxucs5aV2qOgJrZZT6Jq8gHLZkazqz5APEibOHAOrqiaIIgdV1wcsHAmUVibkoXXxS0iam9hbegwtw/0\",\"watermark\":{\"timestamp\":1518512649,\"appid\":\"wxef60ee565b6fa65f\"}}'),
 ('ojVEl0Sn5rtJeGut5LQRGiEou_Vs', '7f7c3fe6-52bc-495a-b5e7-92d3855651a3', 'bec8f69c78dd575e13bff79284ae69bc9399e766', '2018-02-10 06:58:23', '2018-02-10 06:58:23', 'OH4w3o3Z/PnradquK3Gasg==', '{\"openId\":\"ojVEl0Sn5rtJeGut5LQRGiEou_Vs\",\"nickName\":\"honeyrui\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Harbin\",\"province\":\"Heilongjiang\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/ve8CgVv7RMogdrLVAnv7rIIdc5d6IxfGMndI3wHKw8eib6hyfOzTv96iazjwk3Q0iaYUicm7O9sXVliaiawaEeLibzXrg/0\",\"watermark\":{\"timestamp\":1518245902,\"appid\":\"wxef60ee565b6fa65f\"}}'),
+('ojVEl0TbOI1LDsT6ETLofCw7cP6s', '1f375111-e2b2-460f-aa3a-9184b4d6e574', '5eb5d1edd4dec18df4bb71487b753f6ece36f212', '2018-04-19 13:13:14', '2018-04-19 13:13:14', 'ZXdbt6U1gpBLlS6MREsa/w==', '{\"openId\":\"ojVEl0TbOI1LDsT6ETLofCw7cP6s\",\"nickName\":\"Nelson龚纪华·深圳\",\"gender\":1,\"language\":\"zh_CN\",\"city\":\"\",\"province\":\"\",\"country\":\"Marshall Islands\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/1G82w0icPmmmLosI39RiaqMCrfXAyV0Japt0Eaj9LCngG7U0ttPibGQX0y48p5OQFflsg6uVeliakp3wkic1mPviaAdQ/0\",\"watermark\":{\"timestamp\":1524143592,\"appid\":\"wxef60ee565b6fa65f\"}}'),
+('ojVEl0TDnTyUIKW0SEvA4dKm3hCs', '138db4b4-f66f-4cb1-9e2e-0e147562c205', '6270ba8d88394807aacd02e9905c9896b8aad6eb', '2018-04-21 13:20:32', '2018-04-21 13:20:32', '0ZAXWTVM8Du1iWu0QH/D3g==', '{\"openId\":\"ojVEl0TDnTyUIKW0SEvA4dKm3hCs\",\"nickName\":\"Miss Dong\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Dongguan\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/KU20Lw92H0FIh5Otuia0qUaxTQ2zsdKAkEeJLnZxDHmzRXsZquvvvwnOrB230g2kvVlURwSVL3aoS9a2449zBsQ/0\",\"watermark\":{\"timestamp\":1524316829,\"appid\":\"wxef60ee565b6fa65f\"}}'),
+('ojVEl0TVwvLdmLSFdmu8A2FbSA3E', 'b275cf6a-3381-493c-a8f7-f5bddf69489f', 'f63d8563663e0d0280d1a3ff27f110f27a55b774', '2018-04-21 13:21:09', '2018-04-21 13:21:09', 'KCmjceubkuuLIXdlwGhkWw==', '{\"openId\":\"ojVEl0TVwvLdmLSFdmu8A2FbSA3E\",\"nickName\":\"张宏烨™\",\"gender\":1,\"language\":\"zh_CN\",\"city\":\"Xiamen\",\"province\":\"Fujian\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIaticVV2lDkYQoygXaTOG3ibLRDukCO9H0CTSHF3amOFpOrCwr352eRrMxeAQHj0GxSe1Mlp8UlKDw/0\",\"watermark\":{\"timestamp\":1524316867,\"appid\":\"wxef60ee565b6fa65f\"}}'),
 ('ojVEl0VwRNF4fFqcXMX4XRHh8CKo', 'ca7bef72-c842-4efc-9073-d741dea0e18d', '69df2b263b7ae6972fb9087155f074a87deb27db', '2018-03-08 13:42:44', '2018-03-08 13:42:44', 'hNGFkP8URbDBXDaeVBVKow==', '{\"openId\":\"ojVEl0VwRNF4fFqcXMX4XRHh8CKo\",\"nickName\":\"Lindy\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/cfX0YKK0ps8W8NWFndwbAsm7oUna6shEyrvkib1PR1xJyfqpuYfI4jRXL07JrlCKLWyRVQJicvRJDnvWVic0Erguw/0\",\"watermark\":{\"timestamp\":1520516562,\"appid\":\"wxef60ee565b6fa65f\"}}'),
 ('ojVEl0W20SioIXdyo2n5Gqdtf-s4', '2ee93a15-43ee-4349-a78f-b5f72f194a12', '68159c2cd2849007bb81904f950014f5bd43fe12', '2018-03-02 11:39:44', '2018-03-02 11:39:44', 'CsS+tDEvw4ouLjfPf99Bdw==', '{\"openId\":\"ojVEl0W20SioIXdyo2n5Gqdtf-s4\",\"nickName\":\"Charles🏊姜羡美\",\"gender\":1,\"language\":\"en\",\"city\":\"Jiamusi\",\"province\":\"Heilongjiang\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/luGOSzjhPgmIudYTXRJz7Gvf9LbJxThUaSFGcUreNGpMZp9DibZdicRDRxUmdktn2loDNJF4JaarhPaVphSENFxQ/0\",\"watermark\":{\"timestamp\":1519990783,\"appid\":\"wxef60ee565b6fa65f\"}}'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', 'ae3f2512-8eba-4811-97b7-0d183f55dbf6', 'dfbf72535b1b57b1d2aacfae6a99ae77fa91d32a', '2018-04-09 08:57:00', '2018-04-09 08:57:00', 'u4Px7W0wGIEt+v241FVr6g==', '{\"openId\":\"ojVEl0XuK00Wthcppktt5rVu-9DA\",\"nickName\":\"田晗\",\"gender\":1,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/td7fs4gViaTbiapawxWiaxZKyJISqvcvNfjtphNtYhRXcZDqT9U6l0fatjq8waEL74CSIsyVOWwXpIx3utaj9N28Q/0\",\"watermark\":{\"timestamp\":1523264219,\"appid\":\"wxef60ee565b6fa65f\"}}'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'e750576b-fc44-4326-a762-f7f1b6345afd', 'd81ebb8e94923f8bad911db4661a3c33ca36bd33', '2018-04-24 09:39:51', '2018-04-24 09:39:51', 'gdh01zNQQb8hMug5y4DWYg==', '{\"openId\":\"ojVEl0XuK00Wthcppktt5rVu-9DA\",\"nickName\":\"田晗\",\"gender\":1,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/td7fs4gViaTbiapawxWiaxZKyJISqvcvNfjtphNtYhRXcZDqT9U6l0fatjq8waEL74CSIsyVOWwXpIx3utaj9N28Q/0\",\"watermark\":{\"timestamp\":1524562789,\"appid\":\"wxef60ee565b6fa65f\"}}'),
+('ojVEl0YCRL7poRUhD_k39fFKLmxk', '0e792557-65cd-4126-ba70-d79286cb1090', '02627dab31d5f6f06db216c2326b5a854200ee18', '2018-04-20 12:57:30', '2018-04-20 12:57:30', 'jo0BJL0GP3d9f4TVqfEy7A==', '{\"openId\":\"ojVEl0YCRL7poRUhD_k39fFKLmxk\",\"nickName\":\"狮子座的唐清清\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Florida\",\"province\":\"Sichuan\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83eqL8CeMWHUIALibUnD2HwCibdicicuicRnW4TLHZSCmxfqIDQVumj9YmmRt5MicVSMg3IWqMnkpuTh1TU5w/0\",\"watermark\":{\"timestamp\":1524229048,\"appid\":\"wxef60ee565b6fa65f\"}}'),
 ('ojVEl0YfpfbCaQcAYAwf5RA3viAc', '7532130e-f487-4f20-8937-6d42f32a6b84', '9e97e73cd264470a821ecbff1634e7ec5505649d', '2018-02-26 15:52:06', '2018-02-26 15:52:06', 'FQ39tWPbnjXN96t4MfuO/w==', '{\"openId\":\"ojVEl0YfpfbCaQcAYAwf5RA3viAc\",\"nickName\":\"秀虹\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83eqLWPo99KSAhua9vQXicdHWDkVoT2gJEYqccVaaSBwsfNeRZicogLsFm7miar4E26IzibUIkGQKzfalJw/0\",\"watermark\":{\"timestamp\":1519660321,\"appid\":\"wxef60ee565b6fa65f\"}}'),
-('ojVEl0YRMHmDFi07bbijq_2ds2kQ', 'adf66f88-f547-4c0a-9c47-4c4132431269', '12dc9a546e9fa13928fa822740a06e27c75ef6d8', '2018-04-02 08:59:50', '2018-04-02 08:59:50', '1ETHxlqXpRRUy+WsllhXWw==', '{\"openId\":\"ojVEl0YRMHmDFi07bbijq_2ds2kQ\",\"nickName\":\"佩真\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/6cXKmTpGb0jvpBDWDNSicfqht26ju3Emial90lqjKjHflnqicSnwsjWIe1LSEztRiaG0iafxLG8h6qeO9ClD7I1SC7A/0\",\"watermark\":{\"timestamp\":1522659587,\"appid\":\"wxef60ee565b6fa65f\"}}'),
-('ojVEl0Zqvgk3xJcJy-ui8-wMkQ90', '9a3f57c8-208f-4e3a-ab0e-8a41566e8a71', '2cc8c834c5bc5253857696561e6e3944e7b1f9e3', '2018-03-08 13:36:18', '2018-03-08 13:36:18', 'xrzsLUMGUcWzyAtRQIv2YQ==', '{\"openId\":\"ojVEl0Zqvgk3xJcJy-ui8-wMkQ90\",\"nickName\":\"馨月\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKAvnBlxtIfFqEnHIicicuwCy0yULt4JFaPuLRDqWLpc1VO7pmibp62Lq19C1vXDkkQClKvmib0ohDaAQ/0\",\"watermark\":{\"timestamp\":1520516176,\"appid\":\"wxef60ee565b6fa65f\"}}');
+('ojVEl0YRMHmDFi07bbijq_2ds2kQ', 'ef7189d8-8745-4d64-bccd-3ebee34a8752', 'a4b816fb3a15218628a3382030ee5b23969b15c2', '2018-04-21 13:36:12', '2018-04-21 13:36:12', 'QkJ7IuYxsQy4XH42KpqocQ==', '{\"openId\":\"ojVEl0YRMHmDFi07bbijq_2ds2kQ\",\"nickName\":\"佩真\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/6cXKmTpGb0jvpBDWDNSicfqht26ju3Emial90lqjKjHflnqicSnwsjWIe1LSEztRiaG0iafxLG8h6qeO9ClD7I1SC7A/0\",\"watermark\":{\"timestamp\":1524317769,\"appid\":\"wxef60ee565b6fa65f\"}}'),
+('ojVEl0Z7lf_C3z9Bv2-oeAkDh0Sw', '545ae1ef-6689-419e-98fd-ceee5c0f0647', '505b0e9023ab522c1f690318abbc674491afbe3e', '2018-04-21 13:02:05', '2018-04-21 13:02:05', 'FVkVaS8zYbygIyqO49/cOw==', '{\"openId\":\"ojVEl0Z7lf_C3z9Bv2-oeAkDh0Sw\",\"nickName\":\"Jasson\",\"gender\":1,\"language\":\"en\",\"city\":\"\",\"province\":\"Hallands\",\"country\":\"Sweden\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/CmCyKiaUqcw1Ibhd81wdWqUiao2RUlqZric1Drr5Sj3icLfOMGC8oM7JvZsKLiajIZI97PSSicWNdekX2r8KE3nibJF2A/0\",\"watermark\":{\"timestamp\":1524315723,\"appid\":\"wxef60ee565b6fa65f\"}}'),
+('ojVEl0Z8T5PrRyhiOl17P87L9X2I', '27912d1b-57e4-4f0c-a244-c4c5b31d2546', '2df698651d4f8cd9af5e53995cb06042865c5530', '2018-04-19 13:24:29', '2018-04-19 13:24:29', 'Q0+eME4J9dw1A9y9zbguBQ==', '{\"openId\":\"ojVEl0Z8T5PrRyhiOl17P87L9X2I\",\"nickName\":\"寻梦天涯\",\"gender\":1,\"language\":\"en\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/YhN9DNq0u3SlZVbINh2ZGIHuVvhvHfiaTaTvprBQxSVKGCweGpOgPpOyUv5cnh7pARocyUR157CYQ7ALdGF5xDA/0\",\"watermark\":{\"timestamp\":1524144263,\"appid\":\"wxef60ee565b6fa65f\"}}'),
+('ojVEl0Zqvgk3xJcJy-ui8-wMkQ90', 'cc11ae60-cef6-4f93-9341-45050733f4b7', '06bcf0984b282402f1bc5aed83daa9ae7fa6b0cf', '2018-04-19 11:24:59', '2018-04-19 11:24:59', 'njWVXG7qsSQJbMsPCawIuQ==', '{\"openId\":\"ojVEl0Zqvgk3xJcJy-ui8-wMkQ90\",\"nickName\":\"馨月\",\"gender\":2,\"language\":\"zh_CN\",\"city\":\"Shenzhen\",\"province\":\"Guangdong\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKAvnBlxtIfFqEnHIicicuwCy0yULt4JFaPuLRDqWLpc1VO7pmibp62Lq19C1vXDkkQClKvmib0ohDaAQ/0\",\"watermark\":{\"timestamp\":1524137097,\"appid\":\"wxef60ee565b6fa65f\"}}');
 
 -- --------------------------------------------------------
 
@@ -145,31 +155,230 @@ CREATE TABLE `impromptu_audio` (
 --
 
 INSERT INTO `impromptu_audio` (`audio_id`, `audio_type`, `audio_status`, `audio_name`, `user_id`, `room_id`, `audio_text`, `time_duration`, `like_amount`, `view_amount`, `comment_amount`, `relate_audio`, `create_date`) VALUES
-('071d6790-3afb-11e8-8ae7-e3b72cb99681', 1, 2, '2018-04-08 15:04', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '513ec8b0-3ab9-11e8-afec-25ae2f1c7332', NULL, 8, 0, 0, 0, NULL, '2018-04-08 07:04:09'),
-('0c4106a0-3b0a-11e8-be6e-d9567b27b692', 1, 2, '', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 2, 0, 0, 0, NULL, '2018-04-08 08:51:39'),
-('138c1c00-3336-11e8-ac77-370f46746fbd', 1, 2, NULL, 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 2, 0, 0, 0, NULL, '2018-03-29 09:46:38'),
-('15010460-3318-11e8-ab0d-97875e4a8def', 1, 2, NULL, 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 3, 0, 0, 0, NULL, '2018-03-29 06:12:56'),
-('244e4e80-3716-11e8-be3f-bbd3cf7087b6', 1, 2, NULL, 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 2, 0, 1, 0, NULL, '2018-04-03 08:08:07'),
-('33d95240-332f-11e8-b64f-87f5333b19cf', 1, 2, NULL, 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 3, 1, 1, 1, NULL, '2018-03-29 08:57:47'),
-('4ff75990-332f-11e8-b64f-87f5333b19cf', 1, 2, NULL, 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 2, 0, 0, 0, NULL, '2018-03-29 08:58:17'),
-('53f25a00-3716-11e8-be3f-bbd3cf7087b6', 1, 2, NULL, 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 2, 0, 0, 0, NULL, '2018-04-03 08:09:27'),
-('58d74110-33b1-11e8-a7a2-e3d7d5e2b6c6', 1, 2, NULL, 'ojVEl0dDlpiS7dS58LzoE--9nsRw', NULL, NULL, 13, 0, 4, 0, NULL, '2018-03-30 00:29:02'),
-('5fd6fbe0-33fc-11e8-90f4-8549a78e8765', 2, 1, '', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 3, 0, 0, 0, '92bbb010-33d3-11e8-aea0-c9980ad57f39', '2018-03-30 09:26:48'),
-('600aef50-335b-11e8-b9ca-af440413b383', 1, 2, NULL, 'ojVEl0dDlpiS7dS58LzoE--9nsRw', NULL, NULL, 3, 0, 0, 0, NULL, '2018-03-29 14:13:40'),
-('7bc92960-3319-11e8-b17c-e1db6997cf18', 1, 2, NULL, 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 3, 0, 0, 0, NULL, '2018-03-29 06:22:19'),
-('83fec8b0-33ff-11e8-90f4-8549a78e8765', 2, 1, '', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 2, 0, 0, 0, '33d95240-332f-11e8-b64f-87f5333b19cf', '2018-03-30 09:48:38'),
-('84cf8610-3316-11e8-ab0d-97875e4a8def', 1, 2, NULL, 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 3, 0, 0, 0, NULL, '2018-03-29 06:02:35'),
-('87f12780-330d-11e8-ba2e-2da542dc63d6', 1, 2, NULL, 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 5, 0, 0, 0, NULL, '2018-03-29 04:56:26'),
-('92bbb010-33d3-11e8-aea0-c9980ad57f39', 1, 2, NULL, 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 4, 9, 11, 1, NULL, '2018-03-30 04:34:03'),
+('01a4b360-449f-11e8-9103-578993b3a9b7', 1, 2, '2018-04-20 21:30', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', NULL, 8, 0, 7, 0, NULL, '2018-04-20 13:30:44'),
+('01b36d70-4570-11e8-ab0e-bf63242b71a4', 2, 1, '2018-04-21 22:26:41', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 2, 0, 2, 0, 'b8ebaee0-456f-11e8-ab0e-bf63242b71a4', '2018-04-21 14:26:41'),
+('03515da0-430d-11e8-b4ef-fd4160013537', 1, 2, '2018-04-18 21:33', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '951729d0-4309-11e8-bd38-a310f0e7f936', NULL, 53, 0, 0, 0, NULL, '2018-04-18 13:33:01'),
+('0372a320-447f-11e8-8c21-0b22573fc85c', 2, 2, '2018-04-20 17:41', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', NULL, 9, 0, 0, 0, 'f6a3d420-447e-11e8-8c21-0b22573fc85c', '2018-04-20 09:41:34'),
+('05a33250-430c-11e8-b4ef-fd4160013537', 2, 1, '2018-04-18 21:25', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '951729d0-4309-11e8-bd38-a310f0e7f936', NULL, 0, 1, 0, 0, 'a813eee0-430b-11e8-b4ef-fd4160013537', '2018-04-18 13:25:56'),
+('071d6790-3afb-11e8-8ae7-e3b72cb99681', 1, 2, '2018-04-08 15:04', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '513ec8b0-3ab9-11e8-afec-25ae2f1c7332', NULL, 8, 0, 1, 0, NULL, '2018-04-08 07:04:09'),
+('073843a0-417f-11e8-9992-bf23bedc04dc', 2, 1, '2018-04-16 22:04:30', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 3, 0, 3, 0, 'a0cdf2e0-4179-11e8-a7a7-3b65f1eb71c3', '2018-04-16 14:04:30'),
+('07535d70-45f8-11e8-a0d4-779797300fd4', 1, 1, '2018-04-22 14:40', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', NULL, 0, 0, 0, 0, NULL, '2018-04-22 06:40:22'),
+('091d0700-4652-11e8-a110-fb2706e8bff5', 1, 2, '测试', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '5c54a180-4648-11e8-b11c-cf640075af52', '测试文字f\ndsfsdf\nsdfv\nsdv\nsdf\nsdfsdf\nsdfsd', 10, 1, 6, 0, NULL, '2018-04-22 17:24:51'),
+('0b3f29f0-4571-11e8-9bf0-05f29dc5d4a1', 1, 1, '2018-04-21 22:34', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'cc1c7910-456d-11e8-a95f-15a1c7b473d6', NULL, 0, 0, 0, 0, NULL, '2018-04-21 14:34:05'),
+('0b598530-4570-11e8-ab0e-bf63242b71a4', 2, 2, '2018-04-21 22:26', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'cc1c7910-456d-11e8-a95f-15a1c7b473d6', NULL, 4, 0, 2, 0, 'b8ebaee0-456f-11e8-ab0e-bf63242b71a4', '2018-04-21 14:26:57'),
+('0b7caf80-456e-11e8-9d95-492aa3c9ce26', 1, 2, '测试录音', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'cc1c7910-456d-11e8-a95f-15a1c7b473d6', 'null', 11, 0, 3, 0, NULL, '2018-04-21 14:12:38'),
+('0c4106a0-3b0a-11e8-be6e-d9567b27b692', 1, 2, '2018-04-08 16:51:39', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 2, 0, 0, 0, NULL, '2018-04-08 08:51:39'),
+('0d401610-43dc-11e8-a77e-413ca4ca081e', 2, 1, '2018-04-19 22:15:03', 'ojVEl0Z8T5PrRyhiOl17P87L9X2I', '', NULL, 4, 0, 2, 0, '3fb6f800-43d9-11e8-b1df-ab2798e98d8a', '2018-04-19 14:15:03'),
+('0d473430-449b-11e8-866d-5f9883b390db', 1, 1, '2018-04-20 21:02', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', NULL, 0, 0, 0, 0, NULL, '2018-04-20 13:02:17'),
+('0eb5abb0-4574-11e8-9edd-3b8ead3e8a37', 1, 1, '2018-04-21 22:55', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'cc1c7910-456d-11e8-a95f-15a1c7b473d6', NULL, 0, 0, 0, 0, NULL, '2018-04-21 14:55:40'),
+('10941810-46c6-11e8-a017-bf64942b264c', 1, 2, '测试录音', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 8, 0, 0, 0, NULL, '2018-04-23 07:15:26'),
+('10fca280-4645-11e8-ac91-b561792e7414', 1, 2, '测试', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', NULL, 10, 0, 1, 0, NULL, '2018-04-22 15:52:03'),
+('13530b10-43d3-11e8-a22a-9b72744e8f8d', 1, 2, '2018-04-19 21:10', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '9a581d40-430a-11e8-bd38-a310f0e7f936', NULL, 69, 0, 4, 0, NULL, '2018-04-19 13:10:48'),
+('135ed830-46c3-11e8-afce-af12b5fefc66', 1, 2, '时代', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '39816590-46b0-11e8-8410-6902fe469e77', NULL, 4, 0, 4, 0, NULL, '2018-04-23 06:54:13'),
+('138c1c00-3336-11e8-ac77-370f46746fbd', 1, 2, '2018-03-29 17:46:38', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 2, 0, 0, 0, NULL, '2018-03-29 09:46:38'),
+('1463a6c0-46ff-11e8-8dac-9b53b19c866c', 2, 1, '点评真情时刻', 'ojVEl0fxylMq_VZJDnAkCMcu0ni8', 'cc51dda0-46f1-11e8-954a-5bbc2510acb6', NULL, 33, 0, 0, 0, 'c4d9b680-46fe-11e8-b8b0-e3ae2107268b', '2018-04-23 14:03:56'),
+('15010460-3318-11e8-ab0d-97875e4a8def', 1, 2, '2018-03-29 14:12:56', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 3, 0, 0, 0, NULL, '2018-03-29 06:12:56'),
+('15076d90-449e-11e8-9103-578993b3a9b7', 2, 1, '2018-04-20 21:23', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', NULL, 0, 1, 4, 0, 'a280bba0-449d-11e8-a987-59cf123bd253', '2018-04-20 13:23:59'),
+('1654c340-43dc-11e8-a77e-413ca4ca081e', 2, 1, '2018-04-19 22:15:19', 'ojVEl0Z8T5PrRyhiOl17P87L9X2I', '', NULL, 4, 0, 2, 0, '3fb6f800-43d9-11e8-b1df-ab2798e98d8a', '2018-04-19 14:15:19'),
+('18c40390-44a2-11e8-b401-6f4982f27f60', 2, 1, '2018-04-20 21:52:44', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 4, 0, 1, 0, '9e8e56d0-4360-11e8-8405-13e2bb3f2a0a', '2018-04-20 13:52:44'),
+('19a9da30-4567-11e8-9e6d-7524efd771bf', 1, 2, '整形', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'fd2bbee0-4521-11e8-bd4a-85d71b00bba8', 'null', 126, 0, 8, 1, NULL, '2018-04-21 13:22:55'),
+('1a67cb90-462e-11e8-b462-494d7359e301', 1, 2, '虚惊一场', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', NULL, 146, 0, 0, 1, NULL, '2018-04-22 13:10:07'),
+('1a831ab0-46fd-11e8-b8b0-e3ae2107268b', 1, 2, '兴致', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'cc51dda0-46f1-11e8-954a-5bbc2510acb6', NULL, 135, 0, 1, 0, NULL, '2018-04-23 13:51:41'),
+('1ce96a60-464f-11e8-a110-fb2706e8bff5', 1, 2, '测试录音-自由', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 10, 0, 7, 0, NULL, '2018-04-22 17:03:47'),
+('21d893f0-4606-11e8-a34d-e519ee5eaf22', 1, 2, '测试', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', NULL, 6, 0, 0, 0, NULL, '2018-04-22 08:21:39'),
+('2414ac30-4651-11e8-a110-fb2706e8bff5', 1, 2, '2018-04-23 01:18:26', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '5c54a180-4648-11e8-b11c-cf640075af52', NULL, 8, 0, 2, 2, NULL, '2018-04-22 17:18:26'),
+('244e4e80-3716-11e8-be3f-bbd3cf7087b6', 1, 2, '2018-04-03 16:08:07', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 2, 0, 2, 0, NULL, '2018-04-03 08:08:07'),
+('25186450-46c4-11e8-86cc-61df54bc28cf', 1, 2, '你们', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '39816590-46b0-11e8-8410-6902fe469e77', '\'\'', 1, 0, 0, 0, NULL, '2018-04-23 07:01:34'),
+('26b19c10-430d-11e8-b4ef-fd4160013537', 1, 2, '2018-04-18 21:33', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '951729d0-4309-11e8-bd38-a310f0e7f936', NULL, 4, 0, 1, 0, NULL, '2018-04-18 13:34:01'),
+('27b42330-46d7-11e8-a7f2-176cbd2ba5e5', 2, 1, '点评测试录音', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 2, 0, 10, 0, '535efd50-46b1-11e8-ae1c-0783762c1916', '2018-04-23 09:17:34'),
+('27e735e0-430d-11e8-b4ef-fd4160013537', 1, 2, '2018-04-18 21:34', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '951729d0-4309-11e8-bd38-a310f0e7f936', NULL, 15, 0, 1, 0, NULL, '2018-04-18 13:34:03'),
+('280d3790-43d5-11e8-a22a-9b72744e8f8d', 2, 1, '2018-04-19 21:25', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '9a581d40-430a-11e8-bd38-a310f0e7f936', NULL, 0, 1, 2, 0, '70dc65a0-43d4-11e8-a22a-9b72744e8f8d', '2018-04-19 13:25:42'),
+('28ccc790-4605-11e8-acd4-99086bc7bfab', 1, 2, '2018-04-22 16:14', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', NULL, 7, 0, 1, 0, NULL, '2018-04-22 08:15:01'),
+('2f374620-4572-11e8-abda-97a37b578f86', 1, 2, '2018-04-21 22:42', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'cc1c7910-456d-11e8-a95f-15a1c7b473d6', NULL, 106, 0, 0, 0, NULL, '2018-04-21 14:42:15'),
+('300e3f80-46c2-11e8-9573-9b42cc2b5eef', 1, 2, '时代', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '39816590-46b0-11e8-8410-6902fe469e77', '方法发到我\n非常宝宝', 3, 0, 0, 0, NULL, '2018-04-23 06:47:59'),
+('30ac3b60-43dc-11e8-a77e-413ca4ca081e', 1, 2, '2018-04-19 22:16', 'ojVEl0Z8T5PrRyhiOl17P87L9X2I', '9a581d40-430a-11e8-bd38-a310f0e7f936', NULL, 24, 0, 1, 1, NULL, '2018-04-19 14:16:03'),
+('32c12ae0-449b-11e8-900f-c75893f3ad42', 1, 1, '2018-04-20 21:03', 'ojVEl0YCRL7poRUhD_k39fFKLmxk', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', NULL, 0, 0, 0, 0, NULL, '2018-04-20 13:03:19'),
+('33d95240-332f-11e8-b64f-87f5333b19cf', 1, 2, '2018-03-29 16:57:47', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 3, 1, 1, 1, NULL, '2018-03-29 08:57:47'),
+('33fe6d40-43d4-11e8-a22a-9b72744e8f8d', 1, 2, '2018-04-19 21:18', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '9a581d40-430a-11e8-bd38-a310f0e7f936', NULL, 65, 0, 7, 0, NULL, '2018-04-19 13:18:52'),
+('35ed3080-479b-11e8-97c8-a7424e63d08e', 1, 2, '2018-04-24 16:41:01', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 3, 0, 0, 0, NULL, '2018-04-24 08:41:12'),
+('38bdba10-46f5-11e8-96d2-8d34f863e832', 2, 1, '点评点评嘉宾介绍主持', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 5, 0, 2, 0, '4a668c10-46f0-11e8-8f6c-0b5eb3e2cb55', '2018-04-23 12:52:47'),
+('3a10ba60-4499-11e8-8981-7b6cae7910ee', 2, 1, '2018-04-20 20:49:13', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 4, 0, 3, 0, '4ffc6960-4498-11e8-bb2f-15c74a7e58fc', '2018-04-20 12:49:13'),
+('3b255520-46fe-11e8-8dac-9b53b19c866c', 2, 1, '点评2018-04-23 21:56:32', 'ojVEl0fxylMq_VZJDnAkCMcu0ni8', 'cc51dda0-46f1-11e8-954a-5bbc2510acb6', NULL, 84, 0, 3, 0, 'd44a9d10-46fd-11e8-8891-45eebadaef2a', '2018-04-23 13:58:41'),
+('40297ac0-449b-11e8-866d-5f9883b390db', 1, 1, '2018-04-20 21:03', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', NULL, 0, 2, 0, 0, NULL, '2018-04-20 13:03:42'),
+('408a7070-4651-11e8-a110-fb2706e8bff5', 2, 1, '2018-04-23 01:19:04', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 7, 0, 2, 0, '2414ac30-4651-11e8-a110-fb2706e8bff5', '2018-04-22 17:19:04'),
+('426de0d0-462d-11e8-b462-494d7359e301', 1, 2, '测速', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'cc1c7910-456d-11e8-a95f-15a1c7b473d6', NULL, 5, 0, 1, 0, NULL, '2018-04-22 13:01:34'),
+('45465230-43dd-11e8-b32b-2777ca582719', 2, 1, '2018-04-19 22:23:47', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 8, 0, 4, 0, 'a1baf350-43dc-11e8-a77e-413ca4ca081e', '2018-04-19 14:23:47'),
+('46f2db30-46c6-11e8-bc6c-17e4ea017c1e', 1, 2, '测试录音', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 4, 0, 0, 0, NULL, '2018-04-23 07:16:49'),
+('49ccddf0-449c-11e8-a987-59cf123bd253', 2, 2, '2018-04-20 21:11', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', NULL, 66, 0, 2, 0, 'ebd47870-449b-11e8-866d-5f9883b390db', '2018-04-20 13:11:08'),
+('4a668c10-46f0-11e8-8f6c-0b5eb3e2cb55', 2, 1, '点评嘉宾介绍主持', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '', NULL, 36, 1, 5, 1, 'a89c2040-46b1-11e8-ae1c-0783762c1916', '2018-04-23 12:17:33'),
+('4c48c690-417f-11e8-89d4-2b58dabbcb09', 2, 1, '2018-04-16 22:06:09', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 3, 0, 4, 0, 'a0cdf2e0-4179-11e8-a7a7-3b65f1eb71c3', '2018-04-16 14:06:09'),
+('4cbf4630-43dc-11e8-a77e-413ca4ca081e', 1, 2, '2018-04-19 22:16', 'ojVEl0Z8T5PrRyhiOl17P87L9X2I', '9a581d40-430a-11e8-bd38-a310f0e7f936', NULL, 6, 0, 0, 0, NULL, '2018-04-19 14:16:50'),
+('4cceb7a0-46de-11e8-a7f2-176cbd2ba5e5', 2, 1, '点评测试录音', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 2, 0, 0, 0, '535efd50-46b1-11e8-ae1c-0783762c1916', '2018-04-23 10:08:45'),
+('4e2da640-462c-11e8-a702-956dff80c664', 1, 2, '测试', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', NULL, 30, 0, 0, 0, NULL, '2018-04-22 12:55:16'),
+('4ff75990-332f-11e8-b64f-87f5333b19cf', 1, 2, '2018-03-29 16:58:17', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 2, 0, 0, 0, NULL, '2018-03-29 08:58:17'),
+('533f8ce0-43dc-11e8-a77e-413ca4ca081e', 1, 2, '2018-04-19 22:17', 'ojVEl0Z8T5PrRyhiOl17P87L9X2I', '9a581d40-430a-11e8-bd38-a310f0e7f936', NULL, 2, 0, 0, 0, NULL, '2018-04-19 14:17:01'),
+('535efd50-46b1-11e8-ae1c-0783762c1916', 1, 2, '测试录音', 'ojVEl0Q4EeeC3mXIqd5WQVuTMOvw', NULL, NULL, 4, 0, 2, 2, NULL, '2018-04-23 04:46:48'),
+('53c41a80-456e-11e8-9d95-492aa3c9ce26', 1, 2, '测试录音', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 10, 0, 2, 0, NULL, '2018-04-21 14:14:40'),
+('53f25a00-3716-11e8-be3f-bbd3cf7087b6', 1, 2, '2018-04-03 16:09:27', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 2, 0, 0, 0, NULL, '2018-04-03 08:09:27'),
+('554dd790-4499-11e8-8981-7b6cae7910ee', 2, 1, '2018-04-20 20:49:59', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 10, 0, 2, 0, '4ffc6960-4498-11e8-bb2f-15c74a7e58fc', '2018-04-20 12:49:59'),
+('556d6b50-46fb-11e8-b8b0-e3ae2107268b', 2, 1, '点评2018-04-23 21:36:07', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'cc51dda0-46f1-11e8-954a-5bbc2510acb6', NULL, 71, 1, 0, 0, 'f76611b0-46fa-11e8-8891-45eebadaef2a', '2018-04-23 13:37:44'),
+('55ad14f0-44a1-11e8-b401-6f4982f27f60', 1, 2, '每日复盘', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 46, 0, 5, 1, NULL, '2018-04-20 13:47:17'),
+('55af5a90-4630-11e8-8a00-8d2318f8980a', 1, 2, '2018-04-22 21:25:34', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', NULL, 126, 0, 0, 1, NULL, '2018-04-22 13:25:34'),
+('5708c9e0-43dc-11e8-a77e-413ca4ca081e', 1, 2, '2018-04-19 22:17', 'ojVEl0Z8T5PrRyhiOl17P87L9X2I', '9a581d40-430a-11e8-bd38-a310f0e7f936', NULL, 6, 0, 0, 0, NULL, '2018-04-19 14:17:07'),
+('5d90a3e0-449b-11e8-a987-59cf123bd253', 1, 2, '今日计划', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '9a581d40-430a-11e8-bd38-a310f0e7f936', 'null', 11, 0, 4, 0, NULL, '2018-04-20 13:04:32'),
+('5fd6fbe0-33fc-11e8-90f4-8549a78e8765', 2, 1, '2018-03-30 17:26:48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 3, 0, 0, 0, '92bbb010-33d3-11e8-aea0-c9980ad57f39', '2018-03-30 09:26:48'),
+('60553310-4604-11e8-acd4-99086bc7bfab', 1, 2, '2018-04-22 16:08', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', NULL, 4, 0, 0, 0, NULL, '2018-04-22 08:08:54'),
+('63272e30-4498-11e8-bb2f-15c74a7e58fc', 2, 1, '2018-04-20 20:43:12', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 4, 0, 4, 0, '4ffc6960-4498-11e8-bb2f-15c74a7e58fc', '2018-04-20 12:43:12'),
+('661f9630-4462-11e8-ae7c-81d2c3473a3f', 2, 2, '2018-04-20 14:16', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', NULL, 11, 0, 0, 0, '5e0093a0-4462-11e8-ae7c-81d2c3473a3f', '2018-04-20 06:16:44'),
+('6652d200-44a0-11e8-b401-6f4982f27f60', 2, 1, '2018-04-20 21:40:34', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 4, 0, 2, 0, '4ffc6960-4498-11e8-bb2f-15c74a7e58fc', '2018-04-20 13:40:34'),
+('66ff0f00-46fa-11e8-8dac-9b53b19c866c', 1, 2, '2018-04-23 21:31:20', 'ojVEl0fxylMq_VZJDnAkCMcu0ni8', 'cc51dda0-46f1-11e8-954a-5bbc2510acb6', NULL, 84, 1, 2, 1, NULL, '2018-04-23 13:31:20'),
+('69020c30-4650-11e8-a110-fb2706e8bff5', 1, 2, '2018-04-23 01:13:19', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '5c54a180-4648-11e8-b11c-cf640075af52', NULL, 15, 0, 3, 0, NULL, '2018-04-22 17:13:19'),
+('6b300b50-46f6-11e8-8891-45eebadaef2a', 1, 2, '2018-04-23 21:03:29', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', 'cc51dda0-46f1-11e8-954a-5bbc2510acb6', NULL, 125, 0, 2, 0, NULL, '2018-04-23 13:03:29'),
+('6b329d20-4566-11e8-a8e3-e9736876c5e9', 1, 2, '2018-04-21 21:18', 'ojVEl0Z8T5PrRyhiOl17P87L9X2I', 'fd2bbee0-4521-11e8-bd4a-85d71b00bba8', NULL, 9, 0, 1, 0, NULL, '2018-04-21 13:17:50'),
+('6c832230-3f35-11e8-b973-8bcfe7279849', 2, 1, '2018-04-14 00:12:12', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 4, 0, 6, 0, '3b5171d0-3f35-11e8-b973-8bcfe7279849', '2018-04-13 16:12:12'),
+('6f202b20-464f-11e8-a110-fb2706e8bff5', 1, 2, '2018-04-23 01:06:20', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '5c54a180-4648-11e8-b11c-cf640075af52', NULL, 12, 0, 2, 0, NULL, '2018-04-22 17:06:20'),
+('6f79f900-4651-11e8-a110-fb2706e8bff5', 2, 1, '2018-04-23 01:20:23', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 6, 0, 1, 0, '2414ac30-4651-11e8-a110-fb2706e8bff5', '2018-04-22 17:20:23'),
+('6ff23fb0-4303-11e8-864c-77633ed75948', 1, 1, '2018-04-18 20:24', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '371946c0-41f0-11e8-9434-61367088727a', NULL, 0, 1, 2, 0, NULL, '2018-04-18 12:24:29'),
+('6ff9b770-46ed-11e8-9236-ab0d8ce5f8b9', 1, 2, '测试录音', 'ojVEl0Q4EeeC3mXIqd5WQVuTMOvw', NULL, NULL, 5, 0, 2, 0, NULL, '2018-04-23 11:57:05'),
+('71741650-3f35-11e8-b973-8bcfe7279849', 2, 1, '2018-04-14 00:12:20', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 5, 0, 3, 0, '3b5171d0-3f35-11e8-b973-8bcfe7279849', '2018-04-13 16:12:20'),
+('732bfcf0-462f-11e8-b462-494d7359e301', 2, 1, '虚惊一场', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', NULL, 69, 1, 0, 0, 'e719fc80-462e-11e8-8a00-8d2318f8980a', '2018-04-22 13:18:21'),
+('75888d20-3f35-11e8-b973-8bcfe7279849', 2, 1, '2018-04-14 00:12:27', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 3, 0, 1, 0, '3b5171d0-3f35-11e8-b973-8bcfe7279849', '2018-04-13 16:12:27'),
+('782a5c90-4645-11e8-ab8f-4deeac9cff2d', 1, 2, '测试', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', NULL, 11, 0, 3, 0, NULL, '2018-04-22 15:55:03'),
+('793a4490-4606-11e8-a34d-e519ee5eaf22', 1, 2, '2018-04-22 16:23:52', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', NULL, 4, 0, 0, 1, NULL, '2018-04-22 08:23:52'),
+('7a156840-3f35-11e8-b973-8bcfe7279849', 2, 1, '2018-04-14 00:12:35', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 2, 0, 0, 0, '3b5171d0-3f35-11e8-b973-8bcfe7279849', '2018-04-13 16:12:35'),
+('7a8b8460-44a0-11e8-b401-6f4982f27f60', 2, 1, '2018-04-20 21:41:12', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 3, 0, 1, 0, '4ffc6960-4498-11e8-bb2f-15c74a7e58fc', '2018-04-20 13:41:12'),
+('7aa405a0-4575-11e8-8894-85c1e0ad267d', 1, 1, '2018-04-21 23:05', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'cc1c7910-456d-11e8-a95f-15a1c7b473d6', NULL, 0, 0, 0, 0, NULL, '2018-04-21 15:05:50'),
+('7af46500-4574-11e8-a267-0b35fdfd90b7', 1, 1, '2018-04-21 22:58', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'cc1c7910-456d-11e8-a95f-15a1c7b473d6', NULL, 0, 0, 0, 0, NULL, '2018-04-21 14:58:42'),
+('7c431e40-46f7-11e8-a8a7-639f238ddaa9', 1, 2, '2018-04-23 21:11:30', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 'cc51dda0-46f1-11e8-954a-5bbc2510acb6', NULL, 120, 0, 1, 0, NULL, '2018-04-23 13:11:30'),
+('7d1bcf70-4651-11e8-a110-fb2706e8bff5', 1, 2, '2018-04-23 01:20:54', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '5c54a180-4648-11e8-b11c-cf640075af52', NULL, 7, 0, 3, 2, NULL, '2018-04-22 17:20:54'),
+('7d624780-46c3-11e8-86cc-61df54bc28cf', 1, 2, '该车', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '39816590-46b0-11e8-8410-6902fe469e77', NULL, 3, 0, 0, 0, NULL, '2018-04-23 06:57:00'),
+('7f914070-464a-11e8-b62c-7b610aa5019d', 1, 2, '测速', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '5c54a180-4648-11e8-b11c-cf640075af52', NULL, 12, 0, 3, 0, NULL, '2018-04-22 16:30:59'),
+('80bdc460-449b-11e8-900f-c75893f3ad42', 2, 2, '2018-04-20 21:05', 'ojVEl0YCRL7poRUhD_k39fFKLmxk', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', NULL, 12, 0, 1, 0, 'a08a3fa0-4499-11e8-8981-7b6cae7910ee', '2018-04-20 13:05:31'),
+('81ddf2a0-4565-11e8-a8e3-e9736876c5e9', 1, 1, '2018-04-21 21:11', 'ojVEl0Z8T5PrRyhiOl17P87L9X2I', 'fd2bbee0-4521-11e8-bd4a-85d71b00bba8', NULL, 0, 3, 0, 0, NULL, '2018-04-21 13:11:18'),
+('81f204b0-4606-11e8-a34d-e519ee5eaf22', 2, 1, '2018-04-22 16:24:04', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', NULL, 3, 2, 0, 0, '793a4490-4606-11e8-a34d-e519ee5eaf22', '2018-04-22 08:24:04'),
+('83fec8b0-33ff-11e8-90f4-8549a78e8765', 2, 1, '2018-03-30 17:48:38', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 2, 0, 0, 0, '33d95240-332f-11e8-b64f-87f5333b19cf', '2018-03-30 09:48:38'),
+('84cbce10-4605-11e8-ba26-65d55fcf1d98', 1, 2, '2018-04-22 16:17:21', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', NULL, 3, 0, 0, 0, NULL, '2018-04-22 08:17:21'),
+('84cf8610-3316-11e8-ab0d-97875e4a8def', 1, 2, '2018-03-29 14:02:35', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 3, 0, 0, 0, NULL, '2018-03-29 06:02:35'),
+('862c8c40-4565-11e8-a8e3-e9736876c5e9', 1, 2, '2018-04-21 21:11', 'ojVEl0Z8T5PrRyhiOl17P87L9X2I', 'fd2bbee0-4521-11e8-bd4a-85d71b00bba8', NULL, 12, 0, 0, 0, NULL, '2018-04-21 13:11:26'),
+('86e2db30-479a-11e8-a90f-7118bae527e7', 1, 2, '2018-04-24 16:36:07', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 3, 0, 0, 0, NULL, '2018-04-24 08:36:07'),
+('86f0d030-4571-11e8-b8ed-ff04326808c3', 1, 2, '2018-04-21 22:37', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'cc1c7910-456d-11e8-a95f-15a1c7b473d6', NULL, 111, 0, 0, 0, NULL, '2018-04-21 14:37:33'),
+('87f12780-330d-11e8-ba2e-2da542dc63d6', 1, 2, '2018-03-29 12:56:26', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 5, 0, 0, 0, NULL, '2018-03-29 04:56:26'),
+('893d14b0-4572-11e8-98c1-77daf3d03d10', 1, 2, '2018-04-21 22:44', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'cc1c7910-456d-11e8-a95f-15a1c7b473d6', NULL, 188, 0, 0, 0, NULL, '2018-04-21 14:44:46'),
+('89d11200-449b-11e8-866d-5f9883b390db', 2, 2, '2018-04-20 21:05', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', NULL, 87, 0, 1, 0, 'a08a3fa0-4499-11e8-8981-7b6cae7910ee', '2018-04-20 13:05:46'),
+('8c7270d0-449b-11e8-900f-c75893f3ad42', 2, 2, '2018-04-20 21:05', 'ojVEl0YCRL7poRUhD_k39fFKLmxk', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', NULL, 64, 0, 0, 0, 'a08a3fa0-4499-11e8-8981-7b6cae7910ee', '2018-04-20 13:05:50'),
+('8d18b4f0-47a6-11e8-ad70-1f22313e7ce6', 1, 2, '此方法', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'a41563c0-476e-11e8-954a-5bbc2510acb6', NULL, 3, 0, 0, 0, NULL, '2018-04-24 10:02:26'),
+('8d5f1300-46c5-11e8-b372-63a5c81cb586', 1, 2, '时间', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '39816590-46b0-11e8-8410-6902fe469e77', NULL, 41, 0, 0, 0, NULL, '2018-04-23 07:12:13'),
+('8e5210c0-4560-11e8-a98f-9d7dbfc55c71', 1, 2, '2018-04-21 20:36', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'fd2bbee0-4521-11e8-bd4a-85d71b00bba8', NULL, 11, 0, 7, 0, NULL, '2018-04-21 12:36:07'),
+('8ed86fc0-4458-11e8-aac1-61968e1d7aec', 2, 2, '2018-04-20 13:06', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', NULL, 14, 0, 0, 0, '858cd410-4458-11e8-aac1-61968e1d7aec', '2018-04-20 05:06:18'),
+('912b9260-4567-11e8-b7e8-ab5b863670be', 2, 2, '2018-04-21 21:26', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', 'fd2bbee0-4521-11e8-bd4a-85d71b00bba8', NULL, 56, 1, 3, 0, '19a9da30-4567-11e8-9e6d-7524efd771bf', '2018-04-21 13:26:16'),
+('92105680-46fb-11e8-b8b0-e3ae2107268b', 1, 2, '套路', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'cc51dda0-46f1-11e8-954a-5bbc2510acb6', NULL, 144, 0, 1, 1, NULL, '2018-04-23 13:40:50'),
+('92bbb010-33d3-11e8-aea0-c9980ad57f39', 1, 2, '2018-03-30 12:34:03', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 4, 9, 11, 1, NULL, '2018-03-30 04:34:03'),
+('93ec9b30-4638-11e8-89cf-f57c730aacaf', 1, 2, '2018-04-22 22:22:34', 'ojVEl0c76fGCCJ0jbkr0rIGLYPHY', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', NULL, 10, 0, 1, 0, NULL, '2018-04-22 14:22:34'),
+('9614ab00-479b-11e8-b92d-3b99c277e0b0', 1, 2, '2018-04-24 16:50:08', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 2, 0, 0, 0, NULL, '2018-04-24 08:50:18'),
+('990b4420-43c9-11e8-b329-3d05335ad426', 1, 2, '2018-04-19 20:02', 'ojVEl0Zqvgk3xJcJy-ui8-wMkQ90', '9a581d40-430a-11e8-bd38-a310f0e7f936', NULL, 2, 1, 4, 1, NULL, '2018-04-19 12:02:57'),
+('9a5f6560-446c-11e8-9495-8f1b2e6a8806', 2, 1, '2018-04-20 15:29', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', NULL, 0, 1, 0, 0, 'a8426050-4468-11e8-95e2-336b47831ee3', '2018-04-20 07:35:04'),
+('9baa83a0-3f35-11e8-b973-8bcfe7279849', 2, 1, '2018-04-14 00:13:31', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 3, 0, 1, 0, '3b5171d0-3f35-11e8-b973-8bcfe7279849', '2018-04-13 16:13:31'),
+('9c879740-4606-11e8-a34d-e519ee5eaf22', 2, 1, '2018-04-22 16:24:46', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 7, 0, 0, 0, 'd50eb570-4602-11e8-859d-fb290909b109', '2018-04-22 08:24:46'),
+('9e6d4d20-3f35-11e8-b973-8bcfe7279849', 2, 1, '2018-04-14 00:13:36', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 2, 0, 0, 0, '3b5171d0-3f35-11e8-b973-8bcfe7279849', '2018-04-13 16:13:36'),
+('9e8e56d0-4360-11e8-8405-13e2bb3f2a0a', 1, 2, '每日计划', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', NULL, NULL, 16, 1, 48, 2, NULL, '2018-04-18 23:31:30'),
+('9f316cb0-4565-11e8-a8e3-e9736876c5e9', 1, 2, '2018-04-21 21:12', 'ojVEl0Z8T5PrRyhiOl17P87L9X2I', 'fd2bbee0-4521-11e8-bd4a-85d71b00bba8', NULL, 10, 0, 0, 0, NULL, '2018-04-21 13:12:08'),
+('9ffbb1b0-46fe-11e8-8dac-9b53b19c866c', 2, 1, '点评2018-04-23 21:56:32', 'ojVEl0fxylMq_VZJDnAkCMcu0ni8', 'cc51dda0-46f1-11e8-954a-5bbc2510acb6', NULL, 2, 0, 1, 0, 'd44a9d10-46fd-11e8-8891-45eebadaef2a', '2018-04-23 14:00:05'),
+('a08a3fa0-4499-11e8-8981-7b6cae7910ee', 1, 2, '今日计划', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', 'null', 7, 0, 3, 7, NULL, '2018-04-20 12:52:06'),
+('a113b160-46fe-11e8-8dac-9b53b19c866c', 1, 2, '2018-04-23 22:01:01', 'ojVEl0fxylMq_VZJDnAkCMcu0ni8', 'cc51dda0-46f1-11e8-954a-5bbc2510acb6', NULL, 51, 0, 2, 0, NULL, '2018-04-23 14:01:01'),
+('a1514040-47a6-11e8-ad70-1f22313e7ce6', 1, 2, '2018-04-24 18:02:50', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'a41563c0-476e-11e8-954a-5bbc2510acb6', NULL, 3, 0, 0, 0, NULL, '2018-04-24 10:02:50'),
+('a1898e80-455a-11e8-a35a-5d3e6ff7bdf0', 1, 2, '测试声音', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 6, 0, 5, 0, NULL, '2018-04-21 11:53:40'),
+('a1baf350-43dc-11e8-a77e-413ca4ca081e', 1, 2, '2018-04-19 22:19', 'ojVEl0Z8T5PrRyhiOl17P87L9X2I', '9a581d40-430a-11e8-bd38-a310f0e7f936', NULL, 47, 0, 3, 1, NULL, '2018-04-19 14:19:12'),
+('a1ce9370-462e-11e8-8a00-8d2318f8980a', 2, 1, '2018-04-22 21:12:00', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', NULL, 46, 0, 0, 0, '1a67cb90-462e-11e8-b462-494d7359e301', '2018-04-22 13:12:00'),
+('a1e33ab0-456f-11e8-ab0e-bf63242b71a4', 1, 2, '2018-04-21 22:23', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'cc1c7910-456d-11e8-a95f-15a1c7b473d6', NULL, 11, 0, 1, 0, NULL, '2018-04-21 14:23:59'),
+('a24950a0-464d-11e8-a110-fb2706e8bff5', 1, 2, '测试', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '5c54a180-4648-11e8-b11c-cf640075af52', NULL, 11, 0, 3, 0, NULL, '2018-04-22 16:53:30'),
+('a280bba0-449d-11e8-a987-59cf123bd253', 1, 2, '2018-04-20 21:20', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', NULL, 127, 0, 8, 1, NULL, '2018-04-20 13:20:47'),
+('a467b1e0-464f-11e8-a110-fb2706e8bff5', 1, 2, '2018-04-23 01:07:45', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '5c54a180-4648-11e8-b11c-cf640075af52', NULL, 11, 0, 2, 0, NULL, '2018-04-22 17:07:45'),
+('a54ab110-449d-11e8-9103-578993b3a9b7', 1, 1, '2018-04-20 21:20', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', NULL, 0, 0, 0, 0, NULL, '2018-04-20 13:20:51'),
 ('a5d884a0-33f3-11e8-bb3f-075a925c6744', 1, 2, '2018-03-30 16:23', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '88cbb080-33f3-11e8-9d8f-579df1b78f4e', NULL, 5, 1, 0, 1, NULL, '2018-03-30 08:23:39'),
+('a5f85b20-479b-11e8-a392-01e7ca4cb357', 1, 2, '2018-04-24 16:44:10', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 5, 0, 0, 0, NULL, '2018-04-24 08:44:13'),
+('a813eee0-430b-11e8-b4ef-fd4160013537', 1, 2, '2018-04-18 21:23', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '951729d0-4309-11e8-bd38-a310f0e7f936', NULL, 10, 0, 0, 3, NULL, '2018-04-18 13:23:19'),
+('a83ebfa0-4651-11e8-a110-fb2706e8bff5', 2, 1, '2018-04-23 01:21:56', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 6, 0, 3, 0, '7d1bcf70-4651-11e8-a110-fb2706e8bff5', '2018-04-22 17:21:56'),
+('a89c2040-46b1-11e8-ae1c-0783762c1916', 1, 2, '嘉宾介绍主持', 'ojVEl0Q4EeeC3mXIqd5WQVuTMOvw', NULL, '', 95, 3, 23, 6, NULL, '2018-04-23 04:49:26'),
+('a8e310f0-3f35-11e8-b973-8bcfe7279849', 2, 1, '2018-04-14 00:13:53', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 2, 0, 0, 0, '3b5171d0-3f35-11e8-b973-8bcfe7279849', '2018-04-13 16:13:53'),
+('aa467d60-451b-11e8-b975-93ff809bb613', 1, 2, '匆匆', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 30, 0, 6, 0, NULL, '2018-04-21 04:22:57'),
+('aa53fa00-455f-11e8-9181-e931ca2952e3', 1, 2, '2018-04-21 20:29', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'fd2bbee0-4521-11e8-bd4a-85d71b00bba8', NULL, 12, 0, 10, 0, NULL, '2018-04-21 12:29:41'),
+('aaf0d650-449b-11e8-900f-c75893f3ad42', 2, 2, '2018-04-20 21:06', 'ojVEl0YCRL7poRUhD_k39fFKLmxk', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', NULL, 1, 0, 0, 0, 'a08a3fa0-4499-11e8-8981-7b6cae7910ee', '2018-04-20 13:06:41'),
+('ab303d40-4630-11e8-b462-494d7359e301', 2, 1, '学科英语', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', NULL, 64, 0, 0, 0, '55af5a90-4630-11e8-8a00-8d2318f8980a', '2018-04-22 13:27:02'),
+('ab4065b0-4637-11e8-89cf-f57c730aacaf', 1, 2, '2018-04-22 22:16:16', 'ojVEl0c76fGCCJ0jbkr0rIGLYPHY', '939a03d0-4637-11e8-b11c-cf640075af52', NULL, 19, 1, 6, 2, NULL, '2018-04-22 14:16:16'),
+('ab788c70-46d6-11e8-a9c8-459804732ee3', 2, 1, '点评这个', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 2, 0, 0, 0, 'e0a838b0-46c6-11e8-b838-fbea82b25aad', '2018-04-23 09:14:06'),
+('abfc7840-3bfb-11e8-8413-43d7ff20ef4e', 1, 2, '2018-04-09 21:41', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '780f5990-3bc8-11e8-ae1b-af4303ea197d', NULL, 170, 0, 3, 0, NULL, '2018-04-09 13:41:15'),
+('ac281120-4638-11e8-89cf-f57c730aacaf', 1, 2, '2018-04-22 22:23:06', 'ojVEl0c76fGCCJ0jbkr0rIGLYPHY', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', NULL, 1, 0, 1, 0, NULL, '2018-04-22 14:23:06'),
+('ac9612f0-447c-11e8-85fa-f992b67f4135', 2, 1, '2018-04-20 17:24:53', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 8, 0, 5, 0, '65296240-4455-11e8-9426-2d3a7f6c0dfd', '2018-04-20 09:24:53'),
+('ad4ec380-449b-11e8-900f-c75893f3ad42', 2, 2, '2018-04-20 21:06', 'ojVEl0YCRL7poRUhD_k39fFKLmxk', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', NULL, 11, 0, 0, 0, 'a08a3fa0-4499-11e8-8981-7b6cae7910ee', '2018-04-20 13:06:45'),
+('ae7c0050-4645-11e8-ac91-b561792e7414', 1, 2, '测试', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', NULL, 10, 0, 2, 0, NULL, '2018-04-22 15:56:26'),
+('b0dfc730-46c4-11e8-b6b2-9f0de4629776', 1, 2, '时代潮流', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '39816590-46b0-11e8-8410-6902fe469e77', NULL, 3, 0, 0, 0, NULL, '2018-04-23 07:06:21'),
+('b10c0d60-3bfa-11e8-8413-43d7ff20ef4e', 1, 2, '2018-04-09 21:34:15', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 64, 0, 12, 0, NULL, '2018-04-09 13:34:15'),
+('b17d4bc0-430b-11e8-b4ef-fd4160013537', 2, 2, '2018-04-18 21:23', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '951729d0-4309-11e8-bd38-a310f0e7f936', NULL, 3, 0, 1, 0, 'a813eee0-430b-11e8-b4ef-fd4160013537', '2018-04-18 13:23:35'),
+('b2b712b0-4468-11e8-95e2-336b47831ee3', 2, 2, '2018-04-20 15:01', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', NULL, 2, 0, 0, 0, 'a8426050-4468-11e8-95e2-336b47831ee3', '2018-04-20 07:01:50'),
+('b6ab8e70-4565-11e8-a8e3-e9736876c5e9', 1, 2, '2018-04-21 21:12', 'ojVEl0Z8T5PrRyhiOl17P87L9X2I', 'fd2bbee0-4521-11e8-bd4a-85d71b00bba8', NULL, 10, 0, 0, 0, NULL, '2018-04-21 13:12:47'),
+('b6cfcf40-4468-11e8-95e2-336b47831ee3', 2, 2, '2018-04-20 15:01', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', NULL, 6, 0, 0, 0, 'a8426050-4468-11e8-95e2-336b47831ee3', '2018-04-20 07:01:57'),
+('b80495d0-46c5-11e8-b372-63a5c81cb586', 1, 2, '测试录音', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 4, 0, 0, 0, NULL, '2018-04-23 07:12:51'),
+('b8ebaee0-456f-11e8-ab0e-bf63242b71a4', 1, 2, '测试录音', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'cc1c7910-456d-11e8-a95f-15a1c7b473d6', 'null', 9, 0, 2, 2, NULL, '2018-04-21 14:24:38'),
+('b9a0bce0-4605-11e8-b0ef-59275e3e62a8', 1, 2, '2018-04-22 16:18:41', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', NULL, 7, 0, 0, 0, NULL, '2018-04-22 08:18:41'),
+('b9d56ed0-3bfc-11e8-8413-43d7ff20ef4e', 2, 1, '2018-04-09 21:48:50', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 19, 0, 1, 0, '5c7ea080-3bfc-11e8-8413-43d7ff20ef4e', '2018-04-09 13:48:50'),
+('b9f15ad0-43c9-11e8-b329-3d05335ad426', 1, 2, '2018-04-19 20:03', 'ojVEl0Zqvgk3xJcJy-ui8-wMkQ90', '9a581d40-430a-11e8-bd38-a310f0e7f936', NULL, 5, 1, 1, 0, NULL, '2018-04-19 12:03:52'),
 ('ba70a6a0-3afa-11e8-8ae7-e3b72cb99681', 1, 1, '2018-04-08 15:01', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '513ec8b0-3ab9-11e8-afec-25ae2f1c7332', NULL, 0, 0, 0, 0, NULL, '2018-04-08 07:03:49'),
+('be939a20-4573-11e8-948a-4de8a7189263', 1, 1, '2018-04-21 22:53', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'cc1c7910-456d-11e8-a95f-15a1c7b473d6', NULL, 0, 0, 0, 0, NULL, '2018-04-21 14:53:25'),
+('be9875b0-462f-11e8-b462-494d7359e301', 1, 2, '学科英语', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', NULL, 141, 0, 1, 0, NULL, '2018-04-22 13:21:50'),
+('bea01ce0-479a-11e8-87ff-23502cd5dcdb', 1, 2, '2018-04-24 16:37:40', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 2, 0, 0, 0, NULL, '2018-04-24 08:37:40'),
+('bf4690c0-46c3-11e8-86cc-61df54bc28cf', 1, 2, '白天', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '39816590-46b0-11e8-8410-6902fe469e77', NULL, 4, 0, 0, 0, NULL, '2018-04-23 06:59:35'),
+('bf918aa0-464e-11e8-a110-fb2706e8bff5', 1, 2, '2018-04-23 01:01:19', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '5c54a180-4648-11e8-b11c-cf640075af52', NULL, 10, 0, 6, 0, NULL, '2018-04-22 17:01:19'),
+('c02f23c0-4499-11e8-8981-7b6cae7910ee', 2, 1, '2018-04-20 20:52:58', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 5, 0, 1, 0, 'a08a3fa0-4499-11e8-8981-7b6cae7910ee', '2018-04-20 12:52:58'),
+('c10c2520-430b-11e8-b4ef-fd4160013537', 2, 2, '2018-04-18 21:23', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '951729d0-4309-11e8-bd38-a310f0e7f936', NULL, 100, 1, 3, 0, 'a813eee0-430b-11e8-b4ef-fd4160013537', '2018-04-18 13:24:01'),
 ('c316a1f0-33f3-11e8-bb3f-075a925c6744', 2, 2, '2018-03-30 16:24', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '88cbb080-33f3-11e8-9d8f-579df1b78f4e', NULL, 4, 0, 2, 0, 'a5d884a0-33f3-11e8-bb3f-075a925c6744', '2018-03-30 08:24:28'),
-('c681ee70-3359-11e8-b9ca-af440413b383', 1, 2, NULL, 'ojVEl0dDlpiS7dS58LzoE--9nsRw', NULL, NULL, 8, 0, 0, 0, NULL, '2018-03-29 14:02:11'),
-('d5018f00-3ade-11e8-b32b-cb16eef65728', 1, 2, NULL, 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 3, 0, 0, 0, NULL, '2018-04-08 03:42:28'),
-('d8f09f50-3874-11e8-8393-5fd47f3f7061', 1, 2, NULL, 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 3, 0, 0, 0, NULL, '2018-04-05 01:58:34'),
-('ed132740-3b09-11e8-be6e-d9567b27b692', 1, 2, '', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 3, 0, 1, 0, NULL, '2018-04-08 08:50:49'),
-('eeb917e0-332e-11e8-b64f-87f5333b19cf', 1, 2, NULL, 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 4, 0, 6, 0, NULL, '2018-03-29 08:55:36'),
-('f2249ef0-37d8-11e8-bab3-439605889ac1', 1, 2, NULL, 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 3, 0, 0, 0, NULL, '2018-04-04 07:22:35');
+('c35b60b0-464a-11e8-be31-0bf88c857ee6', 1, 2, '2018-04-23 00:33:10', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '5c54a180-4648-11e8-b11c-cf640075af52', NULL, 31, 0, 3, 0, NULL, '2018-04-22 16:33:10'),
+('c3f135a0-4469-11e8-83bd-19e6202338b9', 2, 2, '2018-04-20 15:09', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', NULL, 6, 0, 0, 0, 'a8426050-4468-11e8-95e2-336b47831ee3', '2018-04-20 07:09:28'),
+('c4be7a80-43d6-11e8-a22a-9b72744e8f8d', 1, 2, '赞美他人', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', NULL, NULL, 4, 0, 16, 0, NULL, '2018-04-19 13:37:15'),
+('c4d9b680-46fe-11e8-b8b0-e3ae2107268b', 1, 2, '真情时刻', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'cc51dda0-46f1-11e8-954a-5bbc2510acb6', NULL, 70, 0, 0, 1, NULL, '2018-04-23 14:02:34'),
+('c5808fc0-46fc-11e8-b8b0-e3ae2107268b', 2, 1, '点评套路', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'cc51dda0-46f1-11e8-954a-5bbc2510acb6', NULL, 75, 2, 0, 0, '92105680-46fb-11e8-b8b0-e3ae2107268b', '2018-04-23 13:48:10'),
+('c7220040-4637-11e8-89cf-f57c730aacaf', 2, 1, '2018-04-22 22:16:53', 'ojVEl0c76fGCCJ0jbkr0rIGLYPHY', '939a03d0-4637-11e8-b11c-cf640075af52', NULL, 14, 0, 2, 0, 'ab4065b0-4637-11e8-89cf-f57c730aacaf', '2018-04-22 14:16:53'),
+('c7826840-4551-11e8-b70d-c1a2f1230cb6', 1, 2, '温馨提示', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 13, 0, 7, 0, NULL, '2018-04-21 10:50:19'),
+('c8acacb0-479c-11e8-a236-77f344676167', 1, 2, '金牌', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, '金牌导师', 5, 0, 0, 0, NULL, '2018-04-24 08:52:20'),
+('c9d95b20-4552-11e8-b70d-c1a2f1230cb6', 1, 2, '今日计划', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'fd2bbee0-4521-11e8-bd4a-85d71b00bba8', 'null', 13, 0, 10, 0, NULL, '2018-04-21 10:57:32'),
+('cc877a50-46f6-11e8-abca-d7a69f6c4ec9', 1, 2, '2018-04-23 21:06:44', 'ojVEl0Q4EeeC3mXIqd5WQVuTMOvw', 'cc51dda0-46f1-11e8-954a-5bbc2510acb6', NULL, 26, 0, 3, 0, NULL, '2018-04-23 13:06:44'),
+('cfa51210-4606-11e8-a34d-e519ee5eaf22', 1, 2, '测试录音', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 6, 0, 0, 0, NULL, '2018-04-22 08:26:13'),
+('d05c5580-4645-11e8-ac91-b561792e7414', 1, 2, '测试录音', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 11, 0, 1, 0, NULL, '2018-04-22 15:57:11'),
+('d1b8f7e0-449b-11e8-900f-c75893f3ad42', 2, 2, '2018-04-20 21:07', 'ojVEl0YCRL7poRUhD_k39fFKLmxk', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', NULL, 5, 0, 0, 0, 'a08a3fa0-4499-11e8-8981-7b6cae7910ee', '2018-04-20 13:07:46'),
+('d44a9d10-46fd-11e8-8891-45eebadaef2a', 1, 2, '2018-04-23 21:56:32', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', 'cc51dda0-46f1-11e8-954a-5bbc2510acb6', NULL, 124, 0, 2, 3, NULL, '2018-04-23 13:56:32'),
+('d4a87a90-45f7-11e8-a0d4-779797300fd4', 1, 1, '2018-04-22 14:38', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', NULL, 0, 0, 0, 0, NULL, '2018-04-22 06:38:57'),
+('d5018f00-3ade-11e8-b32b-cb16eef65728', 1, 2, '2018-04-08 11:42:28', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 3, 0, 2, 0, NULL, '2018-04-08 03:42:28'),
+('d50eb570-4602-11e8-859d-fb290909b109', 1, 2, '2018-04-22 15:57', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', NULL, 6, 0, 2, 2, NULL, '2018-04-22 07:57:52'),
+('d75378e0-4650-11e8-a110-fb2706e8bff5', 2, 1, '2018-04-23 01:16:08', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 14, 0, 2, 0, 'ab4065b0-4637-11e8-89cf-f57c730aacaf', '2018-04-22 17:16:08'),
+('d7c5af40-479b-11e8-a3bc-5d70343de0d2', 1, 2, '2018-04-24 16:45:32', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 2, 0, 0, 0, NULL, '2018-04-24 08:45:37'),
+('d8f09f50-3874-11e8-8393-5fd47f3f7061', 1, 2, '2018-04-05 09:58:34', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 3, 0, 0, 0, NULL, '2018-04-05 01:58:34'),
+('dc53a9e0-43cc-11e8-a78c-0d891a3ed1d8', 1, 1, '2018-04-19 20:26', 'ojVEl0bM2FZ3Ctid05qtxpcmAfKw', '9a581d40-430a-11e8-bd38-a310f0e7f936', NULL, 0, 3, 1, 0, NULL, '2018-04-19 12:26:18'),
+('dd29f590-4651-11e8-a110-fb2706e8bff5', 2, 1, '2018-04-23 01:23:25', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 6, 0, 2, 0, '7d1bcf70-4651-11e8-a110-fb2706e8bff5', '2018-04-22 17:23:25'),
+('ddca01d0-456f-11e8-ab0e-bf63242b71a4', 1, 2, '测试录音', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 9, 0, 1, 0, NULL, '2018-04-21 14:25:43'),
+('dfba66a0-417e-11e8-9992-bf23bedc04dc', 2, 1, '2018-04-16 22:03:01', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 3, 0, 4, 0, 'a0cdf2e0-4179-11e8-a7a7-3b65f1eb71c3', '2018-04-16 14:03:01'),
+('e0a838b0-46c6-11e8-b838-fbea82b25aad', 1, 2, '这个', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '39816590-46b0-11e8-8410-6902fe469e77', NULL, 7, 0, 0, 1, NULL, '2018-04-23 07:21:19'),
+('e1d7a220-4630-11e8-b462-494d7359e301', 1, 2, '垃圾桶', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', NULL, 128, 0, 1, 0, NULL, '2018-04-22 13:29:40'),
+('e1ffe620-479a-11e8-87ff-23502cd5dcdb', 1, 2, '2018-04-24 16:38:41', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 4, 0, 0, 0, NULL, '2018-04-24 08:38:47'),
+('e3dde140-44a2-11e8-b401-6f4982f27f60', 1, 2, '感谢妈妈', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 54, 0, 8, 0, NULL, '2018-04-20 13:58:27'),
+('e446b500-447d-11e8-835d-45dd8754ca45', 2, 1, '2018-04-20 17:33:35', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 4, 0, 0, 0, '4d997230-43df-11e8-b6ae-f7a0b2820b7f', '2018-04-20 09:33:35'),
+('e719fc80-462e-11e8-8a00-8d2318f8980a', 1, 2, '2018-04-22 21:15:33', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', NULL, 139, 0, 0, 1, NULL, '2018-04-22 13:15:33'),
+('e952b270-4602-11e8-859d-fb290909b109', 2, 1, '2018-04-22 15:58', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', NULL, 4, 0, 0, 0, 'd50eb570-4602-11e8-859d-fb290909b109', '2018-04-22 07:58:21'),
+('ebd47870-449b-11e8-866d-5f9883b390db', 1, 2, '2018-04-20 21:08', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', NULL, 249, 0, 5, 1, NULL, '2018-04-20 13:08:30'),
+('ed0dc990-464d-11e8-a110-fb2706e8bff5', 1, 2, '2018-04-23 00:55:23', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '5c54a180-4648-11e8-b11c-cf640075af52', NULL, 7, 0, 2, 0, NULL, '2018-04-22 16:55:23'),
+('eeb917e0-332e-11e8-b64f-87f5333b19cf', 1, 2, '2018-03-29 16:55:36', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 4, 0, 6, 0, NULL, '2018-03-29 08:55:36'),
+('eef9ad30-455f-11e8-b5c7-453d870862c9', 1, 2, '2018-04-21 20:31', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'fd2bbee0-4521-11e8-bd4a-85d71b00bba8', NULL, 13, 0, 7, 0, NULL, '2018-04-21 12:31:36'),
+('f10efc90-45f7-11e8-a0d4-779797300fd4', 1, 1, '2018-04-22 14:39', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', NULL, 0, 0, 0, 0, NULL, '2018-04-22 06:39:45'),
+('f2249ef0-37d8-11e8-bab3-439605889ac1', 1, 2, '2018-04-04 15:22:35', 'ojVEl0XuK00Wthcppktt5rVu-9DA', NULL, NULL, 3, 0, 0, 0, NULL, '2018-04-04 07:22:35'),
+('f3d1e320-4183-11e8-88fa-676d2d613c79', 2, 1, '2018-04-16 22:39:22', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 3, 0, 1, 0, '2eaf5820-3f35-11e8-b973-8bcfe7279849', '2018-04-16 14:39:22'),
+('f4b3cb90-43dc-11e8-b32b-2777ca582719', 2, 1, '2018-04-19 22:21:31', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 4, 0, 3, 0, '30ac3b60-43dc-11e8-a77e-413ca4ca081e', '2018-04-19 14:21:31'),
+('f5750a60-4479-11e8-97e7-bb721187a583', 2, 1, '2018-04-20 17:05:24', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 6, 0, 2, 0, '990b4420-43c9-11e8-b329-3d05335ad426', '2018-04-20 09:05:24'),
+('f6113be0-4651-11e8-a110-fb2706e8bff5', 1, 2, '2018-04-23 01:24:15', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '5c54a180-4648-11e8-b11c-cf640075af52', NULL, 7, 0, 1, 0, NULL, '2018-04-22 17:24:15'),
+('f76611b0-46fa-11e8-8891-45eebadaef2a', 1, 2, '2018-04-23 21:36:07', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', 'cc51dda0-46f1-11e8-954a-5bbc2510acb6', NULL, 128, 0, 1, 1, NULL, '2018-04-23 13:36:07'),
+('f8bf3e70-449c-11e8-900f-c75893f3ad42', 1, 1, '2018-04-20 21:16', 'ojVEl0YCRL7poRUhD_k39fFKLmxk', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', NULL, 0, 2, 0, 0, NULL, '2018-04-20 13:16:01'),
+('f928c090-449a-11e8-900f-c75893f3ad42', 1, 1, '2018-04-20 21:01', 'ojVEl0YCRL7poRUhD_k39fFKLmxk', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', NULL, 0, 0, 0, 0, NULL, '2018-04-20 13:01:44'),
+('f989c3c0-46f4-11e8-96d2-8d34f863e832', 2, 1, '点评嘉宾介绍主持', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', NULL, 37, 0, 2, 0, 'a89c2040-46b1-11e8-ae1c-0783762c1916', '2018-04-23 12:51:01'),
+('fc02de60-4565-11e8-a8e3-e9736876c5e9', 1, 2, '2018-04-21 21:14', 'ojVEl0Z8T5PrRyhiOl17P87L9X2I', 'fd2bbee0-4521-11e8-bd4a-85d71b00bba8', NULL, 168, 2, 1, 0, NULL, '2018-04-21 13:14:43'),
+('fd117a40-43db-11e8-b1df-ab2798e98d8a', 1, 2, '2018-04-19 22:14', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '9a581d40-430a-11e8-bd38-a310f0e7f936', NULL, 62, 0, 5, 0, NULL, '2018-04-19 14:14:36'),
+('ffffcb20-464d-11e8-a110-fb2706e8bff5', 1, 2, '2018-04-23 00:55:54', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '5c54a180-4648-11e8-b11c-cf640075af52', NULL, 7, 0, 2, 0, NULL, '2018-04-22 16:55:54');
 
 -- --------------------------------------------------------
 
@@ -201,7 +410,62 @@ INSERT INTO `impromptu_audio_like` (`audio_id`, `user_id`, `create_date`) VALUES
 ('484d0060-2d11-11e8-9210-018f12ba9b51', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-03-21 14:08:15'),
 ('33d95240-332f-11e8-b64f-87f5333b19cf', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-03-30 09:48:21'),
 ('92bbb010-33d3-11e8-aea0-c9980ad57f39', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-03-30 09:50:30'),
-('92bbb010-33d3-11e8-aea0-c9980ad57f39', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-03-30 12:18:51');
+('92bbb010-33d3-11e8-aea0-c9980ad57f39', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-03-30 12:18:51'),
+('34fdb960-3f35-11e8-b973-8bcfe7279849', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-16 07:11:18'),
+('3b5171d0-3f35-11e8-b973-8bcfe7279849', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-16 12:28:02'),
+('7b7fa010-4179-11e8-a7a7-3b65f1eb71c3', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-16 13:29:55'),
+('a0cdf2e0-4179-11e8-a7a7-3b65f1eb71c3', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-16 13:30:32'),
+('1b83f710-3f35-11e8-b973-8bcfe7279849', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-17 10:25:04'),
+('3b5171d0-3f35-11e8-b973-8bcfe7279849', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-04-17 14:55:26'),
+('17a68030-42e2-11e8-a38f-cdcd6aa28825', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-18 08:52:04'),
+('80abf280-3ee7-11e8-b546-cbdf574f8a10', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-18 09:55:48'),
+('6ff23fb0-4303-11e8-864c-77633ed75948', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-04-18 12:25:58'),
+('cf04dce0-4305-11e8-864c-77633ed75948', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-04-18 12:51:12'),
+('91541d70-4300-11e8-9dd6-a30cf040ec0f', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-04-18 12:51:24'),
+('cf04dce0-4305-11e8-864c-77633ed75948', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-18 12:52:34'),
+('c10c2520-430b-11e8-b4ef-fd4160013537', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '2018-04-18 13:25:23'),
+('edb43940-430c-11e8-8bbb-c59cc0fceabe', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-04-18 13:33:31'),
+('05a33250-430c-11e8-b4ef-fd4160013537', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-04-18 13:33:58'),
+('91541d70-4300-11e8-9dd6-a30cf040ec0f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-18 13:42:13'),
+('abd9f360-4312-11e8-8140-b1b766e1a58f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-18 14:39:52'),
+('947a60b0-4321-11e8-829c-4bfdf50507a7', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-18 16:02:54'),
+('abd9f360-4312-11e8-8140-b1b766e1a58f', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-04-19 04:50:28'),
+('dc53a9e0-43cc-11e8-a78c-0d891a3ed1d8', 'ojVEl0bM2FZ3Ctid05qtxpcmAfKw', '2018-04-19 12:26:23'),
+('dc53a9e0-43cc-11e8-a78c-0d891a3ed1d8', 'ojVEl0Z7lf_C3z9Bv2-oeAkDh0Sw', '2018-04-19 13:05:00'),
+('dc53a9e0-43cc-11e8-a78c-0d891a3ed1d8', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-04-19 13:05:23'),
+('b9f15ad0-43c9-11e8-b329-3d05335ad426', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-04-19 13:12:24'),
+('280d3790-43d5-11e8-a22a-9b72744e8f8d', 'ojVEl0Z8T5PrRyhiOl17P87L9X2I', '2018-04-19 14:16:44'),
+('f2379d00-4455-11e8-91ef-f18b0f986761', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-20 04:47:42'),
+('cb0cabe0-445e-11e8-9e4b-f91b9776d142', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-20 06:12:08'),
+('9a5f6560-446c-11e8-9495-8f1b2e6a8806', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-20 07:44:47'),
+('990b4420-43c9-11e8-b329-3d05335ad426', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-20 09:05:05'),
+('9e8e56d0-4360-11e8-8405-13e2bb3f2a0a', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-20 09:14:49'),
+('3e8ee4c0-4473-11e8-8eb0-931a5a606735', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-20 09:34:32'),
+('b76dd870-4472-11e8-aa6d-299481a4e779', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-20 09:41:06'),
+('40297ac0-449b-11e8-866d-5f9883b390db', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-04-20 13:07:02'),
+('40297ac0-449b-11e8-866d-5f9883b390db', 'ojVEl0YCRL7poRUhD_k39fFKLmxk', '2018-04-20 13:07:08'),
+('f8bf3e70-449c-11e8-900f-c75893f3ad42', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-04-20 13:16:57'),
+('f8bf3e70-449c-11e8-900f-c75893f3ad42', 'ojVEl0Z7lf_C3z9Bv2-oeAkDh0Sw', '2018-04-20 13:19:47'),
+('15076d90-449e-11e8-9103-578993b3a9b7', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-04-20 13:26:21'),
+('fc02de60-4565-11e8-a8e3-e9736876c5e9', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '2018-04-21 13:15:35'),
+('fc02de60-4565-11e8-a8e3-e9736876c5e9', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-04-21 13:16:44'),
+('81ddf2a0-4565-11e8-a8e3-e9736876c5e9', 'ojVEl0Z8T5PrRyhiOl17P87L9X2I', '2018-04-21 13:20:29'),
+('912b9260-4567-11e8-b7e8-ab5b863670be', 'ojVEl0TVwvLdmLSFdmu8A2FbSA3E', '2018-04-21 13:26:22'),
+('81ddf2a0-4565-11e8-a8e3-e9736876c5e9', 'ojVEl0TVwvLdmLSFdmu8A2FbSA3E', '2018-04-21 13:30:35'),
+('81ddf2a0-4565-11e8-a8e3-e9736876c5e9', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 13:31:02'),
+('81f204b0-4606-11e8-a34d-e519ee5eaf22', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '2018-04-22 13:03:22'),
+('81f204b0-4606-11e8-a34d-e519ee5eaf22', 'ojVEl0Z7lf_C3z9Bv2-oeAkDh0Sw', '2018-04-22 13:10:06'),
+('732bfcf0-462f-11e8-b462-494d7359e301', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '2018-04-22 13:21:36'),
+('ab4065b0-4637-11e8-89cf-f57c730aacaf', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-22 17:16:14'),
+('091d0700-4652-11e8-a110-fb2706e8bff5', 'ojVEl0Q4EeeC3mXIqd5WQVuTMOvw', '2018-04-23 04:49:53'),
+('a89c2040-46b1-11e8-ae1c-0783762c1916', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-23 05:01:27'),
+('a89c2040-46b1-11e8-ae1c-0783762c1916', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-04-23 12:15:14'),
+('a89c2040-46b1-11e8-ae1c-0783762c1916', 'ojVEl0defF0TvYrD88uiKh-Z9dY8', '2018-04-23 12:45:01'),
+('4a668c10-46f0-11e8-8f6c-0b5eb3e2cb55', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-23 12:52:34'),
+('556d6b50-46fb-11e8-b8b0-e3ae2107268b', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '2018-04-23 13:40:42'),
+('c5808fc0-46fc-11e8-b8b0-e3ae2107268b', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '2018-04-23 13:51:30'),
+('c5808fc0-46fc-11e8-b8b0-e3ae2107268b', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-23 13:56:34'),
+('66ff0f00-46fa-11e8-8dac-9b53b19c866c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-23 14:20:05');
 
 -- --------------------------------------------------------
 
@@ -241,18 +505,22 @@ INSERT INTO `impromptu_dialog` (`dialog_id`, `room_id`, `user_id`, `comment`, `c
 ('0dae1b70-22b1-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '纷纷回归\n风风火火\n反复发烧', '2018-03-08 09:14:06'),
 ('0e3fd570-23b4-11e8-bfc1-bd35a6a0ef3a', 'd7707630-23b3-11e8-bfc1-bd35a6a0ef3a', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '哈哈', '2018-03-09 16:08:07'),
 ('0e462100-2346-11e8-995d-2d250251ea5f', '03060620-2337-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '莪们新年打开电脑', '2018-03-09 03:00:42'),
+('108d0a20-430b-11e8-be6b-23aecdacd546', '951729d0-4309-11e8-bd38-a310f0e7f936', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 'hello\n', '2018-04-18 13:19:03'),
 ('10b83270-2346-11e8-995d-2d250251ea5f', '03060620-2337-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '到家么额', '2018-03-09 03:00:46'),
 ('12f052c0-2283-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', ' 好的', '2018-03-08 03:44:58'),
 ('14fcf9b0-2125-11e8-a96c-6defe2e13235', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '😉😊😋😊😊😒\n上次发发发发 v 别别扭扭工程方法\n地方 v 不该奋斗到底', '2018-03-06 09:59:38'),
+('16153960-4304-11e8-bd38-a310f0e7f936', '371946c0-41f0-11e8-9434-61367088727a', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '你有讲话吗？', '2018-04-18 12:29:06'),
 ('162f8550-22dd-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0Zqvgk3xJcJy-ui8-wMkQ90', '', '2018-03-08 14:29:19'),
 ('16bf0360-2346-11e8-995d-2d250251ea5f', '03060620-2337-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '嗯么么哒你', '2018-03-09 03:00:57'),
 ('1777f6b0-2123-11e8-a96c-6defe2e13235', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '😉😍😉😉😉😔😉😕说你是\n上课上课考试考试', '2018-03-06 09:45:23'),
 ('190d6030-2346-11e8-995d-2d250251ea5f', '03060620-2337-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '觉得看到的你', '2018-03-09 03:01:00'),
+('1a189930-4304-11e8-bd38-a310f0e7f936', '371946c0-41f0-11e8-9434-61367088727a', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '听不到', '2018-04-18 12:29:13'),
 ('1b2485d0-2295-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '反倒是', '2018-03-08 05:54:03'),
 ('1cb2c4e0-236f-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '看到了', '2018-03-09 07:54:36'),
 ('1ce8d170-229d-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '就大哭大哭', '2018-03-08 06:51:22'),
 ('1d71ac50-22a4-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '少男少女发了快递', '2018-03-08 07:41:29'),
 ('1d7c0630-229c-11e8-ba95-b3701ba81d59', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '代扣代缴大家', '2018-03-08 06:44:13'),
+('1d92eeb0-430b-11e8-be6b-23aecdacd546', '951729d0-4309-11e8-bd38-a310f0e7f936', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '佩真田晗在哪呀？\n', '2018-04-18 13:19:25'),
 ('1da68170-2374-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '我查一下，你别出去', '2018-03-09 08:30:25'),
 ('1e742330-22db-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '也是哈', '2018-03-08 14:15:13'),
 ('1f55f880-22ab-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '开店大吉', '2018-03-08 08:31:39'),
@@ -357,6 +625,7 @@ INSERT INTO `impromptu_dialog` (`dialog_id`, `room_id`, `user_id`, `comment`, `c
 ('7320e1f0-21a7-11e8-8ea7-6f1e4870f777', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '3333', '2018-03-07 01:32:50'),
 ('7386eda0-2121-11e8-a96c-6defe2e13235', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'fsdfsdfsd\nfsdfs\nf\ndsf\ns', '2018-03-06 09:33:39'),
 ('74369be0-21a0-11e8-a96c-6defe2e13235', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'fsdfvsd', '2018-03-07 00:42:46'),
+('74893de0-430c-11e8-be6b-23aecdacd546', '951729d0-4309-11e8-bd38-a310f0e7f936', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '什么情况啊', '2018-04-18 13:29:00'),
 ('74eb3530-2369-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '好像木有反应我看看，等下叫你', '2018-03-09 07:14:07'),
 ('74f293d0-229b-11e8-ba95-b3701ba81d59', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '方所书店', '2018-03-08 06:39:31'),
 ('75a328a0-236b-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '宝宝，你先留在房间，我要试一下', '2018-03-09 07:28:27'),
@@ -369,6 +638,7 @@ INSERT INTO `impromptu_dialog` (`dialog_id`, `room_id`, `user_id`, `comment`, `c
 ('79413c30-2295-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '冈底斯山', '2018-03-08 05:56:41'),
 ('79857280-22d4-11e8-995d-2d250251ea5f', '01f143c0-22d4-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '刚才进来有听到你讲话', '2018-03-08 13:27:40'),
 ('79a38b00-2296-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '广东小吃', '2018-03-08 06:03:51'),
+('79a42830-430c-11e8-be6b-23aecdacd546', '951729d0-4309-11e8-bd38-a310f0e7f936', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '没人哈', '2018-04-18 13:29:09'),
 ('79f7efb0-235e-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '不要讲话，但发出一点点声音来', '2018-03-09 05:55:31'),
 ('7a7b3330-211e-11e8-a96c-6defe2e13235', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'fasdf\n发送颠覆', '2018-03-06 09:12:22'),
 ('7a8302a0-22a3-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '打开你的电脑', '2018-03-08 07:36:56'),
@@ -404,8 +674,10 @@ INSERT INTO `impromptu_dialog` (`dialog_id`, `room_id`, `user_id`, `comment`, `c
 ('9058d940-235e-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '我要做一个讲话的提示', '2018-03-09 05:56:09'),
 ('907be2b0-2821-11e8-b792-63e1b68d20ee', '28153440-27f1-11e8-aeea-4d2ec9e6f8d6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '染发效果', '2018-03-15 07:22:05'),
 ('90ae1530-219d-11e8-a96c-6defe2e13235', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '4231324123', '2018-03-07 00:22:05'),
+('90c4adb0-430b-11e8-be6b-23aecdacd546', '951729d0-4309-11e8-bd38-a310f0e7f936', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '在\n', '2018-04-18 13:22:38'),
 ('919dfe00-219e-11e8-a96c-6defe2e13235', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '大家就结婚', '2018-03-07 00:29:16'),
 ('91c37be0-2355-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '你在吗\n', '2018-03-09 04:51:45'),
+('92771cd0-4304-11e8-bd38-a310f0e7f936', '371946c0-41f0-11e8-9434-61367088727a', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '我这边不卡', '2018-04-18 12:32:35'),
 ('92af8b90-2821-11e8-b792-63e1b68d20ee', '28153440-27f1-11e8-aeea-4d2ec9e6f8d6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '俄吉德津科', '2018-03-15 07:22:09'),
 ('92fa0010-2355-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '', '2018-03-09 04:51:47'),
 ('93804dc0-21fa-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '是的吗？', '2018-03-07 11:27:53'),
@@ -423,6 +695,7 @@ INSERT INTO `impromptu_dialog` (`dialog_id`, `room_id`, `user_id`, `comment`, `c
 ('97807490-2821-11e8-b792-63e1b68d20ee', '28153440-27f1-11e8-aeea-4d2ec9e6f8d6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '不行就是今生今世', '2018-03-15 07:22:17'),
 ('98aeea20-21d9-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'tttttttt', '2018-03-07 07:31:48'),
 ('999bf600-2349-11e8-875b-55baa56f5e4c', '03060620-2337-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '莪方法', '2018-03-09 03:26:05'),
+('9a2a8c50-4304-11e8-bd38-a310f0e7f936', '371946c0-41f0-11e8-9434-61367088727a', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '\n现在发不了文字', '2018-04-18 12:32:48'),
 ('9a49bc20-21de-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '3333333', '2018-03-07 08:07:38'),
 ('9a6bada0-2821-11e8-b792-63e1b68d20ee', '28153440-27f1-11e8-aeea-4d2ec9e6f8d6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '等待你的加拿大', '2018-03-15 07:22:22'),
 ('9bb0b010-21e7-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '司法改革', '2018-03-07 09:12:06'),
@@ -430,12 +703,14 @@ INSERT INTO `impromptu_dialog` (`dialog_id`, `room_id`, `user_id`, `comment`, `c
 ('9c8cf840-2345-11e8-995d-2d250251ea5f', '03060620-2337-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', '2018-03-09 02:57:32'),
 ('9ce64a90-2821-11e8-b792-63e1b68d20ee', '28153440-27f1-11e8-aeea-4d2ec9e6f8d6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '并点击打开电脑上', '2018-03-15 07:22:26'),
 ('9db22b60-21a5-11e8-8ea7-6f1e4870f777', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '12', '2018-03-07 01:19:43'),
+('9e233990-430b-11e8-be6b-23aecdacd546', '951729d0-4309-11e8-bd38-a310f0e7f936', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '你们现在在吗？', '2018-04-18 13:23:01'),
 ('9e92e750-237a-11e8-9cd7-2789555cef61', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '现在OK不', '2018-03-09 09:16:58'),
 ('9f81ce40-2345-11e8-995d-2d250251ea5f', '03060620-2337-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '否定的', '2018-03-09 02:57:37'),
 ('a023e170-22d3-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0W20SioIXdyo2n5Gqdtf-s4', '没有', '2018-03-08 13:21:35'),
 ('a0be79b0-2355-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '老大我是不是要一直待这里', '2018-03-09 04:52:11'),
 ('a2ab9330-22d2-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0W20SioIXdyo2n5Gqdtf-s4', '在', '2018-03-08 13:14:30'),
 ('a38667d0-229b-11e8-ba95-b3701ba81d59', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '点击打开', '2018-03-08 06:40:49'),
+('a3eba1f0-430b-11e8-be6b-23aecdacd546', '951729d0-4309-11e8-bd38-a310f0e7f936', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '你们在吗', '2018-04-18 13:23:10'),
 ('a45e9d50-2375-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '已经重进了吧，现在静音OK了不', '2018-03-09 08:41:21'),
 ('a6af4f70-2346-11e8-995d-2d250251ea5f', '03060620-2337-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '多大啊', '2018-03-09 03:04:58'),
 ('a72eb180-22aa-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '教大家上课', '2018-03-08 08:28:17'),
@@ -446,6 +721,7 @@ INSERT INTO `impromptu_dialog` (`dialog_id`, `room_id`, `user_id`, `comment`, `c
 ('a98491b0-2355-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '😈😈😈', '2018-03-09 04:52:25'),
 ('a9a2c2f0-22a3-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '第三十八\n点击点击打开', '2018-03-08 07:38:15'),
 ('aa06ec10-22dc-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0Zqvgk3xJcJy-ui8-wMkQ90', '可以听到', '2018-03-08 14:26:17'),
+('aa136200-4303-11e8-bd38-a310f0e7f936', '371946c0-41f0-11e8-9434-61367088727a', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '哈哈', '2018-04-18 12:26:05'),
 ('aac1fc50-22a8-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'Dkdnddn', '2018-03-08 08:14:04'),
 ('abe30310-22b0-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '代代相传的\n点点滴滴分\n懂的点点滴滴\n懂的点点滴滴想得到的\n的失眠失眠失眠失眠', '2018-03-08 09:11:22'),
 ('ac04d540-21e7-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '个个都是从 v', '2018-03-07 09:12:34'),
@@ -522,9 +798,11 @@ INSERT INTO `impromptu_dialog` (`dialog_id`, `room_id`, `user_id`, `comment`, `c
 ('d2399f10-2369-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '啥时候可以退出告诉我哈', '2018-03-09 07:16:44'),
 ('d44ff700-22dc-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0d9fVPIq7eUJCNJ0bHsvzPw', '😂 ', '2018-03-08 14:27:28'),
 ('d4b7fd90-219d-11e8-a96c-6defe2e13235', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'fdasfas', '2018-03-07 00:23:59'),
+('d4d3ca60-4304-11e8-bd38-a310f0e7f936', '371946c0-41f0-11e8-9434-61367088727a', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '田晗', '2018-04-18 12:34:26'),
 ('d4f93470-211d-11e8-8412-b969da800c5b', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '现在顶焦度计\n恩赫赛汗', '2018-03-06 09:07:44'),
 ('d59627a0-2355-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '测好了记得叫我出来', '2018-03-09 04:53:39'),
 ('d62ff0a0-2126-11e8-a96c-6defe2e13235', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'fasfas', '2018-03-06 10:12:12'),
+('d66d7900-430b-11e8-be6b-23aecdacd546', '951729d0-4309-11e8-bd38-a310f0e7f936', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '在', '2018-04-18 13:24:35'),
 ('d69af950-21e8-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '下了班回家后', '2018-03-07 09:20:55'),
 ('d7e8c5f0-2de4-11e8-9326-49f6f4c4697d', '0aeb32c0-2da5-11e8-b4dd-6dcc09d40db6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '你的', '2018-03-22 15:22:33'),
 ('d7f00fe0-22d6-11e8-995d-2d250251ea5f', '01f143c0-22d4-11e8-995d-2d250251ea5f', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '好\n\n', '2018-03-08 13:44:37'),
@@ -539,18 +817,22 @@ INSERT INTO `impromptu_dialog` (`dialog_id`, `room_id`, `user_id`, `comment`, `c
 ('e171ce00-229a-11e8-ba95-b3701ba81d59', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '都开始难受', '2018-03-08 06:35:23'),
 ('e17c73d0-2283-11e8-90d2-9bdd4f81b660', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '丰富的', '2018-03-08 03:50:45'),
 ('e34ab570-22d6-11e8-995d-2d250251ea5f', '01f143c0-22d4-11e8-995d-2d250251ea5f', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '没声音', '2018-03-08 13:44:56'),
+('e365cd30-4304-11e8-bd38-a310f0e7f936', '371946c0-41f0-11e8-9434-61367088727a', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '😘😘😘', '2018-04-18 12:34:50'),
 ('e4948220-21e7-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '付费电视', '2018-03-07 09:14:09'),
 ('e5d0e8f0-2538-11e8-909e-0902c67500fb', '7b32e3f0-250f-11e8-909e-0902c67500fb', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '无有声音\n', '2018-03-11 14:31:33'),
 ('e6f15d80-219d-11e8-a96c-6defe2e13235', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '412312', '2018-03-07 00:24:30'),
 ('e71b7e30-2373-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '我做了个静音功能，点别人的图标就可以静音', '2018-03-09 08:28:54'),
 ('e7525230-235e-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '再弄一点声音', '2018-03-09 05:58:34'),
 ('e937c000-22da-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0d9fVPIq7eUJCNJ0bHsvzPw', '', '2018-03-08 14:13:44'),
-('eb5cc180-229b-11e8-ba95-b3701ba81d59', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '你说说看', '2018-03-08 06:42:49'),
+('eb5cc180-229b-11e8-ba95-b3701ba81d59', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '你说说看', '2018-03-08 06:42:49');
+INSERT INTO `impromptu_dialog` (`dialog_id`, `room_id`, `user_id`, `comment`, `create_date`) VALUES
 ('ebe70020-229b-11e8-ba95-b3701ba81d59', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '你说说看', '2018-03-08 06:42:50'),
+('ede80990-4303-11e8-bd38-a310f0e7f936', '371946c0-41f0-11e8-9434-61367088727a', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '我听你比较卡', '2018-04-18 12:27:59'),
 ('f0061470-21ce-11e8-a6ec-2f22683b228a', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'aaaaaaaaaa', '2018-03-07 06:15:30'),
 ('f0297a10-22c2-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '纷纷上市', '2018-03-08 11:22:08'),
 ('f0d77d40-22d6-11e8-995d-2d250251ea5f', '01f143c0-22d4-11e8-995d-2d250251ea5f', 'ojVEl0W20SioIXdyo2n5Gqdtf-s4', '我可以听到你', '2018-03-08 13:45:19'),
 ('f1d1f480-2373-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '我点了你的', '2018-03-09 08:29:12'),
+('f1e29620-430b-11e8-be6b-23aecdacd546', '951729d0-4309-11e8-bd38-a310f0e7f936', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '可以\n', '2018-04-18 13:25:21'),
 ('f2705870-22a4-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '是慢慢说', '2018-03-08 07:47:27'),
 ('f31191f0-22da-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0d9fVPIq7eUJCNJ0bHsvzPw', '不知道咋玩  。', '2018-03-08 14:14:01'),
 ('f3a361d0-2202-11e8-90d2-9bdd4f81b660', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '大喊大叫打开', '2018-03-07 12:27:50'),
@@ -559,8 +841,7 @@ INSERT INTO `impromptu_dialog` (`dialog_id`, `room_id`, `user_id`, `comment`, `c
 ('f454d780-2202-11e8-90d2-9bdd4f81b660', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '大喊大叫打开', '2018-03-07 12:27:51'),
 ('f56b5990-219f-11e8-a96c-6defe2e13235', 'f0df8fe0-219f-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 'gsdgsdf', '2018-03-07 00:39:13'),
 ('f6142ef0-22ab-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '饿了么额', '2018-03-08 08:37:39'),
-('f73c4620-22a9-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '第九十九是你', '2018-03-08 08:23:22');
-INSERT INTO `impromptu_dialog` (`dialog_id`, `room_id`, `user_id`, `comment`, `create_date`) VALUES
+('f73c4620-22a9-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '第九十九是你', '2018-03-08 08:23:22'),
 ('f82b5870-20e5-11e8-8e3b-89e2f3758986', '8a1de150-20df-11e8-9ad8-1135e2792e48', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '42332rr发送颠覆速度发送颠覆速度非法所得发送端发送颠覆42342342342342342332rr发送颠覆速度发送颠覆速度非法所得发送端发送颠覆423423423423423', '2018-03-06 02:27:51'),
 ('f98d28c0-219d-11e8-a96c-6defe2e13235', '8dee0ad0-219d-11e8-a96c-6defe2e13235', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '是的方法', '2018-03-07 00:25:01'),
 ('f9991320-22af-11e8-855d-c30b86b1f21f', 'a797a920-2281-11e8-90d2-9bdd4f81b660', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '粉色的', '2018-03-08 09:06:23'),
@@ -576,6 +857,47 @@ INSERT INTO `impromptu_dialog` (`dialog_id`, `room_id`, `user_id`, `comment`, `c
 ('fe650b90-22da-11e8-995d-2d250251ea5f', '01f143c0-22d4-11e8-995d-2d250251ea5f', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '同问', '2018-03-08 14:14:20'),
 ('ff2f2d60-235e-11e8-875b-55baa56f5e4c', '170c82f0-234d-11e8-875b-55baa56f5e4c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '不过不明显', '2018-03-09 05:59:14'),
 ('fff164d0-22c2-11e8-995d-2d250251ea5f', 'dfea2b80-22b9-11e8-995d-2d250251ea5f', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '出发', '2018-03-08 11:22:34');
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `impromptu_room`
+--
+
+CREATE TABLE `impromptu_room` (
+  `room_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '房间号',
+  `user_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '用户ID',
+  `start_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '开始日期',
+  `end_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '结束时间',
+  `title` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '活动标题',
+  `notice` varchar(2000) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT '公告',
+  `survey_status` int(2) NOT NULL DEFAULT '1' COMMENT '投票状态(1未发起,2已发起,3已完成)',
+  `max_amount` int(10) NOT NULL COMMENT '最大报名人数',
+  `people_amount` int(10) NOT NULL DEFAULT '0' COMMENT '报名人数',
+  `create_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  `modify_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '修改时间'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- 转存表中的数据 `impromptu_room`
+--
+
+INSERT INTO `impromptu_room` (`room_id`, `user_id`, `start_date`, `end_date`, `title`, `notice`, `survey_status`, `max_amount`, `people_amount`, `create_date`, `modify_date`) VALUES
+('03f7b2e0-43d5-11e8-a3f4-ff52dc5b9b35', 'ojVEl0Z7lf_C3z9Bv2-oeAkDh0Sw', '2018-04-19 13:00:00', '2018-04-19 14:00:00', 'Jasson', '', 1, 5, 0, '2018-04-19 13:24:40', '2018-04-19 13:24:40'),
+('51b08ca0-43d5-11e8-a3f4-ff52dc5b9b35', 'ojVEl0Z8T5PrRyhiOl17P87L9X2I', '2018-04-19 13:00:00', '2018-04-19 14:00:00', '寻梦天涯', '', 1, 5, 1, '2018-04-19 13:26:51', '2018-04-19 13:26:51'),
+('5c54a180-4648-11e8-b11c-cf640075af52', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-23 01:00:00', '2018-04-23 03:15:00', '即兴演讲', '', 1, 9, 1, '2018-04-22 16:15:23', '2018-04-22 16:15:23'),
+('67562430-43cf-11e8-a3f4-ff52dc5b9b35', 'ojVEl0Z7lf_C3z9Bv2-oeAkDh0Sw', '2018-04-19 13:00:00', '2018-04-19 14:00:00', 'Jasson', '', 1, 5, 0, '2018-04-19 12:44:30', '2018-04-19 12:44:30'),
+('939a03d0-4637-11e8-b11c-cf640075af52', 'ojVEl0c76fGCCJ0jbkr0rIGLYPHY', '2018-04-22 13:00:00', '2018-04-22 14:00:00', '即兴演讲', '啦啦啦啦', 1, 9, 2, '2018-04-22 14:15:14', '2018-04-22 14:15:14'),
+('9a581d40-430a-11e8-bd38-a310f0e7f936', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-19 13:00:00', '2018-04-19 14:00:00', '内部测试', '', 1, 8, 7, '2018-04-18 13:15:45', '2018-04-18 13:15:45'),
+('9c785e50-4440-11e8-a3f4-ff52dc5b9b35', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-20 13:01:00', '2018-04-20 14:01:00', '即兴演讲', '', 1, 8, 4, '2018-04-20 02:14:52', '2018-04-20 02:14:52'),
+('a23f71c0-45ee-11e8-b1b5-b5000d7be14a', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-22 13:00:00', '2018-04-22 15:30:00', '即兴演讲', '', 1, 9, 5, '2018-04-22 05:33:06', '2018-04-22 05:33:06'),
+('a41563c0-476e-11e8-954a-5bbc2510acb6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-24 13:00:00', '2018-04-24 14:00:00', '即兴演讲', '', 1, 6, 1, '2018-04-24 03:21:55', '2018-04-24 03:21:55'),
+('b5f20050-4703-11e8-954a-5bbc2510acb6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-23 13:00:00', '2018-04-23 15:59:00', '即兴演讲', '', 1, 2, 2, '2018-04-23 14:36:29', '2018-04-23 14:36:29'),
+('cc1c7910-456d-11e8-a95f-15a1c7b473d6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 13:00:00', '2018-04-21 14:00:00', '测试录音', '', 1, 9, 1, '2018-04-21 14:10:51', '2018-04-21 14:10:51'),
+('cc51dda0-46f1-11e8-954a-5bbc2510acb6', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-04-23 13:00:00', '2018-04-23 13:30:00', '即兴演讲', '每周一即兴演讲会议', 1, 9, 6, '2018-04-23 12:28:16', '2018-04-23 12:28:16'),
+('e4f426a0-430a-11e8-bd38-a310f0e7f936', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-04-18 13:00:00', '2018-04-18 14:00:00', '即兴', '佩真静妮房', 1, 5, 1, '2018-04-18 13:17:50', '2018-04-18 13:17:50'),
+('f5b0d1a0-430a-11e8-be6b-23aecdacd546', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '2018-04-18 13:00:00', '2018-04-18 14:00:00', '即兴', '', 1, 5, 2, '2018-04-18 13:18:18', '2018-04-18 13:18:18'),
+('fd2bbee0-4521-11e8-bd4a-85d71b00bba8', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 13:00:00', '2018-04-21 14:00:00', '即兴演讲', '', 1, 9, 6, '2018-04-21 05:08:11', '2018-04-21 05:08:11');
 
 -- --------------------------------------------------------
 
@@ -633,7 +955,7 @@ INSERT INTO `impromptu_vote` (`room_id`, `user_id`, `best_speaker`, `best_evalua
 CREATE TABLE `meeting_apply` (
   `user_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '用户ID',
   `room_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '房间号',
-  `role_type` int(1) NOT NULL COMMENT '角色类型（1、演讲者；2、主持人）',
+  `role` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '演讲者' COMMENT '会议角色',
   `create_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='报名表';
 
@@ -641,40 +963,92 @@ CREATE TABLE `meeting_apply` (
 -- 转存表中的数据 `meeting_apply`
 --
 
-INSERT INTO `meeting_apply` (`user_id`, `room_id`, `role_type`, `create_date`) VALUES
-('ojVEl0dDlpiS7dS58LzoE--9nsRw', '0aeb32c0-2da5-11e8-b4dd-6dcc09d40db6', 1, '2018-03-22 15:21:36'),
-('ojVEl0dDlpiS7dS58LzoE--9nsRw', '35fe5940-38ce-11e8-afec-25ae2f1c7332', 1, '2018-04-05 12:39:39'),
-('ojVEl0dDlpiS7dS58LzoE--9nsRw', '3d13cf80-3185-11e8-ba42-e1aee2149b29', 1, '2018-03-27 15:25:33'),
-('ojVEl0dDlpiS7dS58LzoE--9nsRw', '3d762fc0-2b6f-11e8-b0d4-bdbbf31f25bf', 1, '2018-03-19 12:15:56'),
-('ojVEl0dDlpiS7dS58LzoE--9nsRw', '7b32e3f0-250f-11e8-909e-0902c67500fb', 1, '2018-03-11 09:40:55'),
-('ojVEl0dDlpiS7dS58LzoE--9nsRw', 'd2070c00-28bc-11e8-a9ed-e3638553b0b5', 1, '2018-03-16 11:05:20'),
-('ojVEl0dDlpiS7dS58LzoE--9nsRw', 'ea90d410-277f-11e8-bbb7-e74c6329d405', 1, '2018-03-14 12:19:01'),
-('ojVEl0dDlpiS7dS58LzoE--9nsRw', 'f59ec3c0-250f-11e8-909e-0902c67500fb', 1, '2018-03-11 09:41:10'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', '0aeb32c0-2da5-11e8-b4dd-6dcc09d40db6', 1, '2018-03-22 10:30:24'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', '1daceb10-3bd3-11e8-8f14-4f7b0466a353', 1, '2018-04-09 09:16:12'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', '1f8c1440-2b1d-11e8-b0d4-bdbbf31f25bf', 1, '2018-03-19 09:32:31'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', '213d4930-24e7-11e8-9e7a-df2cc2adb166', 1, '2018-03-11 05:06:04'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', '28153440-27f1-11e8-aeea-4d2ec9e6f8d6', 1, '2018-03-15 01:35:38'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', '3d762fc0-2b6f-11e8-b0d4-bdbbf31f25bf', 1, '2018-03-19 12:59:11'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', '3f5877a0-3bb2-11e8-8bbf-b1ccc8ffa314', 1, '2018-04-09 04:58:25'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', '48568c10-2989-11e8-bb5e-23090ccecca4', 1, '2018-03-17 02:17:07'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', '4cb58cd0-3bc6-11e8-ae1b-af4303ea197d', 1, '2018-04-09 09:06:21'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', '513ec8b0-3ab9-11e8-afec-25ae2f1c7332', 1, '2018-04-08 07:04:02'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', '696b9350-265a-11e8-af7b-b3706fea5199', 1, '2018-03-13 01:04:02'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', '76976500-278f-11e8-998c-e101343d8284', 1, '2018-03-14 13:56:20'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', '7b32e3f0-250f-11e8-909e-0902c67500fb', 1, '2018-03-11 09:35:17'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', '88cbb080-33f3-11e8-9d8f-579df1b78f4e', 1, '2018-03-30 08:22:53'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', '9be9ca20-2cab-11e8-8db7-fdc2fd9a54ad', 1, '2018-03-21 02:00:25'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', 'b647af20-2be0-11e8-b0d4-bdbbf31f25bf', 1, '2018-03-20 10:22:01'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', 'ba2eed40-2773-11e8-a3d9-4b637933b54a', 1, '2018-03-14 11:01:33'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', 'd2070c00-28bc-11e8-a9ed-e3638553b0b5', 1, '2018-03-16 03:33:53'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', 'ea90d410-277f-11e8-bbb7-e74c6329d405', 1, '2018-03-14 12:05:04'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', 'eeabaa00-243e-11e8-9549-696441b2335b', 1, '2018-03-10 08:55:20'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', 'f06b6250-2726-11e8-a79e-d9b8b1258e52', 1, '2018-03-14 10:34:51'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', 'f235cea0-2e64-11e8-9326-49f6f4c4697d', 1, '2018-03-23 06:39:36'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', 'f6cd2c50-2438-11e8-a04b-491551e87cea', 1, '2018-03-10 08:18:18'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', 'fabfa8d0-25d0-11e8-b933-05afa943d577', 1, '2018-03-12 08:40:21'),
-('ojVEl0YRMHmDFi07bbijq_2ds2kQ', '3d762fc0-2b6f-11e8-b0d4-bdbbf31f25bf', 1, '2018-03-19 12:54:14');
+INSERT INTO `meeting_apply` (`user_id`, `room_id`, `role`, `create_date`) VALUES
+('ojVEl0bM2FZ3Ctid05qtxpcmAfKw', '9a581d40-430a-11e8-bd38-a310f0e7f936', '', '2018-04-19 12:25:55'),
+('ojVEl0c76fGCCJ0jbkr0rIGLYPHY', '939a03d0-4637-11e8-b11c-cf640075af52', '', '2018-04-22 14:15:14'),
+('ojVEl0c76fGCCJ0jbkr0rIGLYPHY', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', '', '2018-04-22 14:13:26'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', '0aeb32c0-2da5-11e8-b4dd-6dcc09d40db6', '', '2018-03-22 15:21:36'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', '35fe5940-38ce-11e8-afec-25ae2f1c7332', '', '2018-04-05 12:39:39'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', '371946c0-41f0-11e8-9434-61367088727a', '', '2018-04-18 12:24:09'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', '3d13cf80-3185-11e8-ba42-e1aee2149b29', '', '2018-03-27 15:25:33'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', '3d762fc0-2b6f-11e8-b0d4-bdbbf31f25bf', '', '2018-03-19 12:15:56'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', '51b08ca0-43d5-11e8-a3f4-ff52dc5b9b35', '', '2018-04-19 13:34:25'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', '7b32e3f0-250f-11e8-909e-0902c67500fb', '', '2018-03-11 09:40:55'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', '9a581d40-430a-11e8-bd38-a310f0e7f936', '', '2018-04-18 13:18:18'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', '', '2018-04-20 10:46:22'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', '', '2018-04-22 12:50:26'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', 'b5f20050-4703-11e8-954a-5bbc2510acb6', '演讲者', '2018-04-23 14:37:07'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', 'c3a27e00-4177-11e8-b109-5b8d2e8c144d', '', '2018-04-16 15:02:35'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', 'cc51dda0-46f1-11e8-954a-5bbc2510acb6', '主持人', '2018-04-23 12:28:16'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', 'd2070c00-28bc-11e8-a9ed-e3638553b0b5', '', '2018-03-16 11:05:20'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', 'ea90d410-277f-11e8-bbb7-e74c6329d405', '', '2018-03-14 12:19:01'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', 'f59ec3c0-250f-11e8-909e-0902c67500fb', '', '2018-03-11 09:41:10'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', 'f5b0d1a0-430a-11e8-be6b-23aecdacd546', '', '2018-04-18 13:21:32'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', 'fd2bbee0-4521-11e8-bd4a-85d71b00bba8', '', '2018-04-21 12:54:53'),
+('ojVEl0defF0TvYrD88uiKh-Z9dY8', 'cc51dda0-46f1-11e8-954a-5bbc2510acb6', '演讲者', '2018-04-23 12:38:12'),
+('ojVEl0fxylMq_VZJDnAkCMcu0ni8', 'cc51dda0-46f1-11e8-954a-5bbc2510acb6', '演讲者', '2018-04-23 13:04:54'),
+('ojVEl0Q4EeeC3mXIqd5WQVuTMOvw', 'cc51dda0-46f1-11e8-954a-5bbc2510acb6', '演讲者', '2018-04-23 12:35:57'),
+('ojVEl0TbOI1LDsT6ETLofCw7cP6s', '9a581d40-430a-11e8-bd38-a310f0e7f936', '', '2018-04-19 13:13:41'),
+('ojVEl0TVwvLdmLSFdmu8A2FbSA3E', 'fd2bbee0-4521-11e8-bd4a-85d71b00bba8', '', '2018-04-21 13:25:28'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '0aeb32c0-2da5-11e8-b4dd-6dcc09d40db6', '', '2018-03-22 10:30:24'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '1905b100-41f0-11e8-9434-61367088727a', '', '2018-04-17 06:23:59'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '1daceb10-3bd3-11e8-8f14-4f7b0466a353', '', '2018-04-09 09:16:12'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '1eb672b0-41f0-11e8-9434-61367088727a', '', '2018-04-17 06:36:38'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '1f8c1440-2b1d-11e8-b0d4-bdbbf31f25bf', '', '2018-03-19 09:32:31'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '213d4930-24e7-11e8-9e7a-df2cc2adb166', '', '2018-03-11 05:06:04'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '28153440-27f1-11e8-aeea-4d2ec9e6f8d6', '', '2018-03-15 01:35:38'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '371946c0-41f0-11e8-9434-61367088727a', '', '2018-04-18 08:10:15'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '3d762fc0-2b6f-11e8-b0d4-bdbbf31f25bf', '', '2018-03-19 12:59:11'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '3f5877a0-3bb2-11e8-8bbf-b1ccc8ffa314', '', '2018-04-09 04:58:25'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '48568c10-2989-11e8-bb5e-23090ccecca4', '', '2018-03-17 02:17:07'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '4cb58cd0-3bc6-11e8-ae1b-af4303ea197d', '', '2018-04-09 09:06:21'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '513ec8b0-3ab9-11e8-afec-25ae2f1c7332', '', '2018-04-08 07:04:02'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '565dfbc0-41eb-11e8-b844-c9f94d0dec0b', '', '2018-04-17 06:42:10'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '5c54a180-4648-11e8-b11c-cf640075af52', '', '2018-04-22 16:15:23'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '5f7f0500-41eb-11e8-b844-c9f94d0dec0b', '', '2018-04-17 06:49:17'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '696b9350-265a-11e8-af7b-b3706fea5199', '', '2018-03-13 01:04:02'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '76976500-278f-11e8-998c-e101343d8284', '', '2018-03-14 13:56:20'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '780f5990-3bc8-11e8-ae1b-af4303ea197d', '', '2018-04-09 13:41:03'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '7b32e3f0-250f-11e8-909e-0902c67500fb', '', '2018-03-11 09:35:17'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '88cbb080-33f3-11e8-9d8f-579df1b78f4e', '', '2018-03-30 08:22:53'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '939a03d0-4637-11e8-b11c-cf640075af52', '', '2018-04-22 14:15:33'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '951729d0-4309-11e8-bd38-a310f0e7f936', '', '2018-04-18 13:21:35'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '9a581d40-430a-11e8-bd38-a310f0e7f936', '1', '2018-04-23 05:38:15'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '9be9ca20-2cab-11e8-8db7-fdc2fd9a54ad', '', '2018-03-21 02:00:25'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', '', '2018-04-20 04:37:32'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', '', '2018-04-22 06:38:51'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'a41563c0-476e-11e8-954a-5bbc2510acb6', '主持人', '2018-04-24 03:21:55'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'b5f20050-4703-11e8-954a-5bbc2510acb6', '吃瓜群众', '2018-04-23 14:40:00'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'b647af20-2be0-11e8-b0d4-bdbbf31f25bf', '', '2018-03-20 10:22:01'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'ba2eed40-2773-11e8-a3d9-4b637933b54a', '', '2018-03-14 11:01:33'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'bee04c80-41ef-11e8-99ce-f77de03e498f', '', '2018-04-17 10:21:04'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'c3a27e00-4177-11e8-b109-5b8d2e8c144d', '', '2018-04-16 13:17:37'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'ca6f01b0-4521-11e8-b5a6-1b913a9615cd', '', '2018-04-21 05:06:46'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'cc1c7910-456d-11e8-a95f-15a1c7b473d6', '', '2018-04-21 14:10:51'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'cc51dda0-46f1-11e8-954a-5bbc2510acb6', '演讲者', '2018-04-23 12:29:06'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'd2070c00-28bc-11e8-a9ed-e3638553b0b5', '', '2018-03-16 03:33:53'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'e44bbea0-475d-11e8-954a-5bbc2510acb6', '主持人', '2018-04-24 01:22:02'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'e4f426a0-430a-11e8-bd38-a310f0e7f936', '', '2018-04-19 10:08:45'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'ea90d410-277f-11e8-bbb7-e74c6329d405', '', '2018-03-14 12:05:04'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'eeabaa00-243e-11e8-9549-696441b2335b', '', '2018-03-10 08:55:20'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'f06b6250-2726-11e8-a79e-d9b8b1258e52', '', '2018-03-14 10:34:51'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'f235cea0-2e64-11e8-9326-49f6f4c4697d', '', '2018-03-23 06:39:36'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'f6cd2c50-2438-11e8-a04b-491551e87cea', '', '2018-03-10 08:18:18'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'fabfa8d0-25d0-11e8-b933-05afa943d577', '', '2018-03-12 08:40:21'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'fd2bbee0-4521-11e8-bd4a-85d71b00bba8', '', '2018-04-21 10:51:24'),
+('ojVEl0YCRL7poRUhD_k39fFKLmxk', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', '', '2018-04-20 12:58:13'),
+('ojVEl0YRMHmDFi07bbijq_2ds2kQ', '3d762fc0-2b6f-11e8-b0d4-bdbbf31f25bf', '', '2018-03-19 12:54:14'),
+('ojVEl0YRMHmDFi07bbijq_2ds2kQ', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', '', '2018-04-22 12:59:50'),
+('ojVEl0YRMHmDFi07bbijq_2ds2kQ', 'cc51dda0-46f1-11e8-954a-5bbc2510acb6', '演讲者', '2018-04-23 12:57:15'),
+('ojVEl0YRMHmDFi07bbijq_2ds2kQ', 'f5b0d1a0-430a-11e8-be6b-23aecdacd546', '', '2018-04-18 13:19:09'),
+('ojVEl0YRMHmDFi07bbijq_2ds2kQ', 'fd2bbee0-4521-11e8-bd4a-85d71b00bba8', '', '2018-04-21 12:58:48'),
+('ojVEl0Z7lf_C3z9Bv2-oeAkDh0Sw', '9a581d40-430a-11e8-bd38-a310f0e7f936', '', '2018-04-19 13:00:09'),
+('ojVEl0Z7lf_C3z9Bv2-oeAkDh0Sw', '9c785e50-4440-11e8-a3f4-ff52dc5b9b35', '', '2018-04-20 13:05:44'),
+('ojVEl0Z7lf_C3z9Bv2-oeAkDh0Sw', 'a23f71c0-45ee-11e8-b1b5-b5000d7be14a', '', '2018-04-22 13:06:01'),
+('ojVEl0Z7lf_C3z9Bv2-oeAkDh0Sw', 'fd2bbee0-4521-11e8-bd4a-85d71b00bba8', '', '2018-04-21 13:01:54'),
+('ojVEl0Z8T5PrRyhiOl17P87L9X2I', '9a581d40-430a-11e8-bd38-a310f0e7f936', '', '2018-04-19 14:13:00'),
+('ojVEl0Z8T5PrRyhiOl17P87L9X2I', 'fd2bbee0-4521-11e8-bd4a-85d71b00bba8', '', '2018-04-21 13:10:53'),
+('ojVEl0Zqvgk3xJcJy-ui8-wMkQ90', '9a581d40-430a-11e8-bd38-a310f0e7f936', '', '2018-04-19 12:02:48');
 
 -- --------------------------------------------------------
 
@@ -703,6 +1077,19 @@ CREATE TABLE `meeting_record` (
   `meeting_host` varchar(30) COLLATE utf8mb4_unicode_ci NOT NULL,
   `create_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='会议组织情况';
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `new_comment`
+--
+
+CREATE TABLE `new_comment` (
+  `audio_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '点评音频ID',
+  `user_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '被点评人ID',
+  `audio_name` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '被点评音频的标题',
+  `create_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------
 
@@ -741,16 +1128,18 @@ INSERT INTO `room_impromptu` (`room_id`, `user_id`, `language`, `mode`, `start_d
 ('3d13cf80-3185-11e8-ba42-e1aee2149b29', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-27', '21:00', '22:00', '', '', 1, 0, 1, '2018-03-27 06:08:15', '2018-03-27 06:08:15'),
 ('3d762fc0-2b6f-11e8-b0d4-bdbbf31f25bf', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 1, 1, '2018-03-19', '21:00', '22:00', '', '', 1, 0, 3, '2018-03-19 12:15:40', '2018-03-19 12:15:40'),
 ('3f5877a0-3bb2-11e8-8bbf-b1ccc8ffa314', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-04-09', '21:01', '22:01', '555555544444', '888888888', 1, 2, 1, '2018-04-09 04:55:38', '2018-04-09 04:55:38'),
+('45e8eca0-41e1-11e8-a08f-2df9c96a4b42', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-04-17', '21:00', '22:00', '即兴演讲', '', 1, 4, 0, '2018-04-17 01:47:23', '2018-04-17 01:47:23'),
 ('48568c10-2989-11e8-bb5e-23090ccecca4', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-17', '21:00', '22:00', '', '', 1, 0, 1, '2018-03-17 02:17:03', '2018-03-17 02:17:03'),
 ('4cb58cd0-3bc6-11e8-ae1b-af4303ea197d', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-04-09', '21:00', '22:00', 'gdfg', 'fdsfsd', 1, 0, 1, '2018-04-09 07:19:11', '2018-04-09 07:19:11'),
 ('513ec8b0-3ab9-11e8-afec-25ae2f1c7332', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-04-08', '21:00', '22:00', '', '', 1, 0, 1, '2018-04-07 23:13:44', '2018-04-07 23:13:44'),
 ('696b9350-265a-11e8-af7b-b3706fea5199', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-13', '21:00', '22:00', '', '', 1, 0, 1, '2018-03-13 01:03:59', '2018-03-13 01:03:59'),
-('780f5990-3bc8-11e8-ae1b-af4303ea197d', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-04-09', '21:00', '22:00', 'fsd', 'fsd', 1, 2, 0, '2018-04-09 07:34:42', '2018-04-09 07:34:42'),
+('780f5990-3bc8-11e8-ae1b-af4303ea197d', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-04-09', '21:00', '22:00', 'fsd', 'fsd', 1, 2, 1, '2018-04-09 07:34:42', '2018-04-09 07:34:42'),
 ('7b32e3f0-250f-11e8-909e-0902c67500fb', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-11', '16:00', '19:00', '', '', 1, 0, 2, '2018-03-11 09:35:05', '2018-03-11 09:35:05'),
 ('88cbb080-33f3-11e8-9d8f-579df1b78f4e', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-30', '21:00', '22:00', '', '', 1, 0, 1, '2018-03-30 08:22:49', '2018-03-30 08:22:49'),
 ('9a8b6470-3bc6-11e8-ae1b-af4303ea197d', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-04-09', '21:00', '22:00', 'fsd', 'sdfsd', 1, 4, 0, '2018-04-09 07:21:21', '2018-04-09 07:21:21'),
 ('9be9ca20-2cab-11e8-8db7-fdc2fd9a54ad', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-21', '21:00', '22:00', '', '', 1, 0, 1, '2018-03-21 02:00:20', '2018-03-21 02:00:20'),
 ('b647af20-2be0-11e8-b0d4-bdbbf31f25bf', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-20', '21:00', '22:00', '', '', 1, 0, 1, '2018-03-20 01:47:56', '2018-03-20 01:47:56'),
+('c3a27e00-4177-11e8-b109-5b8d2e8c144d', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-04-16', '21:00', '22:00', '即兴演讲', '', 1, 5, 2, '2018-04-16 13:12:07', '2018-04-16 13:12:07'),
 ('d2070c00-28bc-11e8-a9ed-e3638553b0b5', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-16', '21:00', '22:00', '', '', 1, 0, 2, '2018-03-16 01:53:27', '2018-03-16 01:53:27'),
 ('f235cea0-2e64-11e8-9326-49f6f4c4697d', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-23', '21:00', '22:00', '', '', 1, 0, 1, '2018-03-23 06:39:33', '2018-03-23 06:39:33'),
 ('fabfa8d0-25d0-11e8-b933-05afa943d577', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 1, '2018-03-12', '21:00', '22:00', '', '', 1, 0, 1, '2018-03-12 08:40:12', '2018-03-12 08:40:12');
@@ -775,7 +1164,8 @@ CREATE TABLE `speech_subject` (
 --
 
 INSERT INTO `speech_subject` (`subject_id`, `subject_name`, `user_id`, `speech_names`, `subject_status`, `create_date`) VALUES
-('7fc738e0-3ba7-11e8-8bbf-b1ccc8ffa314', '懂你不要脸', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '我是男神\n马云想请我吃饭，我拒绝了，真没空', 1, '2018-04-09 03:38:42');
+('0dc61b40-3f84-11e8-b0f1-9368bdf8bfe8', '第一次', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '第一次工作\n第一次恋爱\n第一次拿工资\n第一次演讲\n第一次丢脸\n第一次生日', 1, '2018-04-14 01:35:03'),
+('67e4da30-43d0-11e8-a3f4-ff52dc5b9b35', '懂你不要脸', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '我是女神\n我是一个很要脸的人\n我老爸最牛逼\n你们就应该像我这么有爱心\n我最有正能量\n我这人也没啥，就是才华比较多\n都是过去了的成绩了，没啥好说的\n我这人啥都好，就是太谦虚了\n大家都喜欢夸我，其实真没什么\n丢脸，我不怕\n大家都说，做我的朋友，最开心了\n谁要是娶到我，一定赚到了\n对我来说，优秀只是一种习惯\n真不明白，怎么大家都那么喜欢我\n我从不崇拜任何人，除了我自己\n有一种幸福叫做，做我的朋友   \n生活就应该像我这样过嘛\n马云老想请我吃饭，真没空\n今天你看不起我，明天你追不上我\n每天都好多男生（女生）找我搭讪', 1, '2018-04-19 12:51:41');
 
 -- --------------------------------------------------------
 
@@ -1067,6 +1457,43 @@ INSERT INTO `user_base_info` (`user_id`, `nick_name`, `recommend_user`, `create_
 -- --------------------------------------------------------
 
 --
+-- 表的结构 `user_daily_task`
+--
+
+CREATE TABLE `user_daily_task` (
+  `task_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '任务ID',
+  `user_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '用户ID',
+  `task_type` int(5) NOT NULL COMMENT '任务类型',
+  `task_status` int(5) NOT NULL COMMENT '任务状态',
+  `create_date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建日期'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='用户任务表';
+
+--
+-- 转存表中的数据 `user_daily_task`
+--
+
+INSERT INTO `user_daily_task` (`task_id`, `user_id`, `task_type`, `task_status`, `create_date`) VALUES
+('0c4106a0-3b0a-11e8-be6e-d9567b27b692', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 2, 2, '2018-04-08 16:51:39'),
+('138c1c00-3336-11e8-ac77-370f46746fbd', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 4, 2, '2018-03-29 17:46:38'),
+('244e4e80-3716-11e8-be3f-bbd3cf7087b6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 2, '2018-04-03 16:08:07'),
+('2a6b5df0-3ca5-11e8-8b3a-d7776b3d5afd', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 3, 2, '2018-04-10 17:54:32'),
+('33d95240-332f-11e8-b64f-87f5333b19cf', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 2, 2, '2018-03-29 16:57:47'),
+('47b8f9b0-3ca7-11e8-a95b-f768049c95dc', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 2, '2018-04-10 18:09:41'),
+('4ff75990-332f-11e8-b64f-87f5333b19cf', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 3, 2, '2018-03-29 16:58:17'),
+('53f25a00-3716-11e8-be3f-bbd3cf7087b6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 2, 2, '2018-04-03 16:09:27'),
+('58d74110-33b1-11e8-a7a2-e3d7d5e2b6c6', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 1, 2, '2018-03-30 08:29:02'),
+('600aef50-335b-11e8-b9ca-af440413b383', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 1, 2, '2018-03-29 22:13:40'),
+('92bbb010-33d3-11e8-aea0-c9980ad57f39', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 2, '2018-03-30 12:34:03'),
+('b10c0d60-3bfa-11e8-8413-43d7ff20ef4e', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 2, '2018-04-09 21:34:15'),
+('c681ee70-3359-11e8-b9ca-af440413b383', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 2, 2, '2018-03-29 22:02:11'),
+('d5018f00-3ade-11e8-b32b-cb16eef65728', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 2, '2018-04-08 11:42:28'),
+('d8f09f50-3874-11e8-8393-5fd47f3f7061', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 2, '2018-04-05 09:58:34'),
+('eeb917e0-332e-11e8-b64f-87f5333b19cf', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 2, '2018-03-29 16:55:36'),
+('f2249ef0-37d8-11e8-bab3-439605889ac1', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 2, '2018-04-04 15:22:35');
+
+-- --------------------------------------------------------
+
+--
 -- 表的结构 `user_introduction`
 --
 
@@ -1081,7 +1508,55 @@ CREATE TABLE `user_introduction` (
 --
 
 INSERT INTO `user_introduction` (`user_id`, `introduce_audio_id`, `create_date`) VALUES
-('ojVEl0XuK00Wthcppktt5rVu-9DA', '7bc92960-3319-11e8-b17c-e1db6997cf18', '2018-03-29 06:22:19');
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '6b610040-43de-11e8-b6ae-f7a0b2820b7f', '2018-04-19 14:32:00');
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `user_like`
+--
+
+CREATE TABLE `user_like` (
+  `user_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '用户ID',
+  `like_user_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '被关注的用户',
+  `create_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='用户关注信息表';
+
+--
+-- 转存表中的数据 `user_like`
+--
+
+INSERT INTO `user_like` (`user_id`, `like_user_id`, `create_date`) VALUES
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-16 15:02:19'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '2018-04-17 14:56:24'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', 'ojVEl0d9fVPIq7eUJCNJ0bHsvzPw', '2018-04-18 12:37:18'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', 'ojVEl0Zqvgk3xJcJy-ui8-wMkQ90', '2018-04-18 12:37:32'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-04-18 12:51:24'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', 'ojVEl0YfpfbCaQcAYAwf5RA3viAc', '2018-04-18 13:09:28'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'ojVEl0Zqvgk3xJcJy-ui8-wMkQ90', '2018-04-19 10:13:39'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', '2018-04-19 10:13:46'),
+('ojVEl0Zqvgk3xJcJy-ui8-wMkQ90', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-19 11:25:23'),
+('ojVEl0Zqvgk3xJcJy-ui8-wMkQ90', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-04-19 11:25:31'),
+('ojVEl0bM2FZ3Ctid05qtxpcmAfKw', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-19 12:25:31'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'ojVEl0bM2FZ3Ctid05qtxpcmAfKw', '2018-04-19 12:32:38'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'ojVEl0Z7lf_C3z9Bv2-oeAkDh0Sw', '2018-04-19 12:52:59'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', 'ojVEl0bM2FZ3Ctid05qtxpcmAfKw', '2018-04-19 13:05:54'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', 'ojVEl0Z7lf_C3z9Bv2-oeAkDh0Sw', '2018-04-19 13:06:01'),
+('ojVEl0TbOI1LDsT6ETLofCw7cP6s', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-19 13:15:40'),
+('ojVEl0TbOI1LDsT6ETLofCw7cP6s', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-04-19 13:15:53'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'ojVEl0TbOI1LDsT6ETLofCw7cP6s', '2018-04-19 13:29:40'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', 'ojVEl0TbOI1LDsT6ETLofCw7cP6s', '2018-04-19 13:31:10'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', 'ojVEl0Z8T5PrRyhiOl17P87L9X2I', '2018-04-19 13:40:24'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', 'ojVEl0YCRL7poRUhD_k39fFKLmxk', '2018-04-20 13:00:12'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'ojVEl0YCRL7poRUhD_k39fFKLmxk', '2018-04-20 13:38:59'),
+('ojVEl0YCRL7poRUhD_k39fFKLmxk', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-04-20 13:42:16'),
+('ojVEl0YCRL7poRUhD_k39fFKLmxk', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-20 13:42:22'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'ojVEl0c76fGCCJ0jbkr0rIGLYPHY', '2018-04-22 15:51:19'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'ojVEl0Q4EeeC3mXIqd5WQVuTMOvw', '2018-04-23 04:55:27'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', 'ojVEl0Q4EeeC3mXIqd5WQVuTMOvw', '2018-04-23 12:37:36'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'ojVEl0defF0TvYrD88uiKh-Z9dY8', '2018-04-23 12:53:59'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-04-23 13:08:07'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', 'ojVEl0fxylMq_VZJDnAkCMcu0ni8', '2018-04-23 14:29:28');
 
 -- --------------------------------------------------------
 
@@ -1127,7 +1602,8 @@ INSERT INTO `user_report_comment` (`comment_id`, `report_id`, `user_id`, `commen
 ('495a4760-1b5a-11e8-8d9f-c36c5270eff6', 'ae5bba50-1b54-11e8-8d9f-c36c5270eff6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '演讲开始前定个小目标，这点灰常赞同', '2018-02-27 01:05:22'),
 ('0186bfb0-20f3-11e8-8e3b-89e2f3758986', '60350cb0-20bc-11e8-99c7-9b1e53c1d482', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '也许偶尔复习❤️能让我们更加珍惜感恩现在所拥有～', '2018-03-06 04:01:10'),
 ('85cb81a0-2686-11e8-9447-3933e5968927', '40357370-2664-11e8-af7b-b3706fea5199', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '佩真就是懂你演讲的领头羊！', '2018-03-13 06:19:44'),
-('e3dbdad0-3ba1-11e8-9742-efd80353fb39', '46e683a0-3b98-11e8-9c79-b1a31f5f6c19', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '423423', '2018-04-09 02:58:33');
+('e3dbdad0-3ba1-11e8-9742-efd80353fb39', '46e683a0-3b98-11e8-9c79-b1a31f5f6c19', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '423423', '2018-04-09 02:58:33'),
+('25f59870-43a4-11e8-8f51-c91793159de5', '01c55470-2687-11e8-9447-3933e5968927', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '', '2018-04-19 07:34:52');
 
 -- --------------------------------------------------------
 
@@ -1197,7 +1673,9 @@ INSERT INTO `user_report_like` (`report_id`, `user_id`, `create_date`) VALUES
 ('a84eea70-3093-11e8-9326-49f6f4c4697d', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-03-27 15:28:46'),
 ('cd683550-2fa8-11e8-9326-49f6f4c4697d', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-03-27 15:28:55'),
 ('7e8ae910-2d95-11e8-b4dd-6dcc09d40db6', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-03-27 15:29:00'),
-('46e683a0-3b98-11e8-9c79-b1a31f5f6c19', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-09 02:58:28');
+('46e683a0-3b98-11e8-9c79-b1a31f5f6c19', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-09 02:58:28'),
+('898ccc60-3ca0-11e8-8f14-4f7b0466a353', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-04-16 14:29:55'),
+('898ccc60-3ca0-11e8-8f14-4f7b0466a353', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-17 09:05:02');
 
 -- --------------------------------------------------------
 
@@ -2598,7 +3076,9 @@ INSERT INTO `user_score_detail` (`room_id`, `user_id`, `meeting_date`, `score_ty
 ('20180301', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '20180301', 4, '2018-03-02 05:17:58'),
 ('20180305', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '20180305', 1, '2018-03-05 14:23:06'),
 ('20180305', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '20180305', 4, '2018-03-05 14:23:06'),
-('20180305', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '20180305', 5, '2018-03-05 14:23:06');
+('20180305', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '20180305', 5, '2018-03-05 14:23:06'),
+('20180414', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '20180414', 1, '2018-04-14 01:28:31'),
+('20180414', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '20180414', 2, '2018-04-14 01:28:31');
 
 -- --------------------------------------------------------
 
@@ -2631,7 +3111,79 @@ CREATE TABLE `user_special_task` (
 --
 
 INSERT INTO `user_special_task` (`task_id`, `user_id`, `create_date`) VALUES
-('ed132740-3b09-11e8-be6e-d9567b27b692', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-08 08:50:49');
+('023b40e0-4509-11e8-8e36-69bc93e4135f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 02:09:25'),
+('02db4c40-451b-11e8-8dbb-15ec499ffc2f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 04:18:17'),
+('096eaf20-4502-11e8-922a-c7a6b0e6a5ac', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 01:19:30'),
+('0a1476d0-3f35-11e8-b973-8bcfe7279849', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-13 16:09:27'),
+('0d6b42f0-3f35-11e8-b973-8bcfe7279849', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-13 16:09:33'),
+('0effd380-4505-11e8-a1a7-bb4b7cb8b266', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 01:41:11'),
+('10941810-46c6-11e8-a017-bf64942b264c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-23 07:15:26'),
+('10ed64d0-3f35-11e8-b973-8bcfe7279849', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-13 16:09:39'),
+('14691e10-3f35-11e8-b973-8bcfe7279849', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-13 16:09:45'),
+('17681410-4505-11e8-a1a7-bb4b7cb8b266', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 01:41:23'),
+('17edb0f0-3f35-11e8-b973-8bcfe7279849', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-13 16:09:51'),
+('1b83f710-3f35-11e8-b973-8bcfe7279849', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-13 16:09:57'),
+('1c105be0-4504-11e8-a1a7-bb4b7cb8b266', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 01:34:20'),
+('1ce96a60-464f-11e8-a110-fb2706e8bff5', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-22 17:03:47'),
+('1ebf8a10-44c7-11e8-9809-1fdc2ad5897b', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-20 18:17:45'),
+('236f3830-4503-11e8-922a-c7a6b0e6a5ac', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 01:27:25'),
+('2eaf5820-3f35-11e8-b973-8bcfe7279849', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-13 16:10:29'),
+('32007ef0-3f35-11e8-b973-8bcfe7279849', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-13 16:10:34'),
+('3265eb80-449b-11e8-a987-59cf123bd253', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-20 13:03:20'),
+('33a3ae20-4508-11e8-b93e-5d8c743fe73f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 02:03:38'),
+('34fdb960-3f35-11e8-b973-8bcfe7279849', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-13 16:10:39'),
+('3a2364e0-4321-11e8-829c-4bfdf50507a7', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-18 15:57:43'),
+('3b5171d0-3f35-11e8-b973-8bcfe7279849', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-13 16:10:50'),
+('46f2db30-46c6-11e8-bc6c-17e4ea017c1e', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-23 07:16:49'),
+('4aff0410-4496-11e8-925b-235de9f547cb', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-20 12:28:14'),
+('4d997230-43df-11e8-b6ae-f7a0b2820b7f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-19 14:38:20'),
+('4ffc6960-4498-11e8-bb2f-15c74a7e58fc', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-20 12:42:41'),
+('50473920-4508-11e8-b93e-5d8c743fe73f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 02:04:31'),
+('535efd50-46b1-11e8-ae1c-0783762c1916', 'ojVEl0Q4EeeC3mXIqd5WQVuTMOvw', '2018-04-23 04:46:48'),
+('53c41a80-456e-11e8-9d95-492aa3c9ce26', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 14:14:40'),
+('55ad14f0-44a1-11e8-b401-6f4982f27f60', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-20 13:47:17'),
+('676d05a0-4321-11e8-829c-4bfdf50507a7', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-18 15:59:01'),
+('6bab2a20-4506-11e8-b48a-814304a8617c', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 01:50:53'),
+('6ff9b770-46ed-11e8-9236-ab0d8ce5f8b9', 'ojVEl0Q4EeeC3mXIqd5WQVuTMOvw', '2018-04-23 11:57:05'),
+('706ae580-43dc-11e8-b1df-ab2798e98d8a', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-19 14:17:50'),
+('73424960-4495-11e8-925b-235de9f547cb', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-20 12:22:12'),
+('74a53d30-3ee1-11e8-af6d-8b4903a368f0', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-13 06:11:10'),
+('7ed660f0-4502-11e8-922a-c7a6b0e6a5ac', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 01:22:49'),
+('80abf280-3ee7-11e8-b546-cbdf574f8a10', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-13 06:54:29'),
+('8210eba0-3ee5-11e8-8ecd-bb3e2df066cd', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-13 06:40:21'),
+('82b6aa00-44a2-11e8-b401-6f4982f27f60', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-20 13:55:44'),
+('8923f090-4534-11e8-9af1-cb64427fb804', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 07:21:00'),
+('8951ad90-4503-11e8-97a5-d34cfbcabdaa', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 01:30:14'),
+('91541d70-4300-11e8-9dd6-a30cf040ec0f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-18 12:04:01'),
+('97fe4b00-4508-11e8-aac8-a5987c4cbac9', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 02:06:26'),
+('9aab5480-4506-11e8-ad9b-234eb57c1ed0', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 01:52:12'),
+('9be397e0-430d-11e8-8bbb-c59cc0fceabe', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-04-18 13:37:18'),
+('9e8e56d0-4360-11e8-8405-13e2bb3f2a0a', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-04-18 23:31:30'),
+('a0cdf2e0-4179-11e8-a7a7-3b65f1eb71c3', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-16 13:25:29'),
+('a1898e80-455a-11e8-a35a-5d3e6ff7bdf0', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 11:53:40'),
+('a89c2040-46b1-11e8-ae1c-0783762c1916', 'ojVEl0Q4EeeC3mXIqd5WQVuTMOvw', '2018-04-23 04:49:26'),
+('aa467d60-451b-11e8-b975-93ff809bb613', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 04:22:57'),
+('abd9f360-4312-11e8-8140-b1b766e1a58f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-18 14:13:31'),
+('b18952c0-4505-11e8-8e23-55a8f294ccd6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 01:45:40'),
+('b3699f70-43dc-11e8-b32b-2777ca582719', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-19 14:19:42'),
+('b41b1fb0-43dd-11e8-b32b-2777ca582719', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-19 14:26:53'),
+('b80495d0-46c5-11e8-b372-63a5c81cb586', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-23 07:12:51'),
+('b9742d50-4502-11e8-922a-c7a6b0e6a5ac', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 01:25:12'),
+('bb6ea850-4503-11e8-90c7-c5ea0a526255', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 01:31:38'),
+('be82acd0-4508-11e8-aac8-a5987c4cbac9', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 02:07:38'),
+('c4be7a80-43d6-11e8-a22a-9b72744e8f8d', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-04-19 13:37:15'),
+('c5f7ecc0-4506-11e8-ad9b-234eb57c1ed0', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 01:53:29'),
+('c7826840-4551-11e8-b70d-c1a2f1230cb6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 10:50:19'),
+('cf04dce0-4305-11e8-864c-77633ed75948', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', '2018-04-18 12:41:30'),
+('cfa51210-4606-11e8-a34d-e519ee5eaf22', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-22 08:26:13'),
+('d05c5580-4645-11e8-ac91-b561792e7414', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-22 15:57:11'),
+('ddca01d0-456f-11e8-ab0e-bf63242b71a4', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 14:25:43'),
+('e2ea9410-4504-11e8-a1a7-bb4b7cb8b266', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 01:40:05'),
+('e3dde140-44a2-11e8-b401-6f4982f27f60', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-20 13:58:27'),
+('ed132740-3b09-11e8-be6e-d9567b27b692', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-08 08:50:49'),
+('f20774f0-4508-11e8-8e36-69bc93e4135f', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 02:08:58'),
+('ff61aa00-3f34-11e8-b973-8bcfe7279849', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-13 16:09:11'),
+('fff513b0-4503-11e8-a1a7-bb4b7cb8b266', 'ojVEl0XuK00Wthcppktt5rVu-9DA', '2018-04-21 01:33:32');
 
 -- --------------------------------------------------------
 
@@ -2684,7 +3236,20 @@ INSERT INTO `user_study_duration` (`user_id`, `study_date`, `study_duration`, `c
 ('ojVEl0XuK00Wthcppktt5rVu-9DA', '20180306', 25, '2018-03-06 03:31:32'),
 ('ojVEl0XuK00Wthcppktt5rVu-9DA', '20180310', 232, '2018-03-10 04:30:47'),
 ('ojVEl0XuK00Wthcppktt5rVu-9DA', '20180317', 44, '2018-03-17 05:19:42'),
-('ojVEl0XuK00Wthcppktt5rVu-9DA', '20180402', 52, '2018-04-02 09:20:51');
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '20180402', 52, '2018-04-02 09:20:51'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '20180414', 45, '2018-04-14 01:28:19'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '20180418', 30, '2018-04-18 09:56:13'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', '20180418', 30, '2018-04-18 13:09:01'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '20180421', 121, '2018-04-21 02:08:58'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '20180422', 686, '2018-04-22 07:57:52'),
+('ojVEl0YRMHmDFi07bbijq_2ds2kQ', '20180422', 311, '2018-04-22 13:12:00'),
+('ojVEl0c76fGCCJ0jbkr0rIGLYPHY', '20180422', 44, '2018-04-22 14:16:16'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '20180423', 1261, '2018-04-22 16:30:59'),
+('ojVEl0Q4EeeC3mXIqd5WQVuTMOvw', '20180423', 130, '2018-04-23 04:46:48'),
+('ojVEl0dDlpiS7dS58LzoE--9nsRw', '20180423', 156, '2018-04-23 12:17:33'),
+('ojVEl0YRMHmDFi07bbijq_2ds2kQ', '20180423', 377, '2018-04-23 13:03:29'),
+('ojVEl0fxylMq_VZJDnAkCMcu0ni8', '20180423', 254, '2018-04-23 13:31:20'),
+('ojVEl0XuK00Wthcppktt5rVu-9DA', '20180424', 42, '2018-04-24 08:34:26');
 
 -- --------------------------------------------------------
 
@@ -2720,12 +3285,15 @@ INSERT INTO `user_study_report` (`report_id`, `room_id`, `user_id`, `report_type
 ('45e85de0-0f40-11e8-88f0-f1364997bacb', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.2.11日晚佩真复盘：与静静俩人撑起了一场疯狂练习，第一次尝试两个人的相互坚持，今晚没做投票，前一次也没做投票，大家更注意的是讲的质量、架构、逻辑和故事重点了，当场讲完我们俩人有做详细的复盘，约定下次空时还一起还继续。我们重点对我们的六个演讲一一对故事的内容、演讲过程和收尾都做了详细复盘，今天年会，公司方面已处理了很多事了，但下班回来还能坚持讲，坚持参与，首先自己都很强大了，接下来继续努力，争取拉近与各大咖的距离，活到老学到老，坚持付出，收获成长！', '2018-02-11 15:28:55'),
 ('4745f540-3654-11e8-a73f-b53fd397bb28', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.3.31晚佩真复盘：先进行半小时的教练式进展推进复盘与刘静妮俩人，后半小时参加慢跑演讲，Jasson主持，风格欢快，整晚题目让人脑洞大开，真希望可以这么一直快乐的说下去，开心中收获成长！', '2018-04-02 09:00:23'),
 ('494b7750-3656-11e8-a73f-b53fd397bb28', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.4.1晚佩真复盘：今晚主题是信任鼓励和创新，静妮临时有事，我代为主持，今晚的话题涉及政治股票哈，个个全是经济男，从不同的方方面面剖析当下时局，受益收获，晚根在本场超时严重，建议下次改进，本场结束本人在主持方面又成长了一些许，加油！', '2018-04-02 09:14:45'),
+('4a6dc500-3c9d-11e8-8f14-4f7b0466a353', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.4.6晚佩真复盘，静妮无电状态，代主持下半场，8个题目讲了四个点了三个，算是疯狂练习了，因为清明临时回家，在另一个环境给我同件事的出发点感受不同，所以我更愿意分享出来，收获成长，所以，一段时间后建议可以多出去走走，如果时间允许的话，可以收获到不同的眼界，加油！', '2018-04-10 08:58:09'),
 ('60350cb0-20bc-11e8-99c7-9b1e53c1d482', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.3.5晚伴侣激励场佩真复盘：第一次瞧到好玩的节目名被吸引，于是报名，参与了平台第一次伴侣激励话题，这比常规的玩法更创新，收获不一样的成长。演讲中，每个人对主持人抛出的同一个题目各自做一次演讲，并有人加以发表感受，所谓伴侣有自己也是另一伴，有代表男人方的也有代表女人方的，所以两个方面从不同的角度去阐述演讲。上半部分题目是如果你伴侣做了一件什么事情让你觉得很幸福，下半部分题目是你做了件什么事情让你伴侣觉得幸福。我分别参与了不同角度的演讲，先是先生每天的电话问候与体贴，再是我帮先生钉衬衫钮扣。这种话题对我现在为人妻我的身份来讲更多的是生活一幕，所以很快可以想到，说起来更多的是故事的复原与回忆，相信更多的是把自己带到当时的那段画面中，很温馨！除了可以锻炼自己还可以提升表达力，收获成长！通过小伙伴们的分享，你也会感受到不同伙伴不同的故事，但更多的是故事的共情与生活点滴的感动，真好！话题的选定会让伙伴们更加检视自己的生活及生活中角色任务的不足，时刻提醒自己换位思考，学会包容学会爱。总之，懂你有太多东西可以学可以挖，愿意留此不断学习成长！', '2018-03-05 21:30:07'),
+('67b32030-3c9b-11e8-8f14-4f7b0466a353', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.4.2晚佩真复盘，今晚在超市参加完第11天慢跑演讲，7个题目讲了两个点了三个，从董芬的阳光中学习到她的优秀，从静妮的最好的礼物中得知她的最佳备稿演讲，不断学习，坚持成长！2018.4.3晚佩真复盘，6个题目讲了两个点了一个，特别激励人的是龚老师50元的价值，与父母共情对话画面植入，值得学习与深思，敏婷的自我修练更多的注重内在，心灵的修为，值得升华与学习！2018.4.5晚佩真复盘，开始人不齐，静妮生病我代主持，前半部分与清清俩人撑起一个场，后面jasson的加入突然很咖，演讲构架清晰，整场我们三个一致认为自然，收获成长！', '2018-04-10 08:44:39'),
 ('6e5ade20-1a43-11e8-b790-6f78326360aa', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018年2月25晚佩真复盘：经过春节14天长假后第一次来懂你参与学习，这14天一直在陪伴家人 ，见证孩子们的成长，体会另外一种没人干扰和不被别人打扰的生活模式，收获的是别样的体会与感悟！人生很短，生命很轻，生活很重，365天一旦工作起来，几乎没有更多的时间陪伴家人，而这14天的陪伴是换得了家人整年的陪伴与支持，感恩家人的伟大！今晚疯狂演讲总共九个题目，我讲了四个，每一个题目都尽量从自己的生活细小处开始，贴近生活，感恩生活，更多的收获我愿意分享，一步一步走过来，自己瞧到我是在一步步成长中，这便足已，离不开大家的陪伴！全新的2018我给自己订了几个目标，学习是列首的，接下来我会用空隙时间来完成自己的学习自己的成长，感恩懂你感恩生活感恩一切！希望更多的小伙伴们空时一起交流学习，共同成长！', '2018-02-25 15:49:15'),
 ('704676a0-0a8e-11e8-9868-e763575df473', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.1.7佩真复盘：主持Alva 恭喜佩真是今天晚上最佳演讲&点评双料冠军 我再一次成长了 感谢平台。我抢了两次演讲一次点评，我第一次在医院等待陪伴中参加九点档，两次演讲的时间把控逐好，未超时就是成长，演讲的内容逻辑需要改进。大家的演说与点评很受用。主持人很周到，建议总体时间可以更严谨控制！谢谢！\n\n20180110佩真复盘：今天的讨论让人醒悟，生命中也许就需要缘分到了，有人来点你，我被点了，很赞。突然感觉这个比即兴演讲发人深省，我个人喜欢，平台模拟让自己更加肯定了自己的脚步，人生需要有目标，而且要坚定自己的目标，足矣！今天是2018/1/10场 主持：静妮 我们在做在线场景实战之面试 我体验了面试内部培训师 有说自己的面试发言 真情时刻大总结我说到了自己目前的状态 包括对人生的定义 目标是关键 剩余的就是坚持 加油 职场十年 还是很有激情 小伙伴们都为我的10年如一日点赞！支持我今晚作出的选择！让我静观其变！继续发挥我的优势，享受我的快乐。\n\n2018.1.13佩真复盘：我再次来了哈 今天晚上是最佳演讲&点评双料冠军 谢谢主持人王旭洪 我抢到了一讲两点评 真情大总结我有逻辑发言 这是我最今晚最满意的地方。每天进步一小步，将来一定前进一大步 ！开口，说吧！不管结构思维有没配置好，先开口 必定收获成长。感谢平台感谢主持人感谢伙伴们一起度过的美好时光 今晚自己尝试体会去抢了两次点评，发现原来我也可以说一段长的哈 突然发现点评更注重的是聆听 接下来我需要更多的参与锻炼 努力学习 与平台相伴成长。\n\n20180115佩真复盘：四个标签：收获 感悟 心得 体现，真的很开心，原来懂你还有这么自由放松的会议 真心喜欢 整场75分钟很快过 仅管我还是不怎么会讲 但对于昨天的自己 只有我自己知道我收获了成长 这便足矣 会议中更让我重新悟到了生活在当下 自我察觉的更深层意义，谢谢龚老师 谢谢大家 接下来的会议我时间空出来就一定会来 来了一定会成长 加油 为遇到最好的自己。本场是演讲和点评的双料冠军。\n\n2018/1/17晚8点档佩真复盘：本场积极度不够高哈 主持人龚老师开场自我牺牲很赞 懂你是一个没有老师的学习平台 太好了 来懂你 是我追求自我成长的平台 它会促使我走上坡路 它会促使我们大家完成自我蜕变 加油 坚持下去一定更好。\n\n20180122佩真复盘:八个题目,小费的等你,佩真的遇见,水九齐的经历和链接,主持人的突破,唐莞家的幸福和星空, 楚瑞的互联网家,不同题目不同风格,不同的时空不同的元素,熟悉的气氛,不同的收获,我坚持学中玩,玩中学,快乐点滴成长!个人感觉讲的前提是更好的听,有空常来!伴懂你而成长!本场为lilian小组最佳演讲者，最佳即兴点评者。\n\n2018/1/27晚九点场佩真复盘：12个演讲题目，一个比一个速度快，一个比一个精彩，点评一个比一个拿的快，一个比一个准，可喜，因为大家都成长的很快，除了是胆量更是思维，懂你虽是平台，但来了就一定要讲，平台再好你不说永远在门外，所以我很开心，与这么多优秀的人为伴！第一次尝试主持人，发现临时接命的比提前准备的更能历练自己，感谢静妮，与你的相遇就是感恩！《珍惜》这个演讲让我更加感触，2018希望从身边的人做起，爱每一位爱自己的人！演说也好演讲也好，都是马拉松，都是漫长的学习过程，希望大家能向今晚的题目一样，有坚韧的意志，最美的心态与优良的状态，既然是爱好，是渴望，剩下的就是坚持，珍惜，和活在当下，认真努力在每一天！', '2018-02-05 08:05:52'),
 ('71896d00-3195-11e8-bca7-b149e9e65718', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.3.26晚佩真复盘：静妮临时有事代替主持，本场最感触的是董芬的时间管理，大胖的绿叶，大胖的演讲逻辑架构非常清晰，思维快，从三个对比讲了绿叶不同的作用，特别吸引人，董芬强调的输入是我稀缺的，多多学习，坚持成长！', '2018-03-27 08:04:15'),
 ('76483210-2667-11e8-ac22-edec4423dbdd', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.3.12晚佩真复盘：有幸通过平台第一次接触到教练式教学，教就是最好的学，初衷希望自己通过学习提升自己外，还可以帮助到更多的人学习成长！通过线上五大咖员的分享，更加坚定了自己学习的路。后面想更多的通过教练教学让自己在决策方面更加快准狠，愿收成后可以影响到身边的很多人，在正能量的传递上，我愿意积极的去做阳光型先行者，加油！', '2018-03-13 02:37:24'),
 ('7e8ae910-2d95-11e8-b4dd-6dcc09d40db6', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.3.21晚佩真复盘：晚上八点半开始，与张静俩人继续玩起了疯狂练习，相互陪伴的过程我们学会了很多，先是备稿素材，再是对自己更加适合的标签产生，收获不同的成长。接下来九点整参加了慢跑+演讲第5天练习，参与了三个题目点评，说就是长，所以坚持付出得到了成长，复盘学会了用标签来总结，比以往更加创新，加油！', '2018-03-22 05:54:33'),
+('898ccc60-3ca0-11e8-8f14-4f7b0466a353', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.4.8晚佩真复盘，所有的咖集齐，每个人都是榜样的力量，不同的闪光点，身处各地，同频学习，平台的魅力集结的能量，从每个人身上都学到了输入输出的重要性，加油练习，多多成长！龚老师的表白的历史，思维创新，不同的对比，鲜活的例子，学习！2018.4.9晚佩真复盘，发现懂你是个聚宝盆，可以挖到各种宝，首先我通过懂你知道了益效能、时间管理、正面管教、冥想、教练式学习，每一个模块都是自己欠缺的，希望更多的坚持与练习，让自己快速成长起来！', '2018-04-10 09:21:23'),
 ('8d21b370-0a8e-11e8-9868-e763575df473', NULL, 'ojVEl0YRMHmDFi07bbijq_2ds2kQ', NULL, '2018.1.29晚静妮主持,佩真复盘,一小时间讲了十个题目 连贯紧凑 主持人亲和力强 顾全大局 记时辛苦 还会很亲和力的鼓励在线的每一位小伙伴 让大家很轻松的度过了一个很开心的夜晚 主持人会前对我们每个人来的目的进行了记录与确认 然而我克服了自己的过往 终于第一个来抢了题目 如何让学习变的有趣 用了三个标签解读 爱好坚持和巩固 现在复盘我突然发现我的构思还是及格 还需要故事点来支撑就饱满了 今晚讲3个点4个 对我自己来说 我的胆子比以前大了 以前根本没想过要点 从来主持人说点评时我就关话筒了 所以我想对自己说 我真的比昨天前天进步了 这是懂你给我的 时间的种子洒向懂你 收获必然在这 谁也拿不去 谢谢主持人高夸了我 最后给了我难得的一次真情分享 我多么希望更多的小伙伴能够一起参与进来 共同学习成长.\n\n2018年2月1日晚8.30分场 佩真复盘：懂你第一次办线上备稿演讲 我有幸接主持人静妮邀请参加了第一次线上备稿 今天正如笑笑所说 不同的是2月的第一天 三个一 意义深远。我第一次在这讲自己的新稿 谢谢田大大的鼓励 静妮说我可以去参赛 所以 对的 我决定了 我要去参加哈 重在参与 就和懂你平台一样 平台再好你不融入 永远在门外 所以我要从门外进来 谢谢这里陪我一起成长的小伙伴 接下来期待下周一的备稿 期待笑笑的线下哈 我会坚持前行 为遇到下一个美好的自己 加油！\n\n2018.2.3复盘 虽然房间只有三个人 但祁鼎说 人不在多 而在精 只要能把事情做出来就行了 哈哈 很赞成。短短的一小时讲了7个题目 效率的提升是能力的长进 在深圳的冬季多了份对北方雪的向往 照镜子让我们更加注重仪容仪表 创业需要天时地利人和 人生很长 尽情挥霍 工作是工作不能懈怠 窗外故事的温暖及情感的升华 谢谢 fiona 祁鼎的陪伴 从祁鼎身上学到了很多知识 坚持的结果 见证成长 收获成长！\n\n2018.2.4晚佩真复盘，很难得的一个周末，约好的是九点，但大家都有事情，所以九点在9点半之间采访了学长，我练了一下胆量，其实这是平台给我的，从一个不怎么说话，到我可以去采访一个人，一个大咖，我学到了很多东西，谢谢懂你！对于学长来说，这可能就是聊天，但是我也鼓足了很大的勇气！9点半开始，我们讲了四个题目，三个人很尽兴，从秀勤身上我学到了一种态度，从静妮身上我学到了一种榜样的力量，很优秀！全新的2018，我要和优秀的人为伍，坚持下来，希望可以把自己打磨成一个百花齐放的小蜜蜂哈！', '2018-02-05 08:06:40'),
 ('8e797af0-1d08-11e8-b374-c16baecafdb8', NULL, 'ojVEl0dDlpiS7dS58LzoE--9nsRw', NULL, '2018-2-24 Jenny复盘\n继续保持的地方：\n1.作为主持人坚持呼唤年后半醉半醒的小伙伴以及【懂你】新伙伴\n2.热情欢迎参会小伙伴，并送上新年祝福\n3.演讲使用了对比手法\n提高的机会：\n1.会前先让大家思考英文即兴演讲目标\n2.设定一个适合自己且清晰的英文即兴演讲目标\n3.介绍Table tipic session 时候，清晰介绍是2分钟即兴演讲，与1分钟即兴点评\n\n参会感受：\n👍【Lori】深谙精髓，英文演讲与点评都溜溜哒~黑马一匹，愿你不断超越自己.....\n👍【Charles】一篇【以终为始】的演讲用自身戒烟经历来形象解说：当你清楚了解自己想成为一个什么样的人之后开始行动，你会在路上遇见充实与幸福。\n👍【Eva】今晚胃痛坚持参会的🐻大大，就是我所认识的🐻大大，清晰自己想要，朝着目标，无论任何坎坷，永不言弃。我想这种精神是🐻大大成为两家公司的CEO的原因之一。\n👍【Kyle】I‘m sorry to hear that. but I trust everything will be getting better & better.  忙但是依然坚持学习的Kyle令人钦佩！相信Kyle 2018 在【以终为始】【要事第一】的引领下，心想事成。\n👍【Annie】久不见的英文线上会议老朋友，一个热爱学习，懂得坚持的智慧女性。\n\n今晚听到最开心的一句话是Eva🐻大大说的：“演讲治愈了我的胃痛”！\n始终坚信我们可以：\n通过演讲磨练自己的思维与表达 \n通过思考与表达澄清自己生活的目标 \n通过清晰的目标规范自己的行动 \n通过有目的的行动锤炼生活的意义与价值 \n从而体验富足而无悔的人生\n\n我走在实践的路上.....', '2018-03-01 04:25:22'),
 ('95095310-1004-11e8-a4e8-51ae2a4e9f79', NULL, 'ojVEl0dDlpiS7dS58LzoE--9nsRw', NULL, '1-12【Jenny】复盘：\n继续保持的方面：\n1主持\n1.1会中鼓励风格，永远保持积极信任的心态，2人预报名的会议最后总是满员。\n1.2.会中分享【懂你演讲刻意练习环】：目标—实践—反馈—复盘\n1.3【懂你演讲刻意练习环】做到知行合一\n2演讲\n2.1【原则】与【书本】达成刻意练习目标：只讲一个故事\n2.2细节的描绘\n2.3声音的变化\n3点评\n3.1发现演讲优势+建议/示范反馈+鼓励/表达欣赏\n\n待提升的机会：\n1主持\n1.1结束语应提前准备，加入春节元素，营造春节愉悦喜庆的氛围\n1.2激励行动时声音更加的有力\n\n2.演讲\n【原则】快速抛出观点后再讲故事，最后升华主题\n咬字更清晰\n\n3.点评\n总：总结演讲亮点\n分：展开阐述亮点+而且如果这样做，会把自己的优势发挥得更加极致\n总：再次强调亮点，表达欣赏\n\n参会感受：\n1.👍【Nancy】关于【服务】的分享，让我知道遇到了同道中人，愿以后有更多的机会交流\n2.👍【迪迪】培训师的严密逻辑不仅在于演讲，在点评中也发挥得道！有范！复盘+行动计划，知行合一的践行者！向迪迪学习！\n3.👍【九哥】老友！一段时间不见，依然给我们带来他那个时代独有的温暖及味道！从九哥的演讲中体验他对于生命的热爱及感悟！\n4.👍【Jasson】从Jasson给大家出的演讲题目中，了解到他热爱思考价值、意义\n5.👍【Aaron】最后真情时刻的激励人心让我印象非常深刻\n\n下一步行动目标：\n2018年2月28日完成12次懂你演讲线上主持+演讲+点评+复盘', '2018-02-12 14:54:10'),
@@ -2776,40 +3344,6 @@ INSERT INTO `user_target` (`target_id`, `user_id`, `target_status`, `target_cont
 ('43cccd80-2510-11e8-909e-0902c67500fb', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 2, 'abc', 5, '2018-04-11', '2018-03-19 12:17:23', 1, NULL, '2018-03-19 12:17:22', '2018-03-19 12:17:22'),
 ('d44ab470-2b6f-11e8-b0d4-bdbbf31f25bf', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 1, '2018年4月30号23:59完成21次半小时的慢跑演讲', 10, '2018-04-19', NULL, 1, NULL, '2018-03-19 12:19:53', '2018-03-19 12:19:53');
 
--- --------------------------------------------------------
-
---
--- 表的结构 `user_task`
---
-
-CREATE TABLE `user_task` (
-  `task_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '任务ID',
-  `user_id` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '用户ID',
-  `task_type` int(5) NOT NULL COMMENT '任务类型',
-  `task_status` int(5) NOT NULL COMMENT '任务状态',
-  `create_date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建日期'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='用户任务表';
-
---
--- 转存表中的数据 `user_task`
---
-
-INSERT INTO `user_task` (`task_id`, `user_id`, `task_type`, `task_status`, `create_date`) VALUES
-('0c4106a0-3b0a-11e8-be6e-d9567b27b692', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 2, 2, '2018-04-08 16:51:39'),
-('138c1c00-3336-11e8-ac77-370f46746fbd', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 4, 2, '2018-03-29 17:46:38'),
-('244e4e80-3716-11e8-be3f-bbd3cf7087b6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 2, '2018-04-03 16:08:07'),
-('33d95240-332f-11e8-b64f-87f5333b19cf', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 2, 2, '2018-03-29 16:57:47'),
-('4ff75990-332f-11e8-b64f-87f5333b19cf', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 3, 2, '2018-03-29 16:58:17'),
-('53f25a00-3716-11e8-be3f-bbd3cf7087b6', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 2, 2, '2018-04-03 16:09:27'),
-('58d74110-33b1-11e8-a7a2-e3d7d5e2b6c6', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 1, 2, '2018-03-30 08:29:02'),
-('600aef50-335b-11e8-b9ca-af440413b383', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 1, 2, '2018-03-29 22:13:40'),
-('92bbb010-33d3-11e8-aea0-c9980ad57f39', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 2, '2018-03-30 12:34:03'),
-('c681ee70-3359-11e8-b9ca-af440413b383', 'ojVEl0dDlpiS7dS58LzoE--9nsRw', 2, 2, '2018-03-29 22:02:11'),
-('d5018f00-3ade-11e8-b32b-cb16eef65728', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 2, '2018-04-08 11:42:28'),
-('d8f09f50-3874-11e8-8393-5fd47f3f7061', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 2, '2018-04-05 09:58:34'),
-('eeb917e0-332e-11e8-b64f-87f5333b19cf', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 2, '2018-03-29 16:55:36'),
-('f2249ef0-37d8-11e8-bab3-439605889ac1', 'ojVEl0XuK00Wthcppktt5rVu-9DA', 1, 2, '2018-04-04 15:22:35');
-
 --
 -- Indexes for dumped tables
 --
@@ -2827,7 +3361,17 @@ ALTER TABLE `cSessionInfo`
 --
 ALTER TABLE `impromptu_audio`
   ADD PRIMARY KEY (`audio_id`),
-  ADD KEY `relate_audio` (`relate_audio`);
+  ADD KEY `relate_audio` (`relate_audio`),
+  ADD KEY `create_date` (`create_date`),
+  ADD KEY `user_id` (`user_id`),
+  ADD KEY `relate_audio_2` (`relate_audio`),
+  ADD KEY `room_id` (`room_id`);
+
+--
+-- Indexes for table `impromptu_audio_like`
+--
+ALTER TABLE `impromptu_audio_like`
+  ADD KEY `audio_id` (`audio_id`);
 
 --
 -- Indexes for table `impromptu_dialog`
@@ -2835,6 +3379,15 @@ ALTER TABLE `impromptu_audio`
 ALTER TABLE `impromptu_dialog`
   ADD PRIMARY KEY (`dialog_id`),
   ADD KEY `room_id` (`room_id`);
+
+--
+-- Indexes for table `impromptu_room`
+--
+ALTER TABLE `impromptu_room`
+  ADD PRIMARY KEY (`room_id`),
+  ADD KEY `user_id` (`user_id`),
+  ADD KEY `start_date` (`start_date`),
+  ADD KEY `end_date` (`end_date`);
 
 --
 -- Indexes for table `impromptu_survey`
@@ -2863,6 +3416,13 @@ ALTER TABLE `meeting_apply_pre`
   ADD KEY `user_id_2` (`user_id`);
 
 --
+-- Indexes for table `new_comment`
+--
+ALTER TABLE `new_comment`
+  ADD KEY `user_id` (`user_id`),
+  ADD KEY `audio_id` (`audio_id`);
+
+--
 -- Indexes for table `room_impromptu`
 --
 ALTER TABLE `room_impromptu`
@@ -2873,7 +3433,9 @@ ALTER TABLE `room_impromptu`
 --
 ALTER TABLE `speech_subject`
   ADD PRIMARY KEY (`subject_id`),
-  ADD UNIQUE KEY `subject_name` (`subject_name`);
+  ADD UNIQUE KEY `subject_name` (`subject_name`),
+  ADD KEY `user_id` (`user_id`),
+  ADD KEY `create_date` (`create_date`);
 
 --
 -- Indexes for table `user_absent`
@@ -2888,10 +3450,26 @@ ALTER TABLE `user_base_info`
   ADD PRIMARY KEY (`user_id`);
 
 --
+-- Indexes for table `user_daily_task`
+--
+ALTER TABLE `user_daily_task`
+  ADD PRIMARY KEY (`task_id`),
+  ADD KEY `task_id` (`task_id`),
+  ADD KEY `create_date` (`create_date`),
+  ADD KEY `create_date_2` (`create_date`);
+
+--
 -- Indexes for table `user_introduction`
 --
 ALTER TABLE `user_introduction`
   ADD PRIMARY KEY (`user_id`);
+
+--
+-- Indexes for table `user_like`
+--
+ALTER TABLE `user_like`
+  ADD KEY `user_id` (`user_id`),
+  ADD KEY `like_user_id` (`like_user_id`);
 
 --
 -- Indexes for table `user_score_detail`
@@ -2906,20 +3484,17 @@ ALTER TABLE `user_special_task`
   ADD PRIMARY KEY (`task_id`);
 
 --
+-- Indexes for table `user_study_duration`
+--
+ALTER TABLE `user_study_duration`
+  ADD KEY `user_id` (`user_id`);
+
+--
 -- Indexes for table `user_study_report`
 --
 ALTER TABLE `user_study_report`
   ADD PRIMARY KEY (`report_id`),
   ADD KEY `user_id` (`user_id`);
-
---
--- Indexes for table `user_task`
---
-ALTER TABLE `user_task`
-  ADD PRIMARY KEY (`task_id`),
-  ADD KEY `task_id` (`task_id`),
-  ADD KEY `create_date` (`create_date`),
-  ADD KEY `create_date_2` (`create_date`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
