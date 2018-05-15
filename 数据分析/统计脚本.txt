@@ -1,6 +1,0 @@
---总分
-SELECT user_id,count(1) num from user_score_detail group by user_id order by num desc
---参会
-SELECT user_id,count(1) num from user_score_detail where score_type = 1 group by user_id order by num desc
---影响
-select recommend_user,count(1) num from user_base_info a , user_score_detail b where a.user_id = b.user_id group by recommend_user order by num desc
